@@ -10,6 +10,8 @@ Tout le contenu, l'interface et les messages de commit sont **en français**.
 - **Les recettes sont des fichiers JSON** dans `recettes/`, un fichier par recette, nommé en kebab-case (`flan-patissier-cafe-rhum.json`).
   Le format de référence est `recettes/flan-patissier-cafe-rhum.json` ; la docstring de `fiche_recette.py` le décrit.
 - `recettes/index.json` liste toutes les recettes (fichier, titre, catégorie, sous-titre, temps de préparation). Il est **régénéré automatiquement** par `scripts/build_index.py` : ne jamais l'éditer à la main.
+- **Hors connexion** : `sw.js` met le site en cache. Après toute modification d'un fichier du site (HTML, CSS, JS, icônes, manifest), augmenter `VERSION` dans `sw.js`. Inutile pour une simple recette : `recettes/*.json` et `pdf/*.pdf` sont chargés « réseau d'abord ».
+- **Chemins relatifs uniquement** (le site est servi depuis `/mes-recettes/`).
 - **Fiches PDF** : `fiche_recette.py` génère la fiche A4 de chaque recette dans `pdf/<même-nom>.pdf`. Le site propose un bouton « Fiche PDF » qui ouvre ce fichier. **Ne pas modifier le rendu de `fiche_recette.py`** sans demande explicite.
 
 ## Interface

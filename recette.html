@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Recette — Mes recettes</title>
+  <meta name="theme-color" content="#3B2418">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icones/icone.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Recettes">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="bandeau">
+    <a class="retour" href="./">← Toutes les recettes</a>
+    <p id="categorie" class="surtitre"></p>
+    <h1 id="titre">Chargement…</h1>
+    <p id="sous-titre" class="sous-titre"></p>
+  </header>
+  <div id="infos" class="infos"></div>
+
+  <main class="contenu">
+    <p id="message" class="message cache"></p>
+    <noscript><p class="message">Cette application a besoin de JavaScript pour afficher la recette.</p></noscript>
+
+    <div id="recette" class="cache">
+      <div class="actions">
+        <a id="pdf" class="bouton" target="_blank" rel="noopener">Fiche PDF</a>
+        <button id="ecran" class="bouton secondaire" type="button" aria-pressed="false">Garder l'écran allumé</button>
+      </div>
+      <p id="ecran-remarque" class="remarque cache"></p>
+
+      <div class="colonnes">
+        <aside class="gauche panneau">
+          <div class="titre-section">
+            <h2>Ingrédients</h2>
+            <button id="decocher" class="lien-discret" type="button">Tout décocher</button>
+          </div>
+          <div id="ingredients"></div>
+          <div id="bloc-materiel" class="cache">
+            <h2>Matériel</h2>
+            <p id="materiel" class="texte-court"></p>
+          </div>
+          <div id="bloc-planning" class="cache">
+            <h2>Planning</h2>
+            <ul id="planning" class="planning"></ul>
+          </div>
+          <p id="note" class="note cache"></p>
+        </aside>
+
+        <section aria-label="Étapes" id="phases"></section>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/commun.js"></script>
+  <script src="js/recette.js"></script>
+</body>
+</html>
