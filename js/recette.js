@@ -13,12 +13,15 @@ function dureeEnSecondes(texte) {
   if (heures) return Math.round(parseFloat(heures[1].replace(",", ".")) * 3600 + (parseInt(heures[2] || "0", 10) * 60));
   const minutes = debut.match(/(\d+(?:[.,]\d+)?)\s*min/);
   if (minutes) return Math.round(parseFloat(minutes[1].replace(",", ".")) * 60);
+  const secondes = debut.match(/(\d+)\s*s(?:ec)?\b/);
+  if (secondes) return parseInt(secondes[1], 10);
   // « 5 à 8 min » : le premier nombre n'a pas d'unité, on prend celle de la fin.
   const nombre = debut.match(/^\D*(\d+(?:[.,]\d+)?)\s*$/);
   if (nombre) {
     const valeur = parseFloat(nombre[1].replace(",", "."));
     if (/\d\s*h\b/.test(t)) return Math.round(valeur * 3600);
     if (/\d\s*min/.test(t)) return Math.round(valeur * 60);
+    if (/\d\s*s(?:ec)?\b/.test(t)) return Math.round(valeur);
   }
   return null;
 }
@@ -32,6 +35,7 @@ function formaterDuree(secondes) {
 }
 
 function libelleDuree(secondes) {
+  if (secondes < 60) return `${secondes} s`;
   const h = Math.floor(secondes / 3600);
   const m = Math.round((secondes % 3600) / 60);
   if (!h) return `${m} min`;
