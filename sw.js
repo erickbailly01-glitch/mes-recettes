@@ -3,11 +3,11 @@
 // - Le « squelette » du site (pages, styles, scripts, icônes) est mis en cache à
 //   l'installation. ⚠ Augmenter VERSION à chaque modification de ces fichiers :
 //   l'ancien cache est alors supprimé et les téléphones reçoivent la mise à jour.
-// - Les recettes (recettes/*.json, dont index.json) et les fiches PDF passent par
+// - Les recettes (recettes/*.json, dont index.json), types.json et les fiches PDF passent par
 //   « réseau d'abord, cache en secours » : une nouvelle recette apparaît dès qu'on
 //   est connecté, et ce qui a déjà été consulté reste lisible hors connexion.
 
-const VERSION = "v2";
+const VERSION = "v3";
 const CACHE_SITE = `mes-recettes-site-${VERSION}`;
 // Non versionné : les recettes déjà consultées restent disponibles hors connexion
 // après une mise à jour du site (elles sont de toute façon redemandées au réseau d'abord).
@@ -28,16 +28,18 @@ const SQUELETTE = [
   "icones/icone-masquable-512.png",
   "icones/apple-touch-icon.png",
   "recettes/index.json",
+  "types.json",
 ];
 
 self.addEventListener("install", (event) => {
   event.waitUntil((async () => {
     const site = await caches.open(CACHE_SITE);
     // cache: "reload" pour ignorer le cache HTTP du navigateur et prendre les fichiers à jour.
-    await site.addAll(SQUELETTE.filter((f) => f !== "recettes/index.json")
+    const DONNEES = ["recettes/index.json", "types.json"];
+    await site.addAll(SQUELETTE.filter((f) => !DONNEES.includes(f))
       .map((f) => new Request(f, { cache: "reload" })));
     const donnees = await caches.open(CACHE_DONNEES);
-    await donnees.add(new Request("recettes/index.json", { cache: "reload" }));
+    await donnees.addAll(DONNEES.map((f) => new Request(f, { cache: "reload" })));
     await self.skipWaiting();
   })());
 });
@@ -96,7 +98,7 @@ self.addEventListener("fetch", (event) => {
   const chemin = cheminRelatif(url);
   if (chemin === null) return;
 
-  if (/^recettes\/.+\.json$/.test(chemin) || /^pdf\/.+\.pdf$/.test(chemin)) {
+  if (/^recettes\/.+\.json$/.test(chemin) || chemin === "types.json" || /^pdf\/.+\.pdf$/.test(chemin)) {
     event.respondWith(reseauDAbord(requete));
   } else {
     event.respondWith(cacheDAbord(requete));

@@ -3,7 +3,8 @@
 Usage : python scripts/build_index.py
 
 Chaque recette de recettes/*.json (sauf index.json) donne une entrée :
-fichier, titre, catégorie, sous-titre, temps de préparation.
+fichier, titre, catégorie, type, sous-titre, temps de préparation.
+Le champ « type » est obligatoire et doit figurer dans types.json.
 Ne jamais éditer recettes/index.json à la main : relancer ce script.
 """
 import json
@@ -14,6 +15,7 @@ from pathlib import Path
 RACINE = Path(__file__).resolve().parent.parent
 DOSSIER = RACINE / "recettes"
 INDEX = DOSSIER / "index.json"
+TYPES = RACINE / "types.json"
 
 
 def cle_tri(texte):
@@ -36,6 +38,8 @@ def preparation(recette):
 
 
 def main():
+    with open(TYPES, encoding="utf-8") as fh:
+        types = [t["nom"] for t in json.load(fh)["types"]]
     entrees = []
     erreurs = []
     for chemin in sorted(DOSSIER.glob("*.json")):
@@ -44,18 +48,24 @@ def main():
         try:
             with open(chemin, encoding="utf-8") as fh:
                 r = json.load(fh)
+            if "type" not in r:
+                raise ValueError("champ « type » manquant")
+            if r["type"] not in types:
+                raise ValueError(f"type « {r['type']} » inconnu")
             entrees.append({
                 "fichier": chemin.name,
                 "titre": r["titre"],
                 "categorie": categorie(r),
+                "type": r["type"],
                 "sous_titre": r.get("sous_titre", ""),
                 "preparation": preparation(r),
             })
-        except (json.JSONDecodeError, KeyError) as err:
+        except (json.JSONDecodeError, KeyError, ValueError) as err:
             erreurs.append(f"{chemin.name} : {err}")
 
     if erreurs:
-        sys.exit("ERREUR — recette(s) illisible(s) :\n  " + "\n  ".join(erreurs))
+        sys.exit("ERREUR — recette(s) à corriger :\n  " + "\n  ".join(erreurs)
+                 + "\nTypes possibles (types.json) : " + ", ".join(types))
 
     entrees.sort(key=lambda e: cle_tri(e["titre"]))
     with open(INDEX, "w", encoding="utf-8") as fh:

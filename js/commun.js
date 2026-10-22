@@ -19,6 +19,40 @@ async function chargerJSON(chemin) {
   return reponse.json();
 }
 
+// ---------- Types de recette et leurs couleurs (types.json) ----------
+
+function luminance(hexa) {
+  const lin = [1, 3, 5].map((i) => {
+    const v = parseInt(hexa.slice(i, i + 2), 16) / 255;
+    return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4;
+  });
+  return 0.2126 * lin[0] + 0.7152 * lin[1] + 0.0722 * lin[2];
+}
+
+// Blanc ou texte foncé : celui qui se lit le mieux sur la couleur donnée (même règle que la fiche PDF).
+function texteSur(hexa) {
+  const fond = luminance(hexa);
+  const contrasteBlanc = 1.05 / (fond + 0.05);
+  const contrasteFonce = (fond + 0.05) / (luminance("#1E2A23") + 0.05);
+  return contrasteBlanc >= contrasteFonce ? "#FFFFFF" : "#1E2A23";
+}
+
+// Liste ordonnée des types : [{ nom, couleur }, …]. Liste vide si le fichier est inaccessible.
+async function chargerTypes() {
+  try {
+    return (await chargerJSON("types.json")).types || [];
+  } catch {
+    return [];
+  }
+}
+
+// Donne à un élément (et à ce qu'il contient) la couleur d'un type.
+function appliquerCouleur(element, couleur) {
+  if (!couleur) return;
+  element.style.setProperty("--type", couleur);
+  element.style.setProperty("--type-texte", texteSur(couleur));
+}
+
 function afficherMessage(texte) {
   const message = document.getElementById("message");
   message.textContent = texte;

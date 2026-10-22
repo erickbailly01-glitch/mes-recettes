@@ -1,0 +1,12 @@
+{
+  "types": [
+    { "nom": "Entrée & soupe", "couleur": "#E07A2E" },
+    { "nom": "Plat", "couleur": "#C8472F" },
+    { "nom": "Accompagnement", "couleur": "#7F9130" },
+    { "nom": "Gâteau", "couleur": "#C2386B" },
+    { "nom": "Dessert", "couleur": "#7B4A9E" },
+    { "nom": "Petit-déjeuner", "couleur": "#D9A021" },
+    { "nom": "Boulangerie", "couleur": "#A8693B" },
+    { "nom": "Liqueurs & bocaux", "couleur": "#2F5E8C" }
+  ]
+}

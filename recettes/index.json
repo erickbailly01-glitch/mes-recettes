@@ -4,6 +4,7 @@
       "fichier": "baba-ganoush-air-fryer.json",
       "titre": "Baba ganoush au air fryer",
       "categorie": "Entrée",
+      "type": "Entrée & soupe",
       "sous_titre": "Caviar d'aubergine au tahini, peau grillée à l'air pulsé pour le côté fumé",
       "preparation": "≈ 15 min"
     },
@@ -11,6 +12,7 @@
       "fichier": "brioche-classique-mcc.json",
       "titre": "Brioche classique",
       "categorie": "Boulangerie",
+      "type": "Boulangerie",
       "sous_titre": "Pâte pétrie au Monsieur Cuisine Compact, beurre incorporé en trois fois, façonnée en 6 boules",
       "preparation": "≈ 25 min"
     },
@@ -18,6 +20,7 @@
       "fichier": "carrot-cake.json",
       "titre": "Carrot cake, la vraie recette",
       "categorie": "Dessert",
+      "type": "Gâteau",
       "sous_titre": "Moelleux à l'huile, carottes râpées, noix, cannelle et muscade",
       "preparation": "15 min"
     },
@@ -25,6 +28,7 @@
       "fichier": "cookies-fourres-pate-a-tartiner.json",
       "titre": "Cookies fourrés à la pâte à tartiner",
       "categorie": "Dessert",
+      "type": "Dessert",
       "sous_titre": "Bords dorés, cœur moelleux et un cœur coulant de pâte à tartiner congelée",
       "preparation": "≈ 20 min"
     },
@@ -32,6 +36,7 @@
       "fichier": "courgette-farcie-porc.json",
       "titre": "Courgette farcie à la chair à saucisse",
       "categorie": "Plat",
+      "type": "Plat",
       "sous_titre": "Une grosse courgette, une farce de porc aux herbes liée à l'œuf et à la chapelure maison",
       "preparation": "≈ 20 min"
     },
@@ -39,6 +44,7 @@
       "fichier": "creme-de-cassis.json",
       "titre": "Crème de cassis maison",
       "categorie": "Liqueur",
+      "type": "Liqueurs & bocaux",
       "sous_titre": "Cassis pré-macérés au sucre, infusés dans la vodka puis adoucis d'un sirop",
       "preparation": "≈ 30 min"
     },
@@ -46,6 +52,7 @@
       "fichier": "crumble-pommes.json",
       "titre": "Crumble aux pommes du chat qui tousse",
       "categorie": "Dessert",
+      "type": "Dessert",
       "sous_titre": "Pommes Canada cannelle-vanille sous un crumble cassonade bien croustillant",
       "preparation": "≈ 25 min"
     },
@@ -53,6 +60,7 @@
       "fichier": "flan-patissier-cafe-rhum.json",
       "titre": "Flan pâtissier café-rhum",
       "categorie": "Pâtisserie",
+      "type": "Gâteau",
       "sous_titre": "Café renforcé, pâte sucrée aux amandes, une nuit de maturation",
       "preparation": "≈ 45 min"
     },
@@ -60,6 +68,7 @@
       "fichier": "fluffy-pancakes-japonais.json",
       "titre": "Fluffy pancakes japonais",
       "categorie": "Petit-déjeuner",
+      "type": "Petit-déjeuner",
       "sous_titre": "Soufflés à la meringue, cuits à la vapeur à feu très doux, chantilly maison",
       "preparation": "≈ 15 min"
     },
@@ -67,6 +76,7 @@
       "fichier": "galette-frangipane.json",
       "titre": "Galette frangipane moelleuse",
       "categorie": "Dessert",
+      "type": "Gâteau",
       "sous_titre": "Fond sablé, frangipane à la crème pâtissière vanille-rhum, couvercle feuilleté",
       "preparation": "20 min"
     },
@@ -74,6 +84,7 @@
       "fichier": "gaufres.json",
       "titre": "Gaufres lyonnaises",
       "categorie": "Petit-déjeuner",
+      "type": "Petit-déjeuner",
       "sous_titre": "Pâte légère aux blancs montés en neige, parfumée d'un trait de rhum",
       "preparation": "≈ 20 min"
     },
@@ -81,6 +92,7 @@
       "fichier": "glace-skyr-cafe.json",
       "titre": "Glace protéinée au skyr · café",
       "categorie": "Dessert glacé",
+      "type": "Dessert",
       "sous_titre": "Base skyr et whey ultra protéinée, café infusé dans la base chaude",
       "preparation": "≈ 20 min"
     },
@@ -88,6 +100,7 @@
       "fichier": "glace-skyr-fruits-rouges.json",
       "titre": "Glace protéinée au skyr · fruits rouges",
       "categorie": "Dessert glacé",
+      "type": "Dessert",
       "sous_titre": "Base skyr et whey ultra protéinée, purée de fruits rouges ajoutée à froid",
       "preparation": "≈ 20 min"
     },
@@ -95,6 +108,7 @@
       "fichier": "glace-skyr-poire.json",
       "titre": "Glace protéinée au skyr · poire",
       "categorie": "Dessert glacé",
+      "type": "Dessert",
       "sous_titre": "Base skyr et whey ultra protéinée, purée de poire mûre et pointe de citron",
       "preparation": "≈ 20 min"
     },
@@ -102,6 +116,7 @@
       "fichier": "kimchi-rapide.json",
       "titre": "Kimchi rapide",
       "categorie": "Fermentation",
+      "type": "Liqueurs & bocaux",
       "sous_titre": "Chou nappa et daikon au gochugaru, salés à 2 % et lacto-fermentés en bocal",
       "preparation": "≈ 20 min"
     },
@@ -109,6 +124,7 @@
       "fichier": "lasagnes-butternut-raclette.json",
       "titre": "Lasagnes au butternut & raclette",
       "categorie": "Plat",
+      "type": "Plat",
       "sous_titre": "Butternut rôti, béchamel maison à la muscade, gratiné au fromage à raclette",
       "preparation": "12 min"
     },
@@ -116,6 +132,7 @@
       "fichier": "lasagnes-boeuf-etchebest.json",
       "titre": "Lasagnes de bœuf d'Etchebest",
       "categorie": "Plat",
+      "type": "Plat",
       "sous_titre": "Pâte fraîche aux jaunes, concassé de tomates pimenté, farce au fond de bœuf",
       "preparation": "≈ 1 h 15"
     },
@@ -123,6 +140,7 @@
       "fichier": "liqueur-prune.json",
       "titre": "Liqueur de prune à la vodka",
       "categorie": "Liqueur",
+      "type": "Liqueurs & bocaux",
       "sous_titre": "Prunes violettes, vanille et cannelle, macérées 2 à 3 mois",
       "preparation": "≈ 20 min"
     },
@@ -130,6 +148,7 @@
       "fichier": "pain-cocotte.json",
       "titre": "Pain en cocotte",
       "categorie": "Boulangerie",
+      "type": "Boulangerie",
       "sous_titre": "Petite boule T65 à 70 % d'hydratation, levure sèche, cuite en cocotte fonte",
       "preparation": "≈ 20 min"
     },
@@ -137,6 +156,7 @@
       "fichier": "pain-libanais.json",
       "titre": "Pain libanais à la poêle",
       "categorie": "Boulangerie",
+      "type": "Boulangerie",
       "sous_titre": "Galettes fines et souples, idéales avec le baba ganoush",
       "preparation": "≈ 25 min"
     },
@@ -144,6 +164,7 @@
       "fichier": "pancakes-healthy-skyr.json",
       "titre": "Pancakes healthy au skyr",
       "categorie": "Petit-déjeuner",
+      "type": "Petit-déjeuner",
       "sous_titre": "Moelleux et protéinés, allégés en matières grasses grâce au skyr",
       "preparation": "10 min"
     },
@@ -151,6 +172,7 @@
       "fichier": "pates-fraiches-semoule.json",
       "titre": "Pâtes fraîches au laminoir",
       "categorie": "Plat",
+      "type": "Plat",
       "sous_titre": "Farine et semoule de blé dur, un jaune en plus pour une pâte souple et solide",
       "preparation": "≈ 40 min"
     },
@@ -158,6 +180,7 @@
       "fichier": "pho-poulet-chou-chinois.json",
       "titre": "Phở gà au chou chinois",
       "categorie": "Plat",
+      "type": "Plat",
       "sous_titre": "Bouillon grillé gingembre-anis, poulet effiloché, chou fondant et piment à volonté",
       "preparation": "≈ 20 min"
     },
@@ -165,6 +188,7 @@
       "fichier": "pitas-grecques.json",
       "titre": "Pitas à la grecque",
       "categorie": "Plat",
+      "type": "Plat",
       "sous_titre": "Légumes croquants, feta et olives liés d'une sauce yaourt-citron à l'origan",
       "preparation": "15 min"
     },
@@ -172,6 +196,7 @@
       "fichier": "poivrons-farcis-feta-mozza.json",
       "titre": "Poivrons farcis feta-mozza",
       "categorie": "Plat",
+      "type": "Plat",
       "sous_titre": "Farce fromagère au skyr, menthe et origan, cuisson au air fryer",
       "preparation": "≈ 15 min"
     },
@@ -179,6 +204,7 @@
       "fichier": "porridge-overnight-amande-cranberries.json",
       "titre": "Porridge overnight amande & cranberries",
       "categorie": "Petit-déjeuner",
+      "type": "Petit-déjeuner",
       "sous_titre": "Sans cuisson, préparé la veille en 5 minutes, prêt au réveil",
       "preparation": "≈ 5 min"
     },
@@ -186,6 +212,7 @@
       "fichier": "puree-pdt-patate-douce.json",
       "titre": "Purée pomme de terre & patate douce",
       "categorie": "Accompagnement",
+      "type": "Accompagnement",
       "sous_titre": "Cuite à la vapeur dans le panier, mixée à vitesse douce pour rester onctueuse",
       "preparation": "≈ 10 min"
     },
@@ -193,6 +220,7 @@
       "fichier": "retourne-ananas-tatie-maryse.json",
       "titre": "Retourné à l'ananas de Tatie Maryse",
       "categorie": "Dessert",
+      "type": "Gâteau",
       "sous_titre": "Caramel au sucre de canne, pâte épicée au rhum vieux, imbibé chaud au sirop d'ananas",
       "preparation": "≈ 25 min"
     },
@@ -200,6 +228,7 @@
       "fichier": "tiramisu-cafe-sans-alcool.json",
       "titre": "Tiramisu au café sans alcool",
       "categorie": "Dessert",
+      "type": "Dessert",
       "sous_titre": "Café décaféiné, crème mascarpone aérée aux blancs en neige, une nuit au frais",
       "preparation": "≈ 25 min"
     },
@@ -207,6 +236,7 @@
       "fichier": "veloute-courge-cocotte.json",
       "titre": "Velouté de courge à la cocotte",
       "categorie": "Soupe",
+      "type": "Entrée & soupe",
       "sous_titre": "Doux et onctueux, lié à la pomme de terre, relevé d'une pointe de muscade",
       "preparation": "≈ 15 min"
     }

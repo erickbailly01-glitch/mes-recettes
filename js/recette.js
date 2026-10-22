@@ -282,8 +282,16 @@ function afficherEtapes(phases) {
   });
 }
 
-function afficherRecette(r) {
+function afficherRecette(r, types) {
   document.title = `${r.titre} — Mes recettes`;
+  // Couleur du type : bandeau d'infos, pastilles des étapes, filets des phases.
+  const type = types.find((t) => t.nom === r.type);
+  if (type) appliquerCouleur(document.documentElement, type.couleur);
+  if (r.type) {
+    const pastille = document.getElementById("type");
+    pastille.textContent = r.type;
+    pastille.classList.remove("cache");
+  }
   document.getElementById("categorie").textContent = r.categorie || "";
   document.getElementById("titre").textContent = r.titre;
   document.getElementById("sous-titre").textContent = r.sous_titre || "";
@@ -329,8 +337,8 @@ function recetteIntrouvable(texte) {
 if (!/^[a-z0-9-]+$/.test(nom)) {
   recetteIntrouvable("Cette adresse ne correspond à aucune recette. Revenez à la liste des recettes.");
 } else {
-  chargerJSON(`recettes/${nom}.json`)
-    .then(afficherRecette)
+  Promise.all([chargerJSON(`recettes/${nom}.json`), chargerTypes()])
+    .then(([recette, types]) => afficherRecette(recette, types))
     // TypeError = le réseau ne répond pas ; sinon le serveur a répondu « introuvable ».
     .catch((erreur) => recetteIntrouvable(erreur instanceof TypeError
       ? "Pas de connexion internet, et cette recette n'a pas encore été ouverte sur ce téléphone."

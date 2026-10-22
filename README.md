@@ -25,6 +25,7 @@ Les nouvelles recettes apparaissent toutes seules dès que le téléphone est co
 | --- | --- |
 | `recettes/*.json` | une recette par fichier (format de référence : `flan-patissier-cafe-rhum.json`) |
 | `recettes/index.json` | liste des recettes, **générée** par `python scripts/build_index.py` |
+| `types.json` | types de recette et leurs couleurs (chaque recette a un champ `"type"`) |
 | `pdf/*.pdf` | fiches A4, générées par `python fiche_recette.py recettes/<nom>.json pdf/<nom>.pdf` |
 | `index.html`, `js/accueil.js` | page d'accueil (liste, recherche, filtres) |
 | `recette.html`, `js/recette.js` | page d'une recette (`recette.html?r=<nom>`) |

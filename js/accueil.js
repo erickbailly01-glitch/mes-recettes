@@ -1,8 +1,9 @@
-// Accueil : liste des recettes, recherche par mot-clé et filtre par catégorie.
+// Accueil : liste des recettes, recherche par mot-clé et filtre par type.
 
-const TOUTES = "Toutes";
+const TOUS = "Toutes";
 let recettes = [];
-let categorieChoisie = TOUTES;
+let couleurs = new Map();   // nom du type → couleur
+let typeChoisi = TOUS;
 
 const champRecherche = document.getElementById("recherche");
 const zoneFiltres = document.getElementById("filtres");
@@ -13,7 +14,9 @@ function carte(r) {
   const li = el("li");
   const lien = el("a", "carte");
   lien.href = "recette.html?r=" + encodeURIComponent(r.fichier.replace(/\.json$/, ""));
-  lien.append(el("p", "categorie", r.categorie), el("h2", null, r.titre));
+  appliquerCouleur(lien, couleurs.get(r.type));
+  if (r.type) lien.append(el("span", "pastille-type", r.type));
+  lien.append(el("h2", null, r.titre));
   if (r.sous_titre) lien.append(el("p", "sous-titre", r.sous_titre));
   if (r.preparation) lien.append(el("span", "temps", "Préparation " + r.preparation));
   li.append(lien);
@@ -21,27 +24,32 @@ function carte(r) {
 }
 
 function afficherFiltres() {
-  const categories = [TOUTES, ...new Set(recettes.map((r) => r.categorie))];
-  zoneFiltres.replaceChildren(...categories.map((nom) => {
-    const bouton = el("button", "filtre", nom);
+  // Ordre de types.json ; seuls les types qui ont au moins une recette.
+  const presents = new Set(recettes.map((r) => r.type));
+  const types = [...couleurs.keys()].filter((t) => presents.has(t));
+  for (const t of presents) if (t && !types.includes(t)) types.push(t);
+
+  zoneFiltres.replaceChildren(...[TOUS, ...types].map((nom) => {
+    const bouton = el("button", nom === TOUS ? "filtre tous" : "filtre", nom);
     bouton.type = "button";
-    bouton.setAttribute("aria-pressed", String(nom === categorieChoisie));
+    if (nom !== TOUS) appliquerCouleur(bouton, couleurs.get(nom));
+    bouton.setAttribute("aria-pressed", String(nom === typeChoisi));
     bouton.addEventListener("click", () => {
-      categorieChoisie = nom;
+      typeChoisi = nom;
       afficherFiltres();
       afficherCartes();
     });
     return bouton;
   }));
-  // Pas de filtre utile s'il n'y a qu'une seule catégorie.
-  zoneFiltres.classList.toggle("cache", categories.length <= 2);
+  // Pas de filtre utile s'il n'y a qu'un seul type.
+  zoneFiltres.classList.toggle("cache", types.length <= 1);
 }
 
 function afficherCartes() {
   const mots = normaliser(champRecherche.value).split(/\s+/).filter(Boolean);
   const visibles = recettes.filter((r) => {
-    if (categorieChoisie !== TOUTES && r.categorie !== categorieChoisie) return false;
-    const texte = normaliser([r.titre, r.sous_titre, r.categorie].join(" "));
+    if (typeChoisi !== TOUS && r.type !== typeChoisi) return false;
+    const texte = normaliser([r.titre, r.sous_titre, r.type, r.categorie].join(" "));
     return mots.every((mot) => texte.includes(mot));
   });
   listeCartes.replaceChildren(...visibles.map(carte));
@@ -52,8 +60,9 @@ function afficherCartes() {
 
 champRecherche.addEventListener("input", afficherCartes);
 
-chargerJSON("recettes/index.json")
-  .then((index) => {
+Promise.all([chargerJSON("recettes/index.json"), chargerTypes()])
+  .then(([index, types]) => {
+    couleurs = new Map(types.map((t) => [t.nom, t.couleur]));
     recettes = index.recettes || [];
     afficherFiltres();
     afficherCartes();
