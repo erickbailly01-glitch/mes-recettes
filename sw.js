@@ -7,7 +7,7 @@
 //   « réseau d'abord, cache en secours » : une nouvelle recette apparaît dès qu'on
 //   est connecté, et ce qui a déjà été consulté reste lisible hors connexion.
 
-const VERSION = "v6";
+const VERSION = "v7";
 const CACHE_SITE = `mes-recettes-site-${VERSION}`;
 // Non versionné : les recettes déjà consultées restent disponibles hors connexion
 // après une mise à jour du site (elles sont de toute façon redemandées au réseau d'abord).
@@ -53,6 +53,12 @@ self.addEventListener("activate", (event) => {
     await Promise.all(noms
       .filter((n) => n.startsWith("mes-recettes-") && !garder.includes(n))
       .map((n) => caches.delete(n)));
+    // Fiches PDF gardées sans empreinte (?v=…) : ce sont d'anciennes versions, on les oublie.
+    const donnees = await caches.open(CACHE_DONNEES);
+    for (const requete of await donnees.keys()) {
+      const url = new URL(requete.url);
+      if (url.pathname.endsWith(".pdf") && !url.searchParams.has("v")) await donnees.delete(requete);
+    }
     await self.clients.claim();
   })());
 });
@@ -68,10 +74,20 @@ async function reseauDAbord(requete) {
   try {
     // no-store : on redemande toujours le fichier complet au serveur, sans passer par le cache HTTP.
     const reponse = await fetch(requete.url, { cache: "no-store" });
-    if (reponse.ok) await cache.put(requete.url, reponse.clone());
+    if (reponse.ok) {
+      // Une seule version de chaque fiche PDF en mémoire : on retire celles d'une autre empreinte.
+      const url = new URL(requete.url);
+      if (url.pathname.endsWith(".pdf")) {
+        for (const ancienne of await cache.keys(requete.url, { ignoreSearch: true })) {
+          if (ancienne.url !== requete.url) await cache.delete(ancienne);
+        }
+      }
+      await cache.put(requete.url, reponse.clone());
+    }
     return reponse;
   } catch (erreur) {
-    const enCache = await cache.match(requete.url);
+    // Hors connexion : la version demandée, sinon (fiche PDF) la dernière version gardée.
+    const enCache = await cache.match(requete.url) || await cache.match(requete.url, { ignoreSearch: true });
     if (enCache) return enCache;
     throw erreur;
   }

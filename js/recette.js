@@ -443,7 +443,7 @@ function afficherEtapes(phases) {
   });
 }
 
-function afficherRecette(r, types) {
+function afficherRecette(r, types, index) {
   document.title = `${r.titre} — Mes recettes`;
   // Couleur du type : bandeau d'infos, pastilles des étapes, filets des phases.
   const type = types.find((t) => t.nom === r.type);
@@ -463,7 +463,9 @@ function afficherRecette(r, types) {
     return info;
   }));
 
-  document.getElementById("pdf").href = `pdf/${nom}.pdf`;
+  // L'empreinte (?v=…) change à chaque nouvelle fiche : le téléphone ne ressert pas une ancienne copie.
+  const entree = index && (index.recettes || []).find((e) => e.fichier === nom + ".json");
+  document.getElementById("pdf").href = `pdf/${nom}.pdf` + (entree && entree.pdf ? `?v=${entree.pdf}` : "");
 
   const ingredients = afficherIngredients(r.ingredients || []);
   afficherReglage(r.portions, ingredients.map((i) => i.q));
@@ -500,8 +502,8 @@ function recetteIntrouvable(texte) {
 if (!/^[a-z0-9-]+$/.test(nom)) {
   recetteIntrouvable("Cette adresse ne correspond à aucune recette. Revenez à la liste des recettes.");
 } else {
-  Promise.all([chargerJSON(`recettes/${nom}.json`), chargerTypes()])
-    .then(([recette, types]) => afficherRecette(recette, types))
+  Promise.all([chargerJSON(`recettes/${nom}.json`), chargerTypes(), chargerJSON("recettes/index.json").catch(() => null)])
+    .then(([recette, types, index]) => afficherRecette(recette, types, index))
     // TypeError = le réseau ne répond pas ; sinon le serveur a répondu « introuvable ».
     .catch((erreur) => recetteIntrouvable(erreur instanceof TypeError
       ? "Pas de connexion internet, et cette recette n'a pas encore été ouverte sur ce téléphone."
