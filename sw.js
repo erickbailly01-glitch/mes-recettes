@@ -7,7 +7,7 @@
 //   « réseau d'abord, cache en secours » : une nouvelle recette apparaît dès qu'on
 //   est connecté, et ce qui a déjà été consulté reste lisible hors connexion.
 
-const VERSION = "v3";
+const VERSION = "v4";
 const CACHE_SITE = `mes-recettes-site-${VERSION}`;
 // Non versionné : les recettes déjà consultées restent disponibles hors connexion
 // après une mise à jour du site (elles sont de toute façon redemandées au réseau d'abord).
@@ -22,7 +22,8 @@ const SQUELETTE = [
   "js/accueil.js",
   "js/recette.js",
   "manifest.webmanifest",
-  "icones/icone.svg",
+  "icones/logo.png",
+  "icones/favicon.png",
   "icones/icone-192.png",
   "icones/icone-512.png",
   "icones/icone-masquable-512.png",

@@ -65,6 +65,12 @@ button { font: inherit; color: inherit; }
 .bandeau h1 { color: #fff; margin: 0.25rem 0 0.3rem; font-size: 1.9rem; }
 .bandeau .sous-titre { margin: 0; color: var(--sauge); font-family: var(--serif); font-style: italic; font-size: 1.02rem; }
 
+/* Logo (chat cuisinier) */
+.bandeau-accueil { display: flex; align-items: center; gap: 1rem; }
+.bandeau-accueil .logo { flex: none; width: auto; height: 96px; }
+.haut-recette { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+.logo-petit { flex: none; width: auto; height: 44px; margin-top: -0.2rem; }
+
 .retour {
   display: inline-flex;
   align-items: center;

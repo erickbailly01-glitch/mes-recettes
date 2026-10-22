@@ -6,7 +6,7 @@
   <title>Recette — Mes recettes</title>
   <meta name="theme-color" content="#1F4D3A">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="icones/icone.svg" type="image/svg+xml">
+  <link rel="icon" href="icones/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Recettes">
@@ -14,7 +14,10 @@
 </head>
 <body>
   <header class="bandeau">
-    <a class="retour" href="./">← Toutes les recettes</a>
+    <div class="haut-recette">
+      <a class="retour" href="./">← Toutes les recettes</a>
+      <img class="logo-petit" src="icones/logo.png" alt="" width="35" height="44">
+    </div>
     <div><span id="type" class="pastille-type cache"></span></div>
     <p id="categorie" class="surtitre"></p>
     <h1 id="titre">Chargement…</h1>

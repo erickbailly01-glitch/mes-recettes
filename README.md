@@ -30,7 +30,7 @@ Les nouvelles recettes apparaissent toutes seules dès que le téléphone est co
 | `index.html`, `js/accueil.js` | page d'accueil (liste, recherche, filtres) |
 | `recette.html`, `js/recette.js` | page d'une recette (`recette.html?r=<nom>`) |
 | `css/style.css` | apparence (charte de la fiche PDF) |
-| `manifest.webmanifest`, `icones/` | installation sur le téléphone |
+| `manifest.webmanifest`, `icones/` | installation sur le téléphone ; logo du site (`icones/logo.png`) |
 | `sw.js` | fonctionnement hors connexion |
 
 **Après toute modification du site** (HTML, CSS, JavaScript, icônes) : augmenter `VERSION` dans `sw.js`

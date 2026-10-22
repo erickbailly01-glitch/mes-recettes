@@ -23,6 +23,7 @@ Tout le contenu, l'interface et les messages de commit sont **en français**.
 - Page recette : en-tête, bandeau d'infos (couleur du type), ingrédients (cases à cocher), étapes numérotées en continu avec astuces (pastilles de la couleur du type), minuteur sur les étapes qui ont une durée, option « garder l'écran allumé ».
 - Charte (site et fiches PDF) : vert sapin `#1F4D3A` (en-tête, titres), sauge clair `#E3EDE4` (encadrés), fond `#F6F9F4`, texte `#1E2A23` ; titres en serif, texte en sans-serif.
   Sur une couleur de type, le texte est blanc ou foncé selon ce qui se lit le mieux (calcul automatique).
+- Logo : chat cuisinier crème sur vert sapin (`icones/logo.png`, fond transparent), dans l'en-tête du site et sur les icônes de l'application.
 - Types et couleurs (`types.json`) :
 
   | Type | Couleur |
