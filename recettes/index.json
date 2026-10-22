@@ -1,0 +1,11 @@
+{
+  "recettes": [
+    {
+      "fichier": "flan-patissier-cafe-rhum.json",
+      "titre": "Flan pâtissier café-rhum",
+      "categorie": "Pâtisserie",
+      "sous_titre": "Café renforcé, pâte sucrée aux amandes, une nuit de maturation",
+      "preparation": "≈ 45 min"
+    }
+  ]
+}
