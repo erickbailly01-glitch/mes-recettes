@@ -147,9 +147,9 @@ button { font: inherit; color: inherit; }
 
 .compteur { margin: 0.2rem 0 0.8rem; color: var(--sourdine); font-size: 0.9rem; }
 
-.cartes { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.9rem; }
-@media (min-width: 700px) { .cartes { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1000px) { .cartes { grid-template-columns: repeat(3, 1fr); } }
+.cartes { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.9rem; }
+@media (min-width: 700px) { .cartes { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1000px) { .cartes { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
 .carte {
   display: block;
@@ -212,9 +212,9 @@ button { font: inherit; color: inherit; }
 .actions .bouton { flex: 1 1 200px; }
 .remarque { margin: -0.6rem 0 1rem; color: var(--sourdine); font-size: 0.85rem; }
 
-.colonnes { display: grid; gap: 1.2rem; }
+.colonnes { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.2rem; }
 @media (min-width: 860px) {
-  .colonnes { grid-template-columns: 340px 1fr; align-items: start; }
+  .colonnes { grid-template-columns: 340px minmax(0, 1fr); align-items: start; }
   .colonnes > .gauche { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow-y: auto; }
 }
 
@@ -316,3 +316,216 @@ button { font: inherit; color: inherit; }
 @media (prefers-reduced-motion: reduce) { .cadran.fini { animation: none; } }
 
 .pied { margin-top: 2rem; color: var(--sourdine); font-size: 0.85rem; text-align: center; }
+
+/* ---------- Mode cuisine ---------- */
+.bouton-cuisine {
+  width: 100%;
+  min-height: 60px;
+  margin-bottom: 0.6rem;
+  background: var(--type);
+  border-color: var(--type);
+  color: var(--type-texte);
+  font-size: 1.15rem;
+}
+
+.reprise {
+  margin-bottom: 0.8rem;
+  padding: 0.8rem 1rem;
+  background: var(--blanc);
+  border-left: 6px solid var(--type);
+  border-radius: var(--rayon);
+}
+.reprise p { margin: 0 0 0.6rem; }
+.reprise-boutons { display: flex; gap: 0.6rem; }
+.reprise-boutons .bouton { flex: 1; }
+
+/* Bouton « Cuisiner » des cartes de l'accueil */
+.carte-conteneur { position: relative; }
+.carte-cuisine {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 0.75rem;
+  border: 2px solid var(--trait);
+  border-radius: 999px;
+  background: var(--blanc);
+  color: var(--sapin);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.carte-cuisine:active { background: var(--sauge); }
+
+body.cuisine-ouverte { overflow: hidden; }
+.invisible { visibility: hidden; }
+
+.cuisine {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  background: var(--fond);
+}
+
+.cuisine-haut {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: calc(0.7rem + env(safe-area-inset-top)) 0.8rem 1rem 1.1rem;
+  background: var(--sapin);
+  color: #fff;
+}
+.cuisine-reperes { flex: 1; min-width: 0; }
+.cuisine-phase { margin: 0; font-family: var(--serif); font-size: 1.25rem; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cuisine-compteur { margin: 0; color: var(--sauge); font-size: 0.95rem; font-weight: 600; }
+.cuisine-quitter {
+  flex: none;
+  width: 52px;
+  height: 52px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.cuisine-progression { position: absolute; left: 0; right: 0; bottom: 0; height: 8px; background: rgba(255, 255, 255, 0.18); }
+.cuisine-barre { height: 100%; width: 0; background: var(--type); transition: width 0.25s ease; }
+
+.cuisine-contenu {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.3rem 1.2rem 1.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+.cuisine-contenu > * { max-width: 760px; margin-left: auto; margin-right: auto; }
+.cuisine-titre { margin-top: 0.2rem; margin-bottom: 0.7rem; font-size: 2.1rem; }
+/* Lisible à un mètre */
+.cuisine-texte { margin: 0 auto 1rem; font-size: 1.6rem; line-height: 1.45; }
+.cuisine-astuce {
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  background: var(--sauge);
+  border-radius: var(--rayon);
+  color: var(--sourdine);
+  font-size: 1.2rem;
+}
+.cuisine-astuce::before { content: "› "; color: var(--vert); font-weight: 700; }
+.cuisine-duree {
+  display: inline-block;
+  margin: 0 0 0.3rem;
+  padding: 0.15rem 0.8rem;
+  border-radius: 999px;
+  background: var(--type);
+  color: var(--type-texte);
+  font-weight: 700;
+}
+.cuisine-contenu > .cuisine-duree { display: table; margin-left: 0; }
+@media (min-width: 808px) { .cuisine-contenu > .cuisine-duree { margin-left: calc((100% - 760px) / 2); } }
+
+.cuisine-lancer { display: grid; gap: 0.6rem; margin-top: 0.4rem; }
+.cuisine-bouton-minuteur { min-height: 68px; font-size: 1.3rem; }
+.cuisine-reglage-duree { display: grid; grid-template-columns: 1fr 1.2fr 1fr; gap: 0.5rem; align-items: center; }
+.cuisine-valeur-duree { text-align: center; font-family: var(--serif); font-size: 1.5rem; font-weight: 700; color: var(--sapin); }
+.cuisine-en-cours { padding: 0.8rem 1rem; background: var(--sauge); border-radius: var(--rayon); font-weight: 600; color: var(--sapin); }
+
+.cuisine-portions { margin: -0.3rem 0 0.8rem; color: var(--sourdine); font-weight: 600; }
+.cuisine-reprendre { width: 100%; min-height: 60px; margin-bottom: 0.8rem; font-size: 1.15rem; }
+.cuisine-groupe { margin: 1.1rem 0 0.2rem; color: var(--vert); font-family: var(--sans); font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.cuisine-ingredients { list-style: none; margin: 0; padding: 0; }
+.cuisine-ingredients li + li { border-top: 1px solid var(--trait); }
+.cuisine-ingredients label { display: flex; align-items: center; gap: 0.9rem; min-height: 60px; font-size: 1.25rem; cursor: pointer; }
+.cuisine-ingredients input { flex: none; width: 30px; height: 30px; margin: 0; accent-color: var(--sapin); }
+.cuisine-quantite { flex: none; min-width: 5.5rem; font-weight: 700; color: var(--sapin); }
+.cuisine-quantite .modifiee { padding: 0.05rem 0.35rem; margin-left: -0.35rem; border-radius: 6px; background: var(--type); color: var(--type-texte); }
+.cuisine-ingredients input:checked ~ span { color: var(--sourdine); text-decoration: line-through; }
+
+.cuisine-fete { margin: 2rem 0 0; font-size: 4rem; text-align: center; }
+.cuisine-contenu > .cuisine-fete + .cuisine-titre, .cuisine-contenu > .cuisine-fete ~ .cuisine-texte { text-align: center; }
+.cuisine-contenu > .cuisine-fete ~ .bouton { display: flex; width: 100%; min-height: 60px; }
+
+/* Bandeau des minuteurs en cours */
+.cuisine-minuteurs {
+  display: grid;
+  gap: 0.4rem;
+  max-height: 40vh;
+  overflow-y: auto;
+  padding: 0.5rem 0.8rem;
+  background: var(--blanc);
+  border-top: 4px solid var(--type);
+}
+.cuisine-minuteurs:empty { display: none; }
+.cuisine-minuteur {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  grid-template-areas: "nom nom nom nom" "temps moins plus stop";
+  align-items: center;
+  gap: 0.15rem 0.4rem;
+  padding: 0.35rem 0.5rem 0.45rem 0.7rem;
+  border-radius: 10px;
+  background: var(--sauge);
+}
+.cuisine-minuteur-nom { grid-area: nom; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; color: var(--sapin); }
+.cuisine-minuteur-temps { grid-area: temps; font-family: var(--serif); font-size: 1.45rem; font-weight: 700; color: var(--sapin); font-variant-numeric: tabular-nums; }
+.cuisine-mini {
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--sapin);
+  border-radius: 10px;
+  background: var(--blanc);
+  color: var(--sapin);
+  font-weight: 700;
+  cursor: pointer;
+}
+.cuisine-mini.arreter { background: var(--sapin); color: #fff; }
+.cuisine-mini:disabled { opacity: 0.4; }
+.cuisine-minuteur.fini { background: var(--type); animation: clignote-type 1s steps(2) infinite; }
+.cuisine-minuteur.fini .cuisine-minuteur-nom, .cuisine-minuteur.fini .cuisine-minuteur-temps { color: var(--type-texte); animation: clignote-texte 1s steps(2) infinite; }
+@keyframes clignote-type { 50% { background: var(--sapin); } }
+@keyframes clignote-texte { 50% { color: #fff; } }
+@media (prefers-reduced-motion: reduce) { .cuisine-minuteur.fini, .cuisine-minuteur.fini * { animation: none; } }
+
+.cuisine-nav {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 0.7rem;
+  padding: 0.7rem 0.8rem calc(0.7rem + env(safe-area-inset-bottom));
+  background: var(--blanc);
+  border-top: 1px solid var(--trait);
+}
+.cuisine-nav .bouton { min-height: 64px; padding: 0 0.6rem; font-size: 1.2rem; white-space: nowrap; }
+/* Place réservée au bouton « Cuisiner » en haut à droite des cartes */
+.carte-conteneur .carte .pastille-type { margin-right: 7.2rem; }
+.carte-conteneur .carte h2 { margin-top: 0.7rem; }
+@media (max-width: 359px) {
+  /* Très petits écrans : le bouton n'affiche que l'icône 🍳 */
+  .carte-cuisine .texte { display: none; }
+  .carte-conteneur .carte .pastille-type { margin-right: 3.2rem; }
+}
+.carte-cuisine .texte { white-space: pre; }
+
+/* Mode cuisine sur les écrans bas (petits téléphones) : minuteurs sur une ligne, textes un peu réduits */
+@media (max-height: 700px) {
+  .cuisine-haut { padding-top: calc(0.4rem + env(safe-area-inset-top)); padding-bottom: 0.7rem; }
+  .cuisine-quitter { width: 46px; height: 46px; }
+  .cuisine-titre { font-size: 1.7rem; }
+  .cuisine-texte { font-size: 1.4rem; }
+  .cuisine-minuteurs { max-height: 32vh; padding: 0.35rem 0.6rem; }
+  .cuisine-minuteur {
+    grid-template-columns: minmax(0, 1fr) auto auto auto auto;
+    grid-template-areas: "nom temps moins plus stop";
+    padding: 0.25rem 0.35rem 0.25rem 0.6rem;
+  }
+  .cuisine-minuteur-nom { font-size: 0.85rem; }
+  .cuisine-minuteur-temps { font-size: 1.2rem; }
+  .cuisine-mini { width: 40px; height: 40px; }
+  .cuisine-nav { padding-top: 0.5rem; padding-bottom: calc(0.5rem + env(safe-area-inset-bottom)); }
+  .cuisine-nav .bouton { min-height: 54px; font-size: 1.1rem; }
+}

@@ -30,6 +30,14 @@
     <noscript><p class="message">Cette application a besoin de JavaScript pour afficher la recette.</p></noscript>
 
     <div id="recette" class="cache">
+      <div id="reprise" class="reprise cache" role="status">
+        <p id="reprise-texte"></p>
+        <div class="reprise-boutons">
+          <button id="reprise-oui" class="bouton" type="button">Reprendre</button>
+          <button id="reprise-non" class="bouton secondaire" type="button">Ignorer</button>
+        </div>
+      </div>
+      <button id="mode-cuisine" class="bouton bouton-cuisine" type="button">🍳 Mode cuisine</button>
       <div class="actions">
         <a id="pdf" class="bouton" target="_blank" rel="noopener">Fiche PDF</a>
         <button id="ecran" class="bouton secondaire" type="button" aria-pressed="false">Garder l'écran allumé</button>
@@ -60,7 +68,10 @@
     </div>
   </main>
 
+  <div id="cuisine" class="cuisine cache" role="dialog" aria-modal="true" aria-label="Mode cuisine"></div>
+
   <script src="js/commun.js"></script>
   <script src="js/recette.js"></script>
+  <script src="js/cuisine.js"></script>
 </body>
 </html>

@@ -19,7 +19,13 @@ function carte(r) {
   lien.append(el("h2", null, r.titre));
   if (r.sous_titre) lien.append(el("p", "sous-titre", r.sous_titre));
   if (r.preparation) lien.append(el("span", "temps", "Préparation " + r.preparation));
-  li.append(lien);
+  // Petit bouton « Mode cuisine » : ouvre la recette directement en mode cuisine.
+  const cuisine = el("a", "carte-cuisine", "🍳");
+  cuisine.append(el("span", "texte", " Cuisiner"));
+  cuisine.href = lien.href.replace(/^.*\//, "") + "&mode=cuisine";
+  cuisine.setAttribute("aria-label", `Mode cuisine : ${r.titre}`);
+  li.className = "carte-conteneur";
+  li.append(lien, cuisine);
   return li;
 }
 

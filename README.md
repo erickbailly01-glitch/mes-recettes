@@ -29,6 +29,7 @@ Les nouvelles recettes apparaissent toutes seules dès que le téléphone est co
 | `pdf/*.pdf` | fiches A4, générées par `python fiche_recette.py recettes/<nom>.json pdf/<nom>.pdf` |
 | `index.html`, `js/accueil.js` | page d'accueil (liste, recherche, filtres) |
 | `recette.html`, `js/recette.js` | page d'une recette (`recette.html?r=<nom>`) |
+| `js/cuisine.js` | mode cuisine plein écran (`recette.html?r=<nom>&mode=cuisine` l'ouvre directement) |
 | `css/style.css` | apparence (charte de la fiche PDF) |
 | `manifest.webmanifest`, `icones/` | installation sur le téléphone ; logo du site (`icones/logo.png`) |
 | `sw.js` | fonctionnement hors connexion |

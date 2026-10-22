@@ -297,7 +297,7 @@ function afficherIngredients(groupes) {
   const coches = new Set(memoire.lire(cle, []));
   const zone = document.getElementById("ingredients");
   const cases = [];
-  const quantites = [];   // éléments affichant une quantité (recalculée par le réglage)
+  const ingredients = [];   // { groupe, q (quantité affichée, recalculée par le réglage), caseACocher, nom }
 
   groupes.forEach(([groupe, lignes], g) => {
     if (groupe) zone.append(el("h3", null, groupe));
@@ -317,7 +317,7 @@ function afficherIngredients(groupes) {
       // La quantité est dans un élément interne : la pastille colorée n'entoure que le texte.
       const q = el("span", null, quantite);
       q.dataset.origine = quantite;
-      quantites.push(q);
+      ingredients.push({ groupe, q, caseACocher, nom: ingredient });
       const colonne = el("span", "quantite");
       colonne.append(q);
       label.append(caseACocher, colonne, el("span", null, ingredient));
@@ -332,12 +332,13 @@ function afficherIngredients(groupes) {
     coches.clear();
     memoire.ecrire(cle, []);
   });
-  return quantites;
+  return ingredients;
 }
 
 // Réglage des quantités : − / + sur le nombre de portions, sinon multiplicateurs.
 // Le choix est mémorisé sur le téléphone ; les fichiers de recette ne changent pas.
 const MULTIPLICATEURS = [0.5, 1, 1.5, 2, 3];
+let resumeQuantites = "";   // « Pour 5 parts », « Quantités ×2 »… (repris par le mode cuisine)
 
 function afficherReglage(portions, quantites) {
   const zone = document.getElementById("reglage");
@@ -412,6 +413,7 @@ function afficherReglage(portions, quantites) {
         : `Quantités multipliées par ${nombreFr(facteur)}. `)
         + "Les quantités citées dans les étapes restent celles d'origine.";
     remarque.classList.toggle("cache", !change);
+    resumeQuantites = origine ? `Pour ${n} ${unite(n)}` : (change ? `Quantités ×${nombreFr(facteur)}` : "");
   }
 
   zone.append(ligne, revenir, remarque);
@@ -463,7 +465,8 @@ function afficherRecette(r, types) {
 
   document.getElementById("pdf").href = `pdf/${nom}.pdf`;
 
-  afficherReglage(r.portions, afficherIngredients(r.ingredients || []));
+  const ingredients = afficherIngredients(r.ingredients || []);
+  afficherReglage(r.portions, ingredients.map((i) => i.q));
 
   if (r.materiel) {
     document.getElementById("materiel").textContent = r.materiel;
@@ -486,6 +489,7 @@ function afficherRecette(r, types) {
   afficherEtapes(r.phases || []);
   initialiserEcran();
   document.getElementById("recette").classList.remove("cache");
+  initialiserCuisine(r, ingredients);
 }
 
 function recetteIntrouvable(texte) {

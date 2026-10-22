@@ -20,8 +20,10 @@ Tout le contenu, l'interface et les messages de commit sont **en français**.
 ## Interface
 
 - Pensée d'abord pour le **téléphone** (mode portrait, gros boutons, lisible en cuisine).
-- Accueil : liste des recettes en cartes (liseré et pastille de la couleur du type), recherche par mot-clé, filtre par type.
+- Accueil : liste des recettes en cartes (liseré et pastille de la couleur du type, petit bouton « Cuisiner » qui ouvre directement le mode cuisine), recherche par mot-clé, filtre par type.
 - Page recette : en-tête, bandeau d'infos (couleur du type), réglage des quantités (− / + sur les portions, sinon ×½ à ×3, choix mémorisé sur le téléphone ; quantités recalculées et arrondies à l'affichage, jamais dans les fichiers), ingrédients (cases à cocher), étapes numérotées en continu avec astuces (pastilles de la couleur du type), minuteur sur les étapes qui ont une durée, option « garder l'écran allumé ».
+- **Mode cuisine** (`js/cuisine.js`, bouton « Mode cuisine » en haut de la page recette) : plein écran ; écran « Mise en place » (ingrédients à cocher, quantités ajustées), puis une étape par écran (phase, « Étape n / total », barre de progression couleur du type, texte en gros caractères), « Précédent » / « Suivant » et glissement gauche/droite, écran final « Terminé ! ».
+  Minuteurs : bouton « Lancer le minuteur » réglable à la minute, partant de la durée la plus courte ; plusieurs minuteurs à la fois dans un bandeau en bas, sonnerie + vibration + clignotement à la fin ; pas de minuteur au-delà de 48 h (durée seulement affichée). Écran gardé allumé pendant tout le mode. Étape et minuteurs mémorisés sur le téléphone : la page recette propose de reprendre. Quitter (✕ ou retour du téléphone) demande confirmation s'il reste un minuteur.
 - Charte (site et fiches PDF) : vert sapin `#1F4D3A` (en-tête, titres), sauge clair `#E3EDE4` (encadrés), fond `#F6F9F4`, texte `#1E2A23` ; titres en serif, texte en sans-serif.
   Sur une couleur de type, le texte est blanc ou foncé selon ce qui se lit le mieux (calcul automatique).
 - Logo : chat cuisinier crème sur vert sapin (`icones/logo.png`, fond transparent), dans l'en-tête du site et sur les icônes de l'application.
