@@ -1,6 +1,7 @@
 {
   "categorie": "PETIT-DÉJEUNER  ·  RECETTE DE CHEF",
   "type": "Petit-déjeuner",
+  "portions": {"n": 3, "u": "pancakes"},
   "titre": "Fluffy pancakes japonais",
   "sous_titre": "Soufflés à la meringue, cuits à la vapeur à feu très doux, chantilly maison",
   "infos": [

@@ -1,6 +1,7 @@
 {
   "categorie": "DESSERT  ·  RECETTE ANTILLAISE",
   "type": "Gâteau",
+  "portions": {"n": 12, "u": "parts"},
   "titre": "Retourné à l'ananas de Tatie Maryse",
   "sous_titre": "Caramel au sucre de canne, pâte épicée au rhum vieux, imbibé chaud au sirop d'ananas",
   "infos": [

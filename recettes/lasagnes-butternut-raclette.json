@@ -1,6 +1,7 @@
 {
   "categorie": "PLAT  ·  RECETTE MAISON",
   "type": "Plat",
+  "portions": {"n": 4, "u": "pers."},
   "titre": "Lasagnes au butternut & raclette",
   "sous_titre": "Butternut rôti, béchamel maison à la muscade, gratiné au fromage à raclette",
   "infos": [

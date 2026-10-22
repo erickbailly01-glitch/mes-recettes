@@ -1,6 +1,7 @@
 {
   "categorie": "PETIT-DÉJEUNER  ·  RECETTE MAISON",
   "type": "Petit-déjeuner",
+  "portions": {"n": 4, "u": "pers."},
   "titre": "Pancakes healthy au skyr",
   "sous_titre": "Moelleux et protéinés, allégés en matières grasses grâce au skyr",
   "infos": [

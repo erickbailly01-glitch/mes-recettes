@@ -1,6 +1,7 @@
 {
   "categorie": "PLAT  ·  RECETTE MAISON",
   "type": "Plat",
+  "portions": {"n": 4, "u": "pitas"},
   "titre": "Pitas à la grecque",
   "sous_titre": "Légumes croquants, feta et olives liés d'une sauce yaourt-citron à l'origan",
   "infos": [

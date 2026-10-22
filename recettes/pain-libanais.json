@@ -1,6 +1,7 @@
 {
   "categorie": "BOULANGERIE  ·  RECETTE MAISON",
   "type": "Boulangerie",
+  "portions": {"n": 2, "u": "pains"},
   "titre": "Pain libanais à la poêle",
   "sous_titre": "Galettes fines et souples, idéales avec le baba ganoush",
   "infos": [

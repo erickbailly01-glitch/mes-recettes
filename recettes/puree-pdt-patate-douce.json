@@ -1,6 +1,7 @@
 {
   "categorie": "ACCOMPAGNEMENT  ·  MONSIEUR CUISINE COMPACT",
   "type": "Accompagnement",
+  "portions": {"n": 4, "u": "pers."},
   "titre": "Purée pomme de terre & patate douce",
   "sous_titre": "Cuite à la vapeur dans le panier, mixée à vitesse douce pour rester onctueuse",
   "infos": [

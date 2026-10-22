@@ -42,6 +42,74 @@ function libelleDuree(secondes) {
   return m ? `${h} h ${String(m).padStart(2, "0")}` : `${h} h`;
 }
 
+// ---------- Ajustement des quantités ----------
+
+const FRACTIONS = { "½": 0.5, "¼": 0.25, "¾": 0.75, "⅓": 1 / 3, "⅔": 2 / 3 };
+// Un nombre : « 2 », « 0,5 », « 1/2 », « ½ », « 1 ½ » ou « 1½ ».
+const NOMBRE = "(?:\\d+(?:[.,]\\d+)?(?:\\s*[½¼¾⅓⅔])?|\\d+\\/\\d+|[½¼¾⅓⅔])";
+const QUANTITE = new RegExp(`^(\\s*≈?\\s*)(${NOMBRE})(?:(\\s*(?:à|-|–)\\s*)(${NOMBRE}))?(.*)$`);
+
+function lireNombre(texte) {
+  const t = texte.replace(/\s+/g, "");
+  if (t.includes("/")) { const [a, b] = t.split("/"); return Number(a) / Number(b); }
+  const fraction = t.match(/[½¼¾⅓⅔]$/);
+  const entier = fraction ? t.slice(0, -1) : t;
+  return (entier ? Number(entier.replace(",", ".")) : 0) + (fraction ? FRACTIONS[fraction[0]] : 0);
+}
+
+// « 1.5 » → « 1,5 » (deux décimales au plus).
+function nombreFr(v) {
+  return String(Number(v.toFixed(2))).replace(".", ",");
+}
+
+// Unité de la quantité : masse ou volume (avec son rapport au g / ml), cuillère, ou pièce.
+function genreUnite(reste) {
+  const u = reste.trim().toLowerCase();
+  const metrique = u.match(/^(kg|g|ml|cl|dl|l)\b/);
+  if (metrique) return { genre: "metrique", base: { kg: 1000, g: 1, ml: 1, cl: 10, dl: 100, l: 1000 }[metrique[1]] };
+  if (/^(c\.|cuill)/.test(u)) return { genre: "cuillere" };
+  return { genre: "piece" };
+}
+
+function arrondir(v, unite) {
+  if (unite.genre === "metrique") {
+    // g et ml : à 5 près, à 1 près en dessous de 20 (calculé dans l'unité de base, puis reconverti).
+    const base = v * unite.base;
+    const pas = base < 20 ? 1 : 5;
+    return Math.max(1, Math.round(base / pas) * pas) / unite.base;
+  }
+  // Cuillères au ¼ près ; œufs et pièces au ½ près (au ¼ près s'il en reste moins d'un demi).
+  const pas = unite.genre === "cuillere" || v < 0.5 ? 0.25 : 0.5;
+  return Math.max(0.25, Math.round(v / pas) * pas);
+}
+
+// « 1 pincée » ×2 → « 2 pincées » ; les abréviations (g, c. à s.…) ne changent pas.
+function accorderUnite(reste, valeur) {
+  return reste.replace(/^(\s*)([a-zà-ÿ]+)(?=\s|$)/i, (tout, espace, mot) => {
+    if (/^(kg|g|ml|cl|dl|l)$/i.test(mot)) return tout;
+    if (valeur >= 2 && !/[sxz]$/.test(mot)) return espace + mot + "s";
+    if (valeur < 2 && /s$/.test(mot)) return espace + mot.slice(0, -1);
+    return tout;
+  });
+}
+
+// Multiplie la quantité (« 150 g », « 2 à 3 », « ½ c. à c. »…) en gardant l'unité.
+// Renvoie le texte inchangé s'il ne commence pas par un nombre (« au goût », « »…).
+function ajusterQuantite(texte, facteur) {
+  const m = (texte || "").match(QUANTITE);
+  if (!m || facteur === 1) return texte;
+  const [, prefixe, a, liaison, b, reste] = m;
+  const unite = genreUnite(reste);
+  const va = arrondir(lireNombre(a) * facteur, unite);
+  let resultat = prefixe + nombreFr(va);
+  let derniere = va;
+  if (b) {
+    derniere = arrondir(lireNombre(b) * facteur, unite);
+    resultat += liaison + nombreFr(derniere);
+  }
+  return resultat + accorderUnite(reste, derniere);
+}
+
 // ---------- Sonnerie ----------
 
 let audio = null;
@@ -229,6 +297,7 @@ function afficherIngredients(groupes) {
   const coches = new Set(memoire.lire(cle, []));
   const zone = document.getElementById("ingredients");
   const cases = [];
+  const quantites = [];   // éléments affichant une quantité (recalculée par le réglage)
 
   groupes.forEach(([groupe, lignes], g) => {
     if (groupe) zone.append(el("h3", null, groupe));
@@ -245,7 +314,13 @@ function afficherIngredients(groupes) {
         memoire.ecrire(cle, [...coches]);
       });
       cases.push(caseACocher);
-      label.append(caseACocher, el("span", "quantite", quantite), el("span", null, ingredient));
+      // La quantité est dans un élément interne : la pastille colorée n'entoure que le texte.
+      const q = el("span", null, quantite);
+      q.dataset.origine = quantite;
+      quantites.push(q);
+      const colonne = el("span", "quantite");
+      colonne.append(q);
+      label.append(caseACocher, colonne, el("span", null, ingredient));
       li.append(label);
       liste.append(li);
     });
@@ -257,6 +332,90 @@ function afficherIngredients(groupes) {
     coches.clear();
     memoire.ecrire(cle, []);
   });
+  return quantites;
+}
+
+// Réglage des quantités : − / + sur le nombre de portions, sinon multiplicateurs.
+// Le choix est mémorisé sur le téléphone ; les fichiers de recette ne changent pas.
+const MULTIPLICATEURS = [0.5, 1, 1.5, 2, 3];
+
+function afficherReglage(portions, quantites) {
+  const zone = document.getElementById("reglage");
+  const cle = "quantites:" + nom;
+  const origine = portions && portions.n > 0 ? portions.n : null;
+  const choix = memoire.lire(cle, {});
+  let n = origine ? Math.min(4 * origine, Math.max(1, Math.round(choix.n || origine))) : null;
+  let facteur = origine ? n / origine : (MULTIPLICATEURS.includes(choix.f) ? choix.f : 1);
+
+  // « 1 parts » → « 1 part »
+  const unite = (k) => (k < 2 && /[^.]s$/.test(portions.u) ? portions.u.slice(0, -1) : portions.u);
+
+  const ligne = el("div", "reglage-ligne");
+  const remarque = el("p", "reglage-remarque");
+  const revenir = el("button", "lien-discret", "Revenir à la recette d'origine");
+  revenir.type = "button";
+  let moins, plus, valeur, boutons;
+
+  if (origine) {
+    moins = el("button", "bouton secondaire rond", "−");
+    plus = el("button", "bouton secondaire rond", "+");
+    valeur = el("output", "reglage-valeur");
+    moins.type = plus.type = "button";
+    moins.setAttribute("aria-label", "Moins de portions");
+    plus.setAttribute("aria-label", "Plus de portions");
+    moins.addEventListener("click", () => choisir(n - 1));
+    plus.addEventListener("click", () => choisir(n + 1));
+    ligne.append(moins, valeur, plus);
+  } else {
+    ligne.classList.add("multiplicateurs");
+    ligne.setAttribute("role", "group");
+    ligne.setAttribute("aria-label", "Multiplier les quantités");
+    boutons = MULTIPLICATEURS.map((f) => {
+      const b = el("button", "filtre tous", "×" + (f === 0.5 ? "½" : nombreFr(f)));
+      b.type = "button";
+      b.addEventListener("click", () => choisir(f));
+      return [f, b];
+    });
+    ligne.append(...boutons.map(([, b]) => b));
+  }
+  revenir.addEventListener("click", () => choisir(origine || 1));
+
+  function choisir(v) {
+    if (origine) {
+      n = Math.min(4 * origine, Math.max(1, v));
+      facteur = n / origine;
+      memoire.ecrire(cle, { n });
+    } else {
+      facteur = v;
+      memoire.ecrire(cle, { f: facteur });
+    }
+    actualiser();
+  }
+
+  function actualiser() {
+    const change = facteur !== 1;
+    for (const q of quantites) {
+      const texte = ajusterQuantite(q.dataset.origine, facteur);
+      q.textContent = texte;
+      q.classList.toggle("modifiee", texte !== q.dataset.origine);
+    }
+    if (origine) {
+      valeur.textContent = `${n} ${unite(n)}`;
+      moins.disabled = n <= 1;
+      plus.disabled = n >= 4 * origine;
+    } else {
+      for (const [f, b] of boutons) b.setAttribute("aria-pressed", String(f === facteur));
+    }
+    revenir.disabled = !change;
+    remarque.textContent = !change ? ""
+      : (origine ? `Quantités recalculées pour ${n} ${unite(n)} (recette d'origine : ${origine} ${unite(origine)}). `
+        : `Quantités multipliées par ${nombreFr(facteur)}. `)
+        + "Les quantités citées dans les étapes restent celles d'origine.";
+    remarque.classList.toggle("cache", !change);
+  }
+
+  zone.append(ligne, revenir, remarque);
+  actualiser();
 }
 
 function afficherEtapes(phases) {
@@ -304,7 +463,7 @@ function afficherRecette(r, types) {
 
   document.getElementById("pdf").href = `pdf/${nom}.pdf`;
 
-  afficherIngredients(r.ingredients || []);
+  afficherReglage(r.portions, afficherIngredients(r.ingredients || []));
 
   if (r.materiel) {
     document.getElementById("materiel").textContent = r.materiel;

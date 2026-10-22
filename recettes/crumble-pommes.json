@@ -1,6 +1,7 @@
 {
   "categorie": "DESSERT  ·  RECETTE MAISON",
   "type": "Dessert",
+  "portions": {"n": 6, "u": "pers."},
   "titre": "Crumble aux pommes du chat qui tousse",
   "sous_titre": "Pommes Canada cannelle-vanille sous un crumble cassonade bien croustillant",
   "infos": [

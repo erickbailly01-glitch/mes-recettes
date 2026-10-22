@@ -1,6 +1,7 @@
 {
   "categorie": "DESSERT  ·  RECETTE AMÉRICAINE",
   "type": "Gâteau",
+  "portions": {"n": 10, "u": "parts"},
   "titre": "Carrot cake, la vraie recette",
   "sous_titre": "Moelleux à l'huile, carottes râpées, noix, cannelle et muscade",
   "infos": [

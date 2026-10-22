@@ -1,6 +1,7 @@
 {
   "categorie": "DESSERT  ·  RECETTE MAISON",
   "type": "Dessert",
+  "portions": {"n": 10, "u": "cookies"},
   "titre": "Cookies fourrés à la pâte à tartiner",
   "sous_titre": "Bords dorés, cœur moelleux et un cœur coulant de pâte à tartiner congelée",
   "infos": [

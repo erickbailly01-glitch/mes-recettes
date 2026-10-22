@@ -8,6 +8,7 @@ Le JSON décrit la recette :
   "titre": "Flan pâtissier café-rhum",
   "sous_titre": "Café renforcé, pâte sucrée aux amandes, une nuit de maturation",
   "type": "Gâteau",                      # obligatoire : un des types de types.json (donne la couleur)
+  "portions": {"n": 10, "u": "parts"},   # quand ça a un sens (sert au réglage des quantités du site, pas à la fiche)
   "infos": [["PRÉPARATION", "≈ 45 min"], ...],          # 3 à 5 cases
   "ingredients": [["PÂTE SUCRÉE", [["120 g", "beurre pommade"], ...]], ...],
   "materiel": "Moule · fouet · ...",

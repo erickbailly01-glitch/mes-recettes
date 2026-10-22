@@ -1,6 +1,7 @@
 {
   "categorie": "DESSERT  ·  RECETTE MAISON",
   "type": "Gâteau",
+  "portions": {"n": 8, "u": "parts"},
   "titre": "Galette frangipane moelleuse",
   "sous_titre": "Fond sablé, frangipane à la crème pâtissière vanille-rhum, couvercle feuilleté",
   "infos": [

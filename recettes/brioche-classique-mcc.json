@@ -1,6 +1,7 @@
 {
   "categorie": "BOULANGERIE  ·  MONSIEUR CUISINE COMPACT",
   "type": "Boulangerie",
+  "portions": {"n": 8, "u": "parts"},
   "titre": "Brioche classique",
   "sous_titre": "Pâte pétrie au Monsieur Cuisine Compact, beurre incorporé en trois fois, façonnée en 6 boules",
   "infos": [

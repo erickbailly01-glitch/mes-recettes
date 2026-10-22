@@ -240,6 +240,19 @@ button { font: inherit; color: inherit; }
   cursor: pointer;
 }
 
+/* Réglage des quantités */
+.reglage { margin: 0.4rem 0 0.6rem; padding: 0.7rem; background: var(--blanc); border-radius: var(--rayon); }
+.reglage-ligne { display: flex; align-items: center; justify-content: center; gap: 0.8rem; }
+.reglage .rond { width: 52px; padding: 0; font-size: 1.6rem; border-radius: 50%; }
+.reglage-valeur { min-width: 7.5rem; text-align: center; font-family: var(--serif); font-size: 1.35rem; font-weight: 700; color: var(--sapin); }
+.reglage .multiplicateurs { flex-wrap: wrap; gap: 0.4rem; }
+.reglage .multiplicateurs .filtre { padding: 0 0.85rem; }
+.reglage .multiplicateurs .filtre[aria-pressed="true"] { background: var(--sapin); border-color: var(--sapin); color: #fff; }
+.reglage .lien-discret { display: block; margin: 0.3rem auto 0; }
+.reglage .lien-discret:disabled { color: var(--sourdine); text-decoration: none; opacity: 0.6; cursor: default; }
+.reglage-remarque { margin: 0.2rem 0 0; color: var(--sourdine); font-size: 0.85rem; text-align: center; }
+.ingredient .quantite .modifiee { color: var(--type-texte); background: var(--type); border-radius: 6px; padding: 0.05rem 0.35rem; margin-left: -0.35rem; }
+
 .ingredients { list-style: none; margin: 0; padding: 0; }
 .ingredients li + li { border-top: 1px solid var(--trait); }
 .ingredient { display: flex; align-items: center; gap: 0.8rem; min-height: 52px; padding: 0.3rem 0; cursor: pointer; }

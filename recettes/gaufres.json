@@ -1,6 +1,7 @@
 {
   "categorie": "PETIT-DÉJEUNER  ·  RECETTE MAISON",
   "type": "Petit-déjeuner",
+  "portions": {"n": 20, "u": "gaufres"},
   "titre": "Gaufres lyonnaises",
   "sous_titre": "Pâte légère aux blancs montés en neige, parfumée d'un trait de rhum",
   "infos": [
