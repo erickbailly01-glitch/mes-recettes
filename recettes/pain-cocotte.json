@@ -1,0 +1,136 @@
+{
+  "categorie": "BOULANGERIE  ·  RECETTE MAISON",
+  "titre": "Pain en cocotte",
+  "sous_titre": "Petite boule T65 à 70 % d'hydratation, levure sèche, cuite en cocotte fonte",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 20 min"
+    ],
+    [
+      "POUSSES",
+      "1 h 45 – 2 h 30"
+    ],
+    [
+      "PRÉCHAUFFAGE",
+      "45 min · 250 °C"
+    ],
+    [
+      "CUISSON",
+      "35–40 min"
+    ]
+  ],
+  "ingredients": [
+    [
+      "PÂTE",
+      [
+        [
+          "250 g",
+          "farine T65"
+        ],
+        [
+          "175 ml",
+          "eau tiède (≈ 30 °C)"
+        ],
+        [
+          "4 g",
+          "sel"
+        ],
+        [
+          "3 g",
+          "levure boulangère sèche Alsa"
+        ]
+      ]
+    ],
+    [
+      "FAÇONNAGE",
+      [
+        [
+          "",
+          "farine pour le plan de travail"
+        ],
+        [
+          "1 feuille",
+          "papier cuisson"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "La pâte",
+      [
+        [
+          "Mélanger",
+          "5 min",
+          "Mélanger la farine et la levure, ajouter l'eau tiède, puis le sel.",
+          "Le sel ne doit pas toucher directement la levure au départ."
+        ],
+        [
+          "Pétrir",
+          "10 min",
+          "Pétrir jusqu'à obtenir une pâte lisse et souple, qui se détache des mains.",
+          null
+        ],
+        [
+          "Première pousse",
+          "1 h à 1 h 30",
+          "Couvrir d'un torchon et laisser lever à température ambiante.",
+          "Prête quand elle a doublé de volume."
+        ]
+      ]
+    ],
+    [
+      "Façonnage et seconde pousse",
+      [
+        [
+          "Dégazer et façonner",
+          "5 min",
+          "Dégazer doucement, puis former une boule bien serrée en rabattant les bords vers le centre. Poser soudure dessous sur le papier cuisson.",
+          "La tension en surface aide le pain à monter dans la cocotte."
+        ],
+        [
+          "Seconde pousse",
+          "45 min à 1 h",
+          "Couvrir et laisser lever. Lancer le préchauffage pendant ce temps.",
+          "Test du doigt : la marque doit remonter lentement."
+        ],
+        [
+          "Préchauffer la cocotte",
+          "45 min",
+          "Four à 250 °C chaleur statique, cocotte et couvercle à l'intérieur.",
+          "Une fonte bien chaude donne la croûte et le développement."
+        ]
+      ]
+    ],
+    [
+      "Cuisson",
+      [
+        [
+          "Grigner et enfourner",
+          "2 min",
+          "Inciser la boule d'un coup de lame net, puis la déposer dans la cocotte avec le papier. Fermer le couvercle.",
+          "Attention, la fonte est brûlante."
+        ],
+        [
+          "Cuire couvert",
+          "20 min",
+          "Baisser à 240 °C, couvercle fermé.",
+          "La vapeur retenue fait gonfler le pain."
+        ],
+        [
+          "Cuire découvert",
+          "15 à 20 min",
+          "Retirer le couvercle et poursuivre à 220 °C jusqu'à une croûte bien dorée.",
+          "Cuit s'il sonne creux dessous (96–98 °C à cœur)."
+        ],
+        [
+          "Refroidir",
+          "45 min minimum",
+          "Laisser refroidir sur une grille avant de couper.",
+          "Coupé trop tôt, la mie reste collante."
+        ]
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "categorie": "PLAT  ·  RECETTE DE CHEF",
+  "titre": "Lasagnes de bœuf d'Etchebest",
+  "sous_titre": "Pâte fraîche aux jaunes, concassé de tomates pimenté, farce au fond de bœuf",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 1 h 15"
+    ],
+    [
+      "CUISSON",
+      "30–35 min · 180 °C"
+    ],
+    [
+      "PLAT",
+      "≈ 20 × 30 cm"
+    ],
+    [
+      "PORTIONS",
+      "6 pers."
+    ]
+  ],
+  "ingredients": [
+    [
+      "PÂTE À LASAGNES",
+      [
+        [
+          "175 g",
+          "farine"
+        ],
+        [
+          "130 g",
+          "jaunes d'œufs (≈ 6 gros)"
+        ],
+        [
+          "0,5 c. à s.",
+          "huile d'olive"
+        ],
+        [
+          "",
+          "sel (2 pincées)"
+        ]
+      ]
+    ],
+    [
+      "CONCASSÉ",
+      [
+        [
+          "5",
+          "tomates"
+        ],
+        [
+          "1",
+          "oignon"
+        ],
+        [
+          "3",
+          "gousses d'ail"
+        ],
+        [
+          "2 c. à s.",
+          "huile d'olive"
+        ],
+        [
+          "2",
+          "branches de thym frais"
+        ],
+        [
+          "",
+          "piment en poudre (3 pincées)"
+        ],
+        [
+          "",
+          "sel"
+        ]
+      ]
+    ],
+    [
+      "FARCE DE VIANDE",
+      [
+        [
+          "600 g",
+          "bœuf haché"
+        ],
+        [
+          "1",
+          "oignon"
+        ],
+        [
+          "2",
+          "gousses d'ail"
+        ],
+        [
+          "2 c. à s.",
+          "huile d'olive"
+        ],
+        [
+          "20 cl",
+          "fond de bœuf"
+        ],
+        [
+          "",
+          "sel et poivre"
+        ]
+      ]
+    ],
+    [
+      "BÉCHAMEL",
+      [
+        [
+          "30 g",
+          "beurre"
+        ],
+        [
+          "30 g",
+          "farine"
+        ],
+        [
+          "45 cl",
+          "lait"
+        ],
+        [
+          "",
+          "sel"
+        ]
+      ]
+    ],
+    [
+      "FINITION",
+      [
+        [
+          "100 g",
+          "gruyère râpé"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "La pâte",
+      [
+        [
+          "Pétrir et reposer",
+          "10 min + 30 min",
+          "Mélanger farine, jaunes, huile et sel, pétrir jusqu'à une pâte lisse et ferme. Filmer et laisser reposer 30 min au frais.",
+          "Les jaunes seuls donnent une pâte riche, souple et bien jaune."
+        ]
+      ]
+    ],
+    [
+      "Les sauces",
+      [
+        [
+          "Préparer le concassé",
+          "20 min",
+          "Monder, épépiner et couper les tomates en dés. Faire suer l'oignon et l'ail émincés dans l'huile, ajouter tomates, thym, piment et sel. Cuire 15 min à feu moyen.",
+          "Monder : 30 s dans l'eau bouillante puis dans l'eau froide, la peau s'enlève seule."
+        ],
+        [
+          "Préparer la farce",
+          "20 min",
+          "Faire suer l'oignon et l'ail dans l'huile, ajouter le bœuf et le dorer en l'émiettant. Mouiller avec le fond de bœuf, saler, poivrer et réduire 10 min.",
+          "La farce doit rester moelleuse mais sans excès de jus."
+        ],
+        [
+          "Préparer la béchamel",
+          "8 min",
+          "Faire fondre le beurre, ajouter la farine, cuire 1 min sans colorer, puis verser le lait en fouettant jusqu'à épaississement. Saler.",
+          null
+        ]
+      ]
+    ],
+    [
+      "Montage et cuisson",
+      [
+        [
+          "Abaisser la pâte",
+          "10 min",
+          "Préchauffer le four à 180 °C. Abaisser la pâte à ≈ 1 mm et la couper aux dimensions du plat.",
+          "Pas de précuisson : la pâte fraîche cuit dans les sauces."
+        ],
+        [
+          "Monter",
+          "10 min",
+          "Napper le fond de béchamel, puis alterner pâte, farce, concassé et béchamel. Finir par une couche de pâte nappée de béchamel et le gruyère.",
+          null
+        ],
+        [
+          "Cuire",
+          "30 à 35 min",
+          "Enfourner à 180 °C.",
+          "C'est cuit quand le dessus est bien doré et que la pâte se perce sans résistance."
+        ],
+        [
+          "Reposer et servir",
+          "10 min",
+          "Laisser reposer avant de découper.",
+          "Les couches se tiennent et les parts sortent nettes."
+        ]
+      ]
+    ]
+  ]
+}

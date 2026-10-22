@@ -1,0 +1,112 @@
+{
+  "categorie": "PETIT-DÉJEUNER  ·  RECETTE MAISON",
+  "titre": "Porridge overnight amande & cranberries",
+  "sous_titre": "Sans cuisson, préparé la veille en 5 minutes, prêt au réveil",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 5 min"
+    ],
+    [
+      "REPOS",
+      "1 nuit (6 h min.)"
+    ],
+    [
+      "CUISSON",
+      "Aucune"
+    ],
+    [
+      "PORTIONS",
+      "1 pers."
+    ]
+  ],
+  "ingredients": [
+    [
+      "BASE",
+      [
+        [
+          "50 g",
+          "flocons d'avoine"
+        ],
+        [
+          "15 cl",
+          "lait"
+        ],
+        [
+          "15 g",
+          "poudre d'amandes"
+        ]
+      ]
+    ],
+    [
+      "GARNITURE",
+      [
+        [
+          "20 g",
+          "cranberries séchées"
+        ]
+      ]
+    ],
+    [
+      "FACULTATIF",
+      [
+        [
+          "1 c. à c.",
+          "miel ou sirop d'érable"
+        ],
+        [
+          "1 pincée",
+          "cannelle"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "La veille",
+      [
+        [
+          "Mélanger les secs",
+          "1 min",
+          "Dans le bocal, réunir les flocons d'avoine, la poudre d'amandes et, si souhaité, la cannelle.",
+          "Mélanger à sec évite les grumeaux de poudre d'amandes."
+        ],
+        [
+          "Ajouter le lait",
+          "2 min",
+          "Verser le lait (et le miel éventuel) puis remuer jusqu'à ce que tous les flocons soient bien imbibés.",
+          null
+        ],
+        [
+          "Incorporer les cranberries",
+          "1 min",
+          "Ajouter les cranberries et mélanger. En garder quelques-unes de côté pour le dessus.",
+          "Au contact du lait, elles se réhydratent et deviennent moelleuses."
+        ],
+        [
+          "Laisser reposer",
+          "6 h minimum",
+          "Fermer le bocal et le placer au réfrigérateur toute la nuit.",
+          "Les flocons absorbent le lait et prennent une texture crémeuse sans cuisson."
+        ]
+      ]
+    ],
+    [
+      "Le matin",
+      [
+        [
+          "Ajuster la texture",
+          "1 min",
+          "Remuer le porridge. S'il est trop épais, ajouter un trait de lait.",
+          null
+        ],
+        [
+          "Servir",
+          "1 min",
+          "Parsemer des cranberries réservées. Se déguste froid, ou tiédi 1 min au micro-ondes.",
+          "Se conserve 2 à 3 jours au réfrigérateur : on peut en préparer plusieurs bocaux d'avance."
+        ]
+      ]
+    ]
+  ]
+}

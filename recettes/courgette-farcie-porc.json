@@ -1,0 +1,158 @@
+{
+  "categorie": "PLAT  ·  RECETTE MAISON",
+  "titre": "Courgette farcie à la chair à saucisse",
+  "sous_titre": "Une grosse courgette, une farce de porc aux herbes liée à l'œuf et à la chapelure maison",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 20 min"
+    ],
+    [
+      "CUISSON",
+      "40–45 min · 180 °C"
+    ],
+    [
+      "PLAT",
+      "1 plat à four"
+    ],
+    [
+      "PORTIONS",
+      "2 pers."
+    ]
+  ],
+  "ingredients": [
+    [
+      "LÉGUME",
+      [
+        [
+          "1",
+          "grosse courgette (≈ 500 g)"
+        ]
+      ]
+    ],
+    [
+      "FARCE",
+      [
+        [
+          "300 g",
+          "chair à saucisse"
+        ],
+        [
+          "1",
+          "échalote ou ½ oignon, haché"
+        ],
+        [
+          "1",
+          "gousse d'ail, écrasée"
+        ],
+        [
+          "1 c. à c.",
+          "herbes de Provence ou thym"
+        ],
+        [
+          "2 c. à s.",
+          "persil haché"
+        ],
+        [
+          "1",
+          "œuf"
+        ],
+        [
+          "2 c. à s.",
+          "chapelure (½ tranche de pain sec mixée)"
+        ],
+        [
+          "",
+          "poivre du moulin"
+        ]
+      ]
+    ],
+    [
+      "EN OPTION",
+      [
+        [
+          "30 g",
+          "parmesan râpé"
+        ],
+        [
+          "1 pincée",
+          "piment d'Espelette"
+        ]
+      ]
+    ],
+    [
+      "CUISSON",
+      [
+        [
+          "3 c. à s.",
+          "eau au fond du plat"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "Préparation",
+      [
+        [
+          "Préchauffer et faire la chapelure",
+          "5 min",
+          "Préchauffer le four à 180 °C. Mixer finement le pain rassis ou grillé.",
+          "Un pain frais donne une pâte collante : le sécher 5 min au four ou au grille-pain avant."
+        ],
+        [
+          "Évider la courgette",
+          "5 min",
+          "Couper la courgette en deux dans la longueur et retirer la chair à la cuillère en laissant ≈ 1 cm de bord.",
+          "Un bord assez épais évite que la barquette s'effondre à la cuisson."
+        ],
+        [
+          "Presser la chair (facultatif)",
+          "3 min",
+          "Hacher la chair retirée puis la presser dans un torchon ou à la main pour en retirer l'eau.",
+          "Sans cette étape, la farce rendrait de l'eau et serait détrempée."
+        ]
+      ]
+    ],
+    [
+      "La farce",
+      [
+        [
+          "Assaisonner",
+          "5 min",
+          "Dans un saladier, mélanger la chair à saucisse, l'échalote, l'ail, les herbes, le persil et le poivre, avec la chair de courgette pressée si utilisée.",
+          null
+        ],
+        [
+          "Lier",
+          "2 min",
+          "Ajouter l'œuf et la chapelure (et le parmesan ou le piment en option), puis mélanger jusqu'à une farce homogène.",
+          null
+        ]
+      ]
+    ],
+    [
+      "Cuisson",
+      [
+        [
+          "Garnir",
+          "3 min",
+          "Répartir la farce dans les deux moitiés en tassant légèrement, en dôme. Placer dans le plat avec le fond d'eau.",
+          "L'eau empêche la courgette de coller et la garde moelleuse."
+        ],
+        [
+          "Cuire au four",
+          "40 à 45 min",
+          "Enfourner à 180 °C, chaleur tournante ou traditionnelle. Si le dessus dore trop vite, couvrir d'aluminium à mi-cuisson.",
+          "C'est cuit quand la farce n'est plus rose au centre et que la courgette se perce facilement au couteau."
+        ],
+        [
+          "Servir",
+          "2 min",
+          "Laisser reposer quelques minutes hors du four puis servir chaud.",
+          null
+        ]
+      ]
+    ]
+  ]
+}

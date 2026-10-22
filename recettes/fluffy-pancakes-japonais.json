@@ -1,0 +1,160 @@
+{
+  "categorie": "PETIT-DÉJEUNER  ·  RECETTE DE CHEF",
+  "titre": "Fluffy pancakes japonais",
+  "sous_titre": "Soufflés à la meringue, cuits à la vapeur à feu très doux, chantilly maison",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 15 min"
+    ],
+    [
+      "CUISSON",
+      "≈ 12 min · feu doux"
+    ],
+    [
+      "POÊLE",
+      "Ø 30 cm + couvercle"
+    ],
+    [
+      "QUANTITÉ",
+      "3 pancakes"
+    ]
+  ],
+  "ingredients": [
+    [
+      "APPAREIL AUX JAUNES",
+      [
+        [
+          "2",
+          "jaunes d'œufs"
+        ],
+        [
+          "23 ml",
+          "lait entier"
+        ],
+        [
+          "0,25 c. à c.",
+          "extrait de vanille"
+        ],
+        [
+          "30 g",
+          "farine de blé"
+        ],
+        [
+          "2 g",
+          "levure chimique"
+        ]
+      ]
+    ],
+    [
+      "MERINGUE",
+      [
+        [
+          "2",
+          "blancs d'œufs"
+        ],
+        [
+          "26 g",
+          "sucre"
+        ]
+      ]
+    ],
+    [
+      "CUISSON",
+      [
+        [
+          "1 c. à s.",
+          "huile neutre"
+        ],
+        [
+          "30 ml",
+          "eau pour la vapeur"
+        ]
+      ]
+    ],
+    [
+      "CHANTILLY (FACULTATIF)",
+      [
+        [
+          "120 ml",
+          "crème entière 36 % MG min."
+        ],
+        [
+          "20 g",
+          "sucre"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "Préparations",
+      [
+        [
+          "Chantilly (facultatif)",
+          "5 min",
+          "Dans un bol posé sur de l'eau glacée, fouetter la crème et le sucre à vitesse élevée jusqu'à une crème ferme mais souple. Réserver au frais.",
+          null
+        ],
+        [
+          "Séparer et refroidir",
+          "15 min",
+          "Séparer les œufs et placer les blancs environ 15 min au congélateur.",
+          "Des blancs à moitié congelés donnent une meringue plus fine et plus stable."
+        ],
+        [
+          "Appareil aux jaunes",
+          "3 min",
+          "Fouetter les jaunes, le lait et la vanille jusqu'à une texture épaisse et mousseuse. Tamiser farine et levure par-dessus et fouetter juste pour mélanger.",
+          null
+        ]
+      ]
+    ],
+    [
+      "Meringue et mélange",
+      [
+        [
+          "Monter la meringue",
+          "3 min",
+          "Battre les blancs jusqu'à ce qu'ils soient mousseux, ajouter le sucre en 3 fois puis battre ≈ 2 min à grande vitesse.",
+          "Pics fermes et brillants dont la pointe se replie : trop battue, elle devient granuleuse et s'incorpore mal."
+        ],
+        [
+          "Incorporer",
+          "3 min",
+          "Fouetter ⅓ de la meringue dans les jaunes, ajouter la moitié du reste et mélanger doucement, puis verser le tout sur la meringue restante et plier délicatement.",
+          "Garder un maximum d'air : c'est lui qui fait gonfler les pancakes."
+        ]
+      ]
+    ],
+    [
+      "Cuisson",
+      [
+        [
+          "Préparer la poêle",
+          "2 min",
+          "Chauffer la poêle à feu très doux (≈ 150 °C), huiler puis essuyer l'excédent au papier absorbant.",
+          null
+        ],
+        [
+          "Empiler et cuire",
+          "6 à 7 min",
+          "Déposer une louchée en monticule, puis une 2e par-dessus et une 3e quand la surface sèche. Verser 1 c. à s. d'eau dans les vides, couvrir. À 2 min, rajouter un peu de pâte et d'eau si besoin.",
+          "Toujours empiler en hauteur, jamais en largeur."
+        ],
+        [
+          "Retourner",
+          "4 à 5 min",
+          "Soulever délicatement à la spatule coudée, retourner, ajouter un peu d'eau, couvrir et cuire jusqu'à ce que ce soit bien doré.",
+          "S'il colle, attendre qu'il se raffermisse : forcer le fissure."
+        ],
+        [
+          "Servir",
+          "",
+          "Servir aussitôt, avec la chantilly.",
+          "Sortis trop tôt, ils retombent ; bien cuits, ils tiennent 10 à 15 min."
+        ]
+      ]
+    ]
+  ]
+}

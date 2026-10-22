@@ -1,0 +1,125 @@
+{
+  "categorie": "BOULANGERIE  ·  RECETTE MAISON",
+  "titre": "Pain libanais à la poêle",
+  "sous_titre": "Galettes fines et souples, idéales avec le baba ganoush",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 25 min"
+    ],
+    [
+      "REPOS",
+      "1 h 20"
+    ],
+    [
+      "CUISSON",
+      "≈ 2 min / pain · feu vif"
+    ],
+    [
+      "PORTIONS",
+      "1 pers. · 2 pains"
+    ]
+  ],
+  "ingredients": [
+    [
+      "LEVAIN EXPRESS",
+      [
+        [
+          "110 ml",
+          "eau tiède"
+        ],
+        [
+          "3 g",
+          "levure sèche de boulanger"
+        ],
+        [
+          "2 g",
+          "sucre"
+        ]
+      ]
+    ],
+    [
+      "PÂTE",
+      [
+        [
+          "170 g",
+          "farine T55 (ou T45)"
+        ],
+        [
+          "3 g",
+          "sel"
+        ],
+        [
+          "5 g",
+          "huile d'olive"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "La pâte",
+      [
+        [
+          "Activer la levure",
+          "10 min",
+          "Mélanger l'eau tiède avec la levure et le sucre, puis laisser reposer.",
+          "Une légère mousse en surface montre que la levure est active."
+        ],
+        [
+          "Mélanger",
+          "3 min",
+          "Dans un saladier, mélanger la farine et le sel. Ajouter l'eau levée et l'huile d'olive, puis mélanger jusqu'à former une boule.",
+          null
+        ],
+        [
+          "Pétrir",
+          "5 min",
+          "Pétrir sur le plan de travail jusqu'à obtenir une pâte lisse et souple.",
+          "Ajouter le moins de farine possible : une pâte souple s'étale plus finement."
+        ],
+        [
+          "Première levée",
+          "1 h",
+          "Remettre la pâte dans le saladier légèrement huilé, couvrir d'un torchon et laisser lever dans un endroit tiède.",
+          "Elle doit doubler de volume."
+        ],
+        [
+          "Former les boules",
+          "10 min",
+          "Dégazer la pâte, la diviser en 2 boules, couvrir et laisser reposer.",
+          "Le gluten se détend : la pâte ne se rétractera pas à l'étalage."
+        ]
+      ]
+    ],
+    [
+      "La cuisson",
+      [
+        [
+          "Chauffer la poêle",
+          "3 min",
+          "Chauffer une poêle à fond épais à feu vif, sans matière grasse.",
+          null
+        ],
+        [
+          "Étaler",
+          "2 min",
+          "Étaler une boule en disque très fin (1 à 2 mm), de la taille de la poêle.",
+          "Si la pâte se rétracte, attendre 5 minutes et recommencer."
+        ],
+        [
+          "Cuire",
+          "≈ 2 min",
+          "Poser le pain dans la poêle. Dès que des bulles apparaissent (30 s à 1 min), le retourner et appuyer légèrement à la spatule pour l'aider à gonfler.",
+          "Il doit rester pâle, avec quelques taches dorées."
+        ],
+        [
+          "Garder souple",
+          "—",
+          "Glisser le pain dans un torchon et le recouvrir. Étaler et cuire le suivant, puis l'empiler dans le torchon.",
+          "La vapeur garde les pains bien souples."
+        ]
+      ]
+    ]
+  ]
+}

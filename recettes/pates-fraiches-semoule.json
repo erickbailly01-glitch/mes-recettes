@@ -1,0 +1,170 @@
+{
+  "categorie": "PLAT  ·  RECETTE MAISON",
+  "titre": "Pâtes fraîches au laminoir",
+  "sous_titre": "Farine et semoule de blé dur, un jaune en plus pour une pâte souple et solide",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 40 min"
+    ],
+    [
+      "REPOS",
+      "30 min"
+    ],
+    [
+      "CUISSON",
+      "2–3 min"
+    ],
+    [
+      "PORTIONS",
+      "2 – 3 pers."
+    ]
+  ],
+  "ingredients": [
+    [
+      "PÂTE",
+      [
+        [
+          "100 g",
+          "farine T55 (ou 00)"
+        ],
+        [
+          "100 g",
+          "semoule de blé dur rimacinata ou extra-fine"
+        ],
+        [
+          "2",
+          "œufs entiers"
+        ],
+        [
+          "1",
+          "jaune d'œuf"
+        ],
+        [
+          "1 pincée",
+          "sel"
+        ],
+        [
+          "1 c. à c.",
+          "huile d'olive (facultatif)"
+        ]
+      ]
+    ],
+    [
+      "VERSION + FIBRES",
+      [
+        [
+          "60 g",
+          "farine T55"
+        ],
+        [
+          "40 g",
+          "farine T80"
+        ],
+        [
+          "100 g",
+          "semoule de blé dur"
+        ]
+      ]
+    ],
+    [
+      "COULEURS",
+      [
+        [
+          "50 g",
+          "épinards blanchis, essorés, mixés (vert)"
+        ],
+        [
+          "1 c. à c.",
+          "poudre de betterave (rose)"
+        ],
+        [
+          "2 c. à s.",
+          "concentré de tomate (orange)"
+        ],
+        [
+          "0,5 c. à c.",
+          "curcuma ou pincée de safran (jaune)"
+        ],
+        [
+          "2 c. à c.",
+          "encre de seiche (noir)"
+        ]
+      ]
+    ],
+    [
+      "FINITION",
+      [
+        [
+          "",
+          "semoule pour fleurer (QS)"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "La pâte",
+      [
+        [
+          "Faire la fontaine",
+          "5 min",
+          "Mélanger farine, semoule et sel en fontaine. Mettre au centre les œufs, le jaune et l'huile (et le colorant éventuel), puis incorporer peu à peu à la fourchette.",
+          null
+        ],
+        [
+          "Pétrir",
+          "10 min",
+          "Pétrir jusqu'à une pâte lisse, ferme et non collante. Si elle s'effrite, se mouiller les mains ; si elle colle, ajouter un peu de semoule.",
+          "Bien pétrie, la pâte reprend doucement sa forme quand on l'enfonce du doigt."
+        ],
+        [
+          "Laisser reposer",
+          "30 min",
+          "Filmer la boule au contact et laisser reposer à température ambiante.",
+          "Étape clé : sans repos, le gluten reste tendu et la pâte se déchire au laminoir."
+        ]
+      ]
+    ],
+    [
+      "Le laminage",
+      [
+        [
+          "Laminer et plier",
+          "10 min",
+          "Couper la pâte en 4. Passer un morceau au cran le plus large, plier en trois, repasser. Répéter 5 à 6 fois.",
+          "La pâte devient lisse, satinée et résistante."
+        ],
+        [
+          "Affiner",
+          "5 min",
+          "Descendre d'un cran à la fois, un seul passage par cran, en fleurant de semoule.",
+          "Pour des tagliatelles, s'arrêter à l'avant-dernier ou l'antépénultième cran ; le dernier est pour les raviolis."
+        ],
+        [
+          "Effet bicolore (option)",
+          "5 min",
+          "Superposer deux bandes de couleurs différentes laminées au même cran, ou intercaler des feuilles de persil entre deux bandes fines, puis repasser ensemble.",
+          null
+        ]
+      ]
+    ],
+    [
+      "Découpe et cuisson",
+      [
+        [
+          "Sécher et couper",
+          "10 min",
+          "Laisser sécher les bandes quelques minutes, puis les couper. Fleurer les pâtes de semoule et former des nids.",
+          "Une bande légèrement sèche au toucher se coupe net sans coller."
+        ],
+        [
+          "Cuire",
+          "2 à 3 min",
+          "Plonger dans une grande quantité d'eau bouillante bien salée. Goûter dès 2 min.",
+          "Les couleurs pâlissent à la cuisson : prévoir un peu plus de colorant que nécessaire."
+        ]
+      ]
+    ]
+  ]
+}

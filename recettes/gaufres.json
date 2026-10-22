@@ -1,0 +1,132 @@
+{
+  "categorie": "PETIT-DÉJEUNER  ·  RECETTE MAISON",
+  "titre": "Gaufres lyonnaises",
+  "sous_titre": "Pâte légère aux blancs montés en neige, parfumée d'un trait de rhum",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 20 min"
+    ],
+    [
+      "CUISSON",
+      "≈ 5 min par fournée"
+    ],
+    [
+      "APPAREIL",
+      "Gaufrier"
+    ],
+    [
+      "PORTIONS",
+      "≈ 20 gaufres"
+    ]
+  ],
+  "ingredients": [
+    [
+      "LA PÂTE",
+      [
+        [
+          "500 g",
+          "farine"
+        ],
+        [
+          "50 g",
+          "sucre"
+        ],
+        [
+          "1 pincée",
+          "sel"
+        ],
+        [
+          "150 g",
+          "beurre, fondu et refroidi"
+        ],
+        [
+          "6",
+          "jaunes d'œufs"
+        ],
+        [
+          "75 cl",
+          "lait"
+        ],
+        [
+          "2 cl",
+          "rhum"
+        ]
+      ]
+    ],
+    [
+      "POUR ALLÉGER",
+      [
+        [
+          "6",
+          "blancs d'œufs"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "La pâte",
+      [
+        [
+          "Fondre le beurre",
+          "5 min",
+          "Faire fondre le beurre à feu doux puis le laisser refroidir. Séparer les blancs des jaunes.",
+          "Un beurre encore chaud cuirait les jaunes au moment du mélange."
+        ],
+        [
+          "Faire le puits",
+          "3 min",
+          "Verser la farine dans le saladier et former un puits. Y mettre le sel, le sucre, le beurre fondu et les jaunes, puis mélanger.",
+          null
+        ],
+        [
+          "Délayer au lait",
+          "5 min",
+          "Verser le lait petit à petit en fouettant jusqu'à obtenir une pâte fluide et lisse.",
+          "Ajouter le lait progressivement évite les grumeaux."
+        ],
+        [
+          "Parfumer",
+          "1 min",
+          "Incorporer le rhum.",
+          null
+        ]
+      ]
+    ],
+    [
+      "Les blancs",
+      [
+        [
+          "Monter les blancs",
+          "5 min",
+          "Battre les blancs en neige bien ferme.",
+          "Ils sont prêts quand ils forment un bec qui se tient au bout du fouet."
+        ],
+        [
+          "Incorporer",
+          "2 min",
+          "Ajouter les blancs à la pâte en soulevant délicatement avec une cuillère en bois ou une maryse.",
+          "Mélanger sans casser les blancs pour garder la légèreté."
+        ]
+      ]
+    ],
+    [
+      "Cuisson",
+      [
+        [
+          "Chauffer le gaufrier",
+          "5 min",
+          "Préchauffer le gaufrier et le graisser légèrement si besoin.",
+          null
+        ],
+        [
+          "Cuire les gaufres",
+          "≈ 5 min",
+          "Verser une louche de pâte, refermer et cuire jusqu'à ce que la gaufre soit dorée. Recommencer jusqu'à épuisement de la pâte.",
+          "C'est cuit quand la vapeur s'arrête presque et que la gaufre se décolle facilement."
+        ]
+      ]
+    ]
+  ]
+}

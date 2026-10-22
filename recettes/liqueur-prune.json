@@ -1,0 +1,121 @@
+{
+  "categorie": "LIQUEUR  ·  RECETTE MAISON",
+  "titre": "Liqueur de prune à la vodka",
+  "sous_titre": "Prunes violettes, vanille et cannelle, macérées 2 à 3 mois",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 20 min"
+    ],
+    [
+      "MACÉRATION",
+      "2 – 3 mois"
+    ],
+    [
+      "REPOS",
+      "1 mois en bouteille"
+    ],
+    [
+      "BOCAL",
+      "≥ 1 L, hermétique"
+    ]
+  ],
+  "ingredients": [
+    [
+      "MACÉRATION",
+      [
+        [
+          "312 g",
+          "prunes violettes (pesées avec noyaux)"
+        ],
+        [
+          "156 g",
+          "sucre en poudre ou roux"
+        ],
+        [
+          "39 cl",
+          "vodka 40°"
+        ],
+        [
+          "0,5",
+          "gousse de vanille, fendue"
+        ],
+        [
+          "0,5",
+          "bâton de cannelle (facultatif)"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "La mise en bocal",
+      [
+        [
+          "Préparer les prunes",
+          "10 min",
+          "Laver et sécher les prunes, les couper en deux et retirer les noyaux. Les recouper en quartiers pour accélérer la macération.",
+          null
+        ],
+        [
+          "Préparer le bocal",
+          "5 min",
+          "Laver soigneusement le bocal puis le sécher complètement.",
+          "Un bocal parfaitement sec et propre évite toute mauvaise fermentation."
+        ],
+        [
+          "Assembler",
+          "3 min",
+          "Mettre les prunes dans le bocal avec le sucre, la vanille et la cannelle. Verser la vodka en couvrant bien tous les fruits.",
+          "Des fruits qui dépassent de l'alcool peuvent s'abîmer."
+        ],
+        [
+          "Fermer et secouer",
+          "1 min",
+          "Fermer hermétiquement et secouer doucement pour amorcer la dissolution du sucre.",
+          null
+        ]
+      ]
+    ],
+    [
+      "La macération",
+      [
+        [
+          "Les 2 premières semaines",
+          "15 jours",
+          "Stocker au frais, au sec et à l'abri de la lumière. Secouer doucement tous les 2 à 3 jours.",
+          "Le sucre doit avoir entièrement disparu au fond du bocal."
+        ],
+        [
+          "Macération longue",
+          "2 à 3 mois",
+          "Laisser reposer en secouant environ une fois par semaine.",
+          "Plus elle macère, plus la liqueur est parfumée."
+        ]
+      ]
+    ],
+    [
+      "Filtrage et repos",
+      [
+        [
+          "Filtrer",
+          "20 min",
+          "Passer la liqueur dans une passoire fine, puis à travers un filtre à café préalablement rincé à l'eau chaude.",
+          "Le rinçage du filtre retire le goût de papier ; le filtrage se fait lentement, ne pas presser."
+        ],
+        [
+          "Mettre en bouteille",
+          "5 min",
+          "Verser la liqueur filtrée dans une bouteille propre et hermétique, à conserver à l'abri de la lumière.",
+          null
+        ],
+        [
+          "Laisser reposer",
+          "1 mois",
+          "Attendre idéalement un mois avant de déguster, le temps que les saveurs se fondent.",
+          "Se garde plusieurs années à température ambiante. Les prunes macérées peuvent finir dans un dessert."
+        ]
+      ]
+    ]
+  ]
+}

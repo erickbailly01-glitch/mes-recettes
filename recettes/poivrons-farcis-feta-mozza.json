@@ -1,0 +1,153 @@
+{
+  "categorie": "PLAT  ·  RECETTE MAISON",
+  "titre": "Poivrons farcis feta-mozza",
+  "sous_titre": "Farce fromagère au skyr, menthe et origan, cuisson au air fryer",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 15 min"
+    ],
+    [
+      "CUISSON",
+      "18–22 min · 170 °C"
+    ],
+    [
+      "APPAREIL",
+      "Air fryer"
+    ],
+    [
+      "PORTIONS",
+      "4 pers."
+    ]
+  ],
+  "ingredients": [
+    [
+      "LÉGUMES",
+      [
+        [
+          "4",
+          "poivrons longs (rouges ou verts)"
+        ]
+      ]
+    ],
+    [
+      "FARCE",
+      [
+        [
+          "200 g",
+          "feta"
+        ],
+        [
+          "130 g",
+          "mozzarella bien égouttée"
+        ],
+        [
+          "80 g",
+          "skyr nature"
+        ],
+        [
+          "3 c. à s.",
+          "huile d'olive"
+        ],
+        [
+          "10",
+          "feuilles de menthe fraîche"
+        ],
+        [
+          "1 c. à s.",
+          "origan séché"
+        ],
+        [
+          "2 c. à s.",
+          "pignons de pin grillés (facultatif)"
+        ],
+        [
+          "1 pincée",
+          "poivre"
+        ]
+      ]
+    ],
+    [
+      "FINITION",
+      [
+        [
+          "1 filet",
+          "huile d'olive"
+        ],
+        [
+          "1 filet",
+          "crème de vinaigre balsamique"
+        ],
+        [
+          "70 g",
+          "mozzarella restante (facultatif)"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "La farce",
+      [
+        [
+          "Éponger la mozzarella",
+          "3 min",
+          "Égoutter la mozzarella, la tamponner au papier absorbant puis la couper en petits dés.",
+          "Moins d'eau = une farce qui ne coule pas à la cuisson."
+        ],
+        [
+          "Mélanger la farce",
+          "5 min",
+          "Émietter la feta, ajouter la mozza, le skyr et l'huile. Incorporer la menthe ciselée, l'origan, le poivre et les pignons.",
+          "Goûter : saler d'une pincée seulement si besoin, la feta sale déjà."
+        ]
+      ]
+    ],
+    [
+      "Les poivrons",
+      [
+        [
+          "Évider",
+          "5 min",
+          "Laver les poivrons, les fendre sur la longueur en gardant le chapeau attaché, retirer les graines et rincer.",
+          null
+        ],
+        [
+          "Farcir",
+          "3 min",
+          "Garnir généreusement, refermer avec un cure-dent si besoin et arroser d'un filet d'huile.",
+          "L'huile en surface donne le côté rôti."
+        ]
+      ]
+    ],
+    [
+      "Cuisson au air fryer",
+      [
+        [
+          "Préchauffer",
+          "3 min",
+          "Faire tourner l'air fryer à vide à 170 °C.",
+          null
+        ],
+        [
+          "Disposer",
+          "1 min",
+          "Poser les poivrons sur le papier perforé, fente vers le haut, en une seule couche. Faire deux fournées si le panier est trop petit.",
+          "L'air doit circuler entre les poivrons."
+        ],
+        [
+          "Cuire",
+          "18 à 22 min",
+          "Cuire à 170 °C en vérifiant dès 15 min. Si le dessus dore trop vite, couvrir d'aluminium les 10 premières minutes.",
+          "C'est prêt quand la chair cède sous la pointe d'un couteau et que la peau cloque."
+        ],
+        [
+          "Servir",
+          "1 min",
+          "Servir chaud ou tiède avec un filet d'huile d'olive et de crème de balsamique, du pain pita ou une salade.",
+          null
+        ]
+      ]
+    ]
+  ]
+}

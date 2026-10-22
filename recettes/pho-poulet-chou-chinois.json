@@ -1,0 +1,192 @@
+{
+  "categorie": "PLAT  ·  RECETTE MAISON",
+  "titre": "Phở gà au chou chinois",
+  "sous_titre": "Bouillon grillé gingembre-anis, poulet effiloché, chou fondant et piment à volonté",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 20 min"
+    ],
+    [
+      "CUISSON",
+      "≈ 55 min"
+    ],
+    [
+      "TOTAL",
+      "≈ 1 h 15"
+    ],
+    [
+      "PORTIONS",
+      "4 pers."
+    ]
+  ],
+  "ingredients": [
+    [
+      "BOUILLON",
+      [
+        [
+          "2 L",
+          "bouillon de volaille (ou eau + 2 cubes)"
+        ],
+        [
+          "300 g",
+          "poulet (cuisses ou blancs)"
+        ],
+        [
+          "2",
+          "oignons jaunes, coupés en deux"
+        ],
+        [
+          "60 g",
+          "gingembre frais, en tranches"
+        ],
+        [
+          "3",
+          "anis étoilés"
+        ],
+        [
+          "1",
+          "bâton de cannelle"
+        ],
+        [
+          "3",
+          "clous de girofle"
+        ],
+        [
+          "1 c. à c.",
+          "graines de coriandre"
+        ]
+      ]
+    ],
+    [
+      "ASSAISONNEMENT",
+      [
+        [
+          "3 c. à s.",
+          "sauce poisson (nuoc-mâm)"
+        ],
+        [
+          "1 c. à s.",
+          "sucre"
+        ],
+        [
+          "1 c. à c.",
+          "sel"
+        ]
+      ]
+    ],
+    [
+      "GARNITURE",
+      [
+        [
+          "1 kg",
+          "chou chinois"
+        ],
+        [
+          "400 g",
+          "nouilles de riz plates"
+        ]
+      ]
+    ],
+    [
+      "À TABLE",
+      [
+        [
+          "3",
+          "cébettes, émincées"
+        ],
+        [
+          "1 botte",
+          "coriandre fraîche"
+        ],
+        [
+          "1 botte",
+          "basilic thaï"
+        ],
+        [
+          "2",
+          "citrons verts, en quartiers"
+        ],
+        [
+          "4",
+          "piments oiseau, émincés"
+        ],
+        [
+          "2 c. à s.",
+          "sriracha"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "Le bouillon",
+      [
+        [
+          "Griller les aromates",
+          "5 min",
+          "Noircir à sec dans une poêle très chaude les oignons (face coupée) et le gingembre. Ajouter anis, cannelle, girofle et coriandre la dernière minute.",
+          "Le grillage donne au bouillon sa profondeur et sa couleur ambrée."
+        ],
+        [
+          "Lancer le bouillon",
+          "10 min",
+          "Mettre le bouillon, les aromates grillés et le poulet entier dans la marmite. Porter à frémissement et écumer.",
+          "Jamais de gros bouillons : le bouillon reste limpide."
+        ],
+        [
+          "Pocher le poulet",
+          "20 min",
+          "Laisser frémir, puis sortir le poulet, l'effilocher et le réserver.",
+          null
+        ],
+        [
+          "Infuser et assaisonner",
+          "20 min",
+          "Laisser encore infuser à feu doux, filtrer, puis assaisonner avec la sauce poisson, le sucre et le sel.",
+          "Goûter : équilibre salé-sucré, la sauce poisson doit se sentir sans dominer."
+        ]
+      ]
+    ],
+    [
+      "Chou et nouilles",
+      [
+        [
+          "Préparer le chou",
+          "5 min",
+          "Couper les blancs du chou en lanières de 1 cm, le vert en morceaux plus larges.",
+          null
+        ],
+        [
+          "Cuire le chou",
+          "6 min",
+          "Plonger les blancs dans le bouillon 4 min, puis ajouter le vert 2 min.",
+          "Il doit rester légèrement croquant."
+        ],
+        [
+          "Cuire les nouilles",
+          "4 à 6 min",
+          "Cuire les nouilles de riz selon le paquet, égoutter et rincer à l'eau froide.",
+          "Le rinçage évite qu'elles collent en bloc."
+        ]
+      ]
+    ],
+    [
+      "Service",
+      [
+        [
+          "Dresser",
+          "3 min",
+          "Répartir nouilles, poulet et chou dans les bols, puis verser le bouillon brûlant par-dessus.",
+          "Le bouillon très chaud réchauffe nouilles et poulet."
+        ],
+        [
+          "Garnir à table",
+          "—",
+          "Servir cébettes, herbes, citron vert, piments et sriracha à part : chacun ajuste son bol.",
+          null
+        ]
+      ]
+    ]
+  ]
+}

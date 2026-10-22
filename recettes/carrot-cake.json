@@ -1,0 +1,149 @@
+{
+  "categorie": "DESSERT  ·  RECETTE AMÉRICAINE",
+  "titre": "Carrot cake, la vraie recette",
+  "sous_titre": "Moelleux à l'huile, carottes râpées, noix, cannelle et muscade",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "15 min"
+    ],
+    [
+      "CUISSON",
+      "30–40 min · 175 °C"
+    ],
+    [
+      "MOULE",
+      "1 grand ou 2 moyens"
+    ],
+    [
+      "PORTIONS",
+      "≈ 10 parts"
+    ]
+  ],
+  "ingredients": [
+    [
+      "APPAREIL",
+      [
+        [
+          "4",
+          "œufs"
+        ],
+        [
+          "250 g",
+          "sucre"
+        ],
+        [
+          "180 g",
+          "huile végétale"
+        ],
+        [
+          "2 c. à c.",
+          "extrait de vanille liquide"
+        ],
+        [
+          "2 c. à c.",
+          "cannelle (rases)"
+        ],
+        [
+          "1 c. à c.",
+          "muscade (rase)"
+        ]
+      ]
+    ],
+    [
+      "SECS",
+      [
+        [
+          "250 g",
+          "farine fluide"
+        ],
+        [
+          "1 sachet",
+          "levure chimique"
+        ]
+      ]
+    ],
+    [
+      "GARNITURE",
+      [
+        [
+          "300 g",
+          "carottes râpées (3 à 4 grosses)"
+        ],
+        [
+          "120 g",
+          "noix concassées"
+        ]
+      ]
+    ],
+    [
+      "MOULE",
+      [
+        [
+          "",
+          "un peu d'huile et de farine"
+        ]
+      ]
+    ]
+  ],
+  "phases": [
+    [
+      "La pâte",
+      [
+        [
+          "Préchauffer et râper",
+          "5 min",
+          "Préchauffer le four à 175 °C. Râper finement les carottes et concasser les noix.",
+          "Des carottes râpées fin fondent dans la mie."
+        ],
+        [
+          "Battre œufs et sucre",
+          "3 min",
+          "Battre les œufs et le sucre au batteur électrique.",
+          "Le mélange doit blanchir et devenir mousseux."
+        ],
+        [
+          "Parfumer",
+          "2 min",
+          "Incorporer la vanille, la muscade, la cannelle et l'huile, toujours au batteur.",
+          null
+        ],
+        [
+          "Ajouter farine et levure",
+          "2 min",
+          "Verser la farine et la levure. Commencer à mélanger batteur éteint, puis l'allumer en augmentant progressivement jusqu'à une pâte lisse.",
+          "Commencer à l'arrêt évite les projections de farine."
+        ],
+        [
+          "Ajouter carottes et noix",
+          "2 min",
+          "Ajouter les carottes et les noix, puis mélanger doucement jusqu'à une pâte homogène.",
+          null
+        ]
+      ]
+    ],
+    [
+      "Cuisson",
+      [
+        [
+          "Préparer le moule",
+          "2 min",
+          "Huiler et fariner légèrement le moule (ou les deux), puis verser la pâte.",
+          null
+        ],
+        [
+          "Cuire",
+          "30 à 40 min",
+          "Enfourner à 175 °C (th. 5/6), selon le four et la taille du moule.",
+          "C'est cuit quand la lame d'un couteau ressort sèche. Avec 2 moules, vérifier dès 25 min."
+        ],
+        [
+          "Refroidir",
+          "",
+          "Démouler et laisser refroidir sur une grille.",
+          "Refroidi sur grille, le dessous reste sec et ne détrempe pas."
+        ]
+      ]
+    ]
+  ]
+}
