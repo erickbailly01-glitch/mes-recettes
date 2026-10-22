@@ -1,0 +1,37 @@
+{
+  "categorie": "PÂTISSERIE  ·  RECETTE MAISON",
+  "titre": "Flan pâtissier café-rhum",
+  "sous_titre": "Café renforcé, pâte sucrée aux amandes, une nuit de maturation",
+  "motif": "tasse",
+  "infos": [["PRÉPARATION", "≈ 45 min"], ["REPOS PÂTE", "1 h 30 – 2 h 30"], ["CUISSON", "40–50 min · 180 °C"],
+            ["MATURATION", "1 nuit (12 h)"], ["MOULE", "Ø 22 – 24 cm"]],
+  "ingredients": [
+    ["PÂTE SUCRÉE", [["120 g", "beurre pommade"], ["90 g", "sucre glace"], ["1", "œuf"], ["30 g", "poudre d'amandes"], ["1 pincée", "sel"], ["250 g", "farine T55"]]],
+    ["APPAREIL · CASSEROLE", [["1 L", "lait entier"], ["20 cl", "crème entière"], ["4", "expressos serrés"], ["1 c. à s.", "café soluble"]]],
+    ["APPAREIL · SALADIER", [["4", "œufs"], ["180 g", "sucre"], ["90 g", "maïzena"], ["1 pincée", "sel"]]],
+    ["FINITION", [["1 c. à s.", "rhum ambré"]]]
+  ],
+  "materiel": "Moule à manqué ou cercle Ø 22–24 cm · 2 saladiers · casserole de 2 L minimum · fouet · maryse · rouleau à pâtisserie · film alimentaire · balance · four",
+  "planning": [["J-1", "Pâte 10 min · repos 1–2 h · fonçage 10 min · repos 30 min · appareil 20 min · cuisson ≈ 45 min"], ["J+1", "Démoulage et dégustation"]],
+  "note": "4 expressos + café soluble donnent un café bien affirmé sans amertume ; le rhum ambré ajoute profondeur et notes vanillées-caramélisées.",
+  "phases": [
+    ["La pâte", [
+      ["Préparer la pâte", "10 min", "Crémer le beurre pommade et le sucre glace. Ajouter l'œuf, puis la poudre d'amandes et le sel. Incorporer la farine en une fois et mélanger juste assez pour une pâte homogène.", "Ne pas trop travailler la pâte pour ne pas développer le gluten."],
+      ["Premier repos au froid", "1 à 2 h", "Former un disque plat, filmer au contact et réserver au réfrigérateur.", "La pâte se détend et s'étale plus facilement."],
+      ["Foncer le moule", "10 min", "Étaler sur 3 mm environ, foncer le moule, bien marquer les angles et couper l'excédent.", null],
+      ["Deuxième repos au froid", "30 min", "Placer directement le moule garni au réfrigérateur.", "Limite fortement le retrait de la pâte à la cuisson."]
+    ]],
+    ["L'appareil au café", [
+      ["Préparer l'appareil", "15 min", "Chauffer le lait, la crème et le café (expressos + soluble). Pendant ce temps, fouetter les œufs avec le sucre, ajouter le sel puis la maïzena jusqu'à un mélange parfaitement lisse.", null],
+      ["Cuire la crème", "5 à 8 min", "Verser progressivement le liquide chaud sur les œufs en fouettant. Reverser dans la casserole et chauffer à feu moyen en fouettant sans arrêt.", "Texture finale : une crème pâtissière assez épaisse."],
+      ["Ajouter le rhum", "1 min", "Hors du feu, incorporer le rhum ambré à la maryse.", "Ajouté hors du feu, le rhum garde mieux son parfum."],
+      ["Laisser tiédir", "5 à 10 min", "L'appareil doit rester chaud, mais ne plus être bouillant.", null]
+    ]],
+    ["Cuisson et repos", [
+      ["Monter le flan", "2 min", "Sortir le fond de pâte du froid, verser aussitôt l'appareil et lisser la surface.", null],
+      ["Cuire", "40 à 50 min", "Four préchauffé à 180 °C chaleur tournante, à mi-hauteur. Surveiller dès 40 min.", "C'est cuit quand le dessus est bien coloré avec quelques zones brun foncé et que le centre tremblote légèrement."],
+      ["Refroidir", "2 à 3 h", "Laisser refroidir complètement à température ambiante. Ne pas démouler tant qu'il est chaud.", null],
+      ["Maturer au frais", "12 h minimum", "Une nuit au réfrigérateur, démoulage le lendemain.", "Le goût café est alors à son maximum et la texture parfaitement fondante."]
+    ]]
+  ]
+}
