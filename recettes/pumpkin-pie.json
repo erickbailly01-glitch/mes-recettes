@@ -1,6 +1,7 @@
 {
   "categorie": "PÂTISSERIE  ·  MONSIEUR CUISINE COMPACT",
   "type": "Gâteau",
+  "portions": {"n": 8, "u": "parts"},
   "titre": "Pumpkin pie",
   "sous_titre": "Courge à la vapeur, sirop d'érable et pâte sucrée aux amandes",
   "infos": [["PRÉPARATION", "≈ 30 min"], ["REPOS PÂTE", "1 h"], ["CUISSON COURGE", "25–30 min · vapeur"],
