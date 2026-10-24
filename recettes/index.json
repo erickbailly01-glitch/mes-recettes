@@ -235,6 +235,15 @@
       "pdf": "09b20a37"
     },
     {
+      "fichier": "pumpkin-pie.json",
+      "titre": "Pumpkin pie",
+      "categorie": "Pâtisserie",
+      "type": "Gâteau",
+      "sous_titre": "Courge à la vapeur, sirop d'érable et pâte sucrée aux amandes",
+      "preparation": "≈ 30 min",
+      "pdf": "440aa681"
+    },
+    {
       "fichier": "puree-pdt-patate-douce.json",
       "titre": "Purée pomme de terre & patate douce",
       "categorie": "Accompagnement",
