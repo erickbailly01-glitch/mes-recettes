@@ -556,3 +556,8 @@ body.cuisine-ouverte { overflow: hidden; }
 @media (max-height: 700px) {
   .cuisine-pour-etape li { font-size: 1.25rem; padding: 0.2rem 0; }
 }
+
+/* Page recette : ingrédients de l'étape, sous son titre */
+.etape .etape-ingredients { margin: 0.1rem 0 0.35rem; color: var(--sourdine); font-size: 0.9rem; line-height: 1.45; }
+.etape .etape-ingredients strong { color: var(--sapin); }
+.etape .etape-ingredients strong.modifiee { padding: 0 0.3rem; border-radius: 5px; background: var(--type); color: var(--type-texte); }

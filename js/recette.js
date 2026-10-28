@@ -416,25 +416,65 @@ function afficherReglage(portions, quantites) {
     remarque.classList.toggle("cache", !change);
     resumeQuantites = origine ? `Pour ${n} ${unite(n)}` : (change ? `Quantités ×${nombreFr(facteur)}` : "");
     facteurQuantites = facteur;
+    majLignesEtapes();
   }
 
   zone.append(ligne, revenir, remarque);
   actualiser();
 }
 
-function afficherEtapes(phases) {
+// ---------- Ingrédients de chaque étape ----------
+
+// Liens d'une étape (« "skyr" » = toute la quantité, « ["sucre", "100 g"] » = part de l'étape)
+// → [{ nom, quantite, modifiee }], quantités recalculées selon le réglage des portions.
+// Partagé avec le mode cuisine (encart « Pour cette étape »).
+function ingredientsDeLEtape(liens, parId) {
+  const resultat = [];
+  for (const lien of liens || []) {
+    const ing = parId.get(typeof lien === "string" ? lien : lien[0]);
+    if (!ing) continue;
+    const origine = typeof lien === "string" ? ing.q.dataset.origine : lien[1];
+    const quantite = ajusterQuantite(origine, facteurQuantites);
+    resultat.push({ nom: ing.nom, quantite, modifiee: quantite !== origine });
+  }
+  return resultat;
+}
+
+// Lignes « 2 œufs · 150 g skyr » sous le titre des étapes de la page recette.
+const lignesEtapes = [];   // { element, liens }
+let ingredientsParId = new Map();
+
+function majLignesEtapes() {
+  for (const { element, liens } of lignesEtapes) {
+    element.replaceChildren();
+    ingredientsDeLEtape(liens, ingredientsParId).forEach(({ nom: n, quantite, modifiee }, i) => {
+      if (i) element.append(" · ");
+      if (quantite) element.append(el("strong", modifiee ? "modifiee" : null, quantite), " ");
+      element.append(n);
+    });
+  }
+}
+
+function afficherEtapes(phases, ingredients) {
+  ingredientsParId = new Map(ingredients.filter((ing) => ing.id).map((ing) => [ing.id, ing]));
   const zone = document.getElementById("phases");
   let numero = 0; // numérotation continue d'une phase à l'autre
   phases.forEach(([libelle, etapes]) => {
     zone.append(el("h2", "phase", libelle));
     const liste = el("ol", "etapes");
-    etapes.forEach(([titre, duree, texte, astuce]) => {
+    etapes.forEach(([titre, duree, texte, astuce, liens]) => {
       numero += 1;
       const li = el("li", "etape");
       const corps = el("div", "corps");
       const h3 = el("h3", null, titre);
       if (duree) h3.append(el("span", "duree", duree));
-      corps.append(h3, el("p", null, texte));
+      corps.append(h3);
+      if (liens && liens.length) {
+        const ligne = el("p", "etape-ingredients");
+        lignesEtapes.push({ element: ligne, liens });
+        corps.append(ligne);
+      }
+      corps.append(el("p", null, texte));
       if (astuce) corps.append(el("p", "astuce", astuce));
       const secondes = dureeEnSecondes(duree);
       if (secondes) corps.append(creerMinuteur(secondes, titre));
@@ -490,7 +530,8 @@ function afficherRecette(r, types, index) {
     note.classList.remove("cache");
   }
 
-  afficherEtapes(r.phases || []);
+  afficherEtapes(r.phases || [], ingredients);
+  majLignesEtapes();
   initialiserEcran();
   document.getElementById("recette").classList.remove("cache");
   initialiserCuisine(r, ingredients);

@@ -114,18 +114,13 @@ function initialiserCuisine(r, ingredients) {
   // recalculée selon le réglage des portions.
   const parId = new Map(ingredients.filter((ing) => ing.id).map((ing) => [ing.id, ing]));
   function encartIngredients(liens) {
-    const lignes = [];
-    for (const lien of liens) {
-      const ing = parId.get(typeof lien === "string" ? lien : lien[0]);
-      if (!ing) continue;
-      const origine = typeof lien === "string" ? ing.q.dataset.origine : lien[1];
-      const texte = ajusterQuantite(origine, facteurQuantites);
+    const lignes = ingredientsDeLEtape(liens, parId).map(({ nom: n, quantite: texte, modifiee }) => {
       const li = el("li");
       const quantite = el("span", "cuisine-etape-quantite");
-      if (texte) quantite.append(el("span", texte !== origine ? "modifiee" : null, texte));
-      li.append(quantite, el("span", "cuisine-etape-nom", ing.nom));
-      lignes.push(li);
-    }
+      if (texte) quantite.append(el("span", modifiee ? "modifiee" : null, texte));
+      li.append(quantite, el("span", "cuisine-etape-nom", n));
+      return li;
+    });
     if (!lignes.length) return null;
     const encart = el("section", "cuisine-pour-etape");
     encart.setAttribute("aria-label", "Ingrédients de cette étape");
