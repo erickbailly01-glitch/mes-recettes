@@ -1,0 +1,99 @@
+{
+  "categorie": "SOUPE  ·  MONSIEUR CUISINE COMPACT",
+  "type": "Entrée & soupe",
+  "portions": {"n": 4, "u": "pers."},
+  "titre": "Velouté de courge au Monsieur Cuisine",
+  "sous_titre": "Tout dans le bol : hachage, rissolage, cuisson et mixage, sans dépasser 1,4 L",
+  "infos": [
+    ["PRÉPARATION", "≈ 10 min"],
+    ["CUISSON", "≈ 30 min · 100 °C"],
+    ["BOL", "≈ 1,4 L sur 2 L max"],
+    ["PORTIONS", "4 pers. (≈ 1,3 L)"]
+  ],
+  "ingredients": [
+    [
+      "BASE AROMATIQUE",
+      [
+        ["1", "oignon moyen, en quartiers", "oignon"],
+        ["1", "gousse d'ail", "ail"],
+        ["1 c. à s.", "huile d'olive", "huile"]
+      ]
+    ],
+    [
+      "LÉGUMES & BOUILLON",
+      [
+        ["500 g", "courge épluchée, en cubes de 2-3 cm", "courge"],
+        ["125 g", "pomme de terre, en cubes", "pdt"],
+        ["65 cl", "eau", "eau"],
+        ["1", "cube de bouillon de légumes", "cube"],
+        ["0,5 c. à c.", "sel", "sel"],
+        ["0,25 c. à c.", "poivre", "poivre"]
+      ]
+    ],
+    [
+      "FINITION",
+      [["6 cl", "crème fraîche liquide", "creme"], ["1 pincée", "muscade râpée", "muscade"]]
+    ]
+  ],
+  "materiel": "Monsieur Cuisine Compact · couteau · spatule · gobelet doseur",
+  "note": "Capacité : le bol du Compact fait 2 L et cette recette en occupe environ 1,4 L avec les légumes. Ne pas la doubler : au plus ×1,3 (≈ 1,8 L), sinon le velouté chaud déborde au mixage.",
+  "phases": [
+    [
+      "La base",
+      [
+        [
+          "Hacher",
+          "5 s",
+          "Mettre l'oignon et l'ail dans le bol. Hacher 5 s, vitesse 5, puis racler les parois avec la spatule.",
+          null,
+          ["oignon", "ail"]
+        ],
+        [
+          "Faire revenir",
+          "3 min",
+          "Ajouter l'huile d'olive. Programmer 3 min, 120 °C, vitesse 1, sans le gobelet doseur.",
+          "Sans gobelet, la vapeur s'échappe et l'oignon fond sans bouillir.",
+          ["huile"]
+        ]
+      ]
+    ],
+    [
+      "La cuisson",
+      [
+        [
+          "Ajouter les légumes",
+          "1 min",
+          "Ajouter la courge, la pomme de terre, l'eau, le cube émietté, le sel et le poivre. Vérifier que le niveau reste sous le repère MAX.",
+          "Des cubes de taille régulière cuisent tous en même temps.",
+          ["courge", "pdt", "eau", "cube", "sel", "poivre"]
+        ],
+        [
+          "Cuire",
+          "25 min",
+          "Remettre le gobelet doseur. Programmer 25 min, 100 °C, vitesse 1.",
+          "C'est cuit quand la courge s'écrase facilement à la spatule ; sinon relancer 5 min.",
+          []
+        ]
+      ]
+    ],
+    [
+      "Mixage et finition",
+      [
+        [
+          "Mixer",
+          "1 min",
+          "Gobelet bien en place, mixer 1 min en montant progressivement de la vitesse 4 à la vitesse 8.",
+          "Ne jamais lancer directement à grande vitesse un liquide bouillant : il peut gicler par le couvercle.",
+          []
+        ],
+        [
+          "Finir et servir",
+          "30 s",
+          "Ajouter la crème et la muscade. Mélanger 30 s, vitesse 3. Rectifier l'assaisonnement et servir bien chaud.",
+          "Le bouillon est déjà salé : goûter avant de resaler.",
+          ["creme", "muscade"]
+        ]
+      ]
+    ]
+  ]
+}

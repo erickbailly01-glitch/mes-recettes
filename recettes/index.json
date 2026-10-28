@@ -278,6 +278,15 @@
       "sous_titre": "Doux et onctueux, lié à la pomme de terre, relevé d'une pointe de muscade",
       "preparation": "≈ 15 min",
       "pdf": "a32386a5"
+    },
+    {
+      "fichier": "veloute-courge-mcc.json",
+      "titre": "Velouté de courge au Monsieur Cuisine",
+      "categorie": "Soupe",
+      "type": "Entrée & soupe",
+      "sous_titre": "Tout dans le bol : hachage, rissolage, cuisson et mixage, sans dépasser 1,4 L",
+      "preparation": "≈ 10 min",
+      "pdf": "61e17ee1"
     }
   ]
 }
