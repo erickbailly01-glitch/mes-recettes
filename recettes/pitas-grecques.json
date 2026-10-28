@@ -4,100 +4,34 @@
   "portions": {"n": 4, "u": "pitas"},
   "titre": "Pitas à la grecque",
   "sous_titre": "Légumes croquants, feta et olives liés d'une sauce yaourt-citron à l'origan",
-  "infos": [
-    [
-      "PRÉPARATION",
-      "15 min"
-    ],
-    [
-      "CUISSON",
-      "toastage des pitas"
-    ],
-    [
-      "PORTIONS",
-      "4 pitas"
-    ]
-  ],
+  "infos": [["PRÉPARATION", "15 min"], ["CUISSON", "toastage des pitas"], ["PORTIONS", "4 pitas"]],
   "ingredients": [
     [
       "SAUCE",
       [
-        [
-          "6 c. à s.",
-          "huile d'olive vierge extra"
-        ],
-        [
-          "1",
-          "yaourt nature bien égoutté"
-        ],
-        [
-          "2 c. à s.",
-          "jus de citron"
-        ],
-        [
-          "1",
-          "gousse d'ail pilée"
-        ],
-        [
-          "1 c. à c.",
-          "origan frais haché"
-        ],
-        [
-          "1 c. à c.",
-          "sucre"
-        ],
-        [
-          "1 c. à c.",
-          "sel"
-        ],
-        [
-          "0,5 c. à c.",
-          "poivre"
-        ]
+        ["6 c. à s.", "huile d'olive vierge extra", "huile"],
+        ["1", "yaourt nature bien égoutté", "yaourt"],
+        ["2 c. à s.", "jus de citron", "citron"],
+        ["1", "gousse d'ail pilée", "ail"],
+        ["1 c. à c.", "origan frais haché", "origan"],
+        ["1 c. à c.", "sucre", "sucre"],
+        ["1 c. à c.", "sel", "sel"],
+        ["0,5 c. à c.", "poivre", "poivre"]
       ]
     ],
     [
       "GARNITURE",
       [
-        [
-          "1",
-          "oignon"
-        ],
-        [
-          "12",
-          "olives dénoyautées"
-        ],
-        [
-          "1",
-          "tomate pas trop mûre"
-        ],
-        [
-          "0,5",
-          "poivron vert"
-        ],
-        [
-          "0,5",
-          "concombre"
-        ],
-        [
-          "150 g",
-          "feta"
-        ],
-        [
-          "0,5",
-          "laitue"
-        ]
+        ["1", "oignon", "oignon"],
+        ["12", "olives dénoyautées", "olives"],
+        ["1", "tomate pas trop mûre", "tomate"],
+        ["0,5", "poivron vert", "poivron"],
+        ["0,5", "concombre", "concombre"],
+        ["150 g", "feta", "feta"],
+        ["0,5", "laitue", "laitue"]
       ]
     ],
-    [
-      "POUR SERVIR",
-      [
-        [
-          "4",
-          "pains pita"
-        ]
-      ]
-    ]
+    ["POUR SERVIR", [["4", "pains pita", "pitas"]]]
   ],
   "phases": [
     [
@@ -107,13 +41,15 @@
           "Émincer",
           "3 min",
           "Couper l'oignon et les olives en fines rondelles.",
-          null
+          null,
+          ["oignon", "olives"]
         ],
         [
           "Couper en dés",
           "6 min",
           "Couper la tomate, le poivron, le concombre et la feta en petits dés. Émincer la laitue en julienne.",
-          "Des dés réguliers et petits se répartissent mieux dans la pita."
+          "Des dés réguliers et petits se répartissent mieux dans la pita.",
+          ["tomate", "poivron", "concombre", "feta", "laitue"]
         ]
       ]
     ],
@@ -124,13 +60,15 @@
           "Préparer la sauce",
           "2 min",
           "Dans le saladier, mélanger l'huile d'olive, le yaourt, le jus de citron, l'ail, le sucre, l'origan, le sel et le poivre.",
-          "La feta est déjà salée : goûter avant d'ajouter tout le sel."
+          "La feta est déjà salée : goûter avant d'ajouter tout le sel.",
+          ["huile", "yaourt", "citron", "ail", "sucre", "origan", "sel", "poivre"]
         ],
         [
           "Ajouter les légumes",
           "1 min",
           "Verser les légumes, la feta et les olives dans la sauce et mélanger délicatement.",
-          null
+          null,
+          []
         ]
       ]
     ],
@@ -141,19 +79,22 @@
           "Toaster les pitas",
           "2 min",
           "Toaster légèrement les pains pita au grille-pain ou à la poêle.",
-          "Juste tièdes et souples : trop grillés, ils cassent à l'ouverture."
+          "Juste tièdes et souples : trop grillés, ils cassent à l'ouverture.",
+          ["pitas"]
         ],
         [
           "Garnir",
           "2 min",
           "Ouvrir les pitas et les garnir généreusement de préparation.",
-          null
+          null,
+          []
         ],
         [
           "Servir",
           "1 min",
           "Refermer les pitas et déguster aussitôt.",
-          "Garnies au dernier moment, elles restent croustillantes."
+          "Garnies au dernier moment, elles restent croustillantes.",
+          []
         ]
       ]
     ]

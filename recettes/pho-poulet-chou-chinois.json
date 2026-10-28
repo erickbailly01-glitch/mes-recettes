@@ -5,118 +5,46 @@
   "titre": "Phở gà au chou chinois",
   "sous_titre": "Bouillon grillé gingembre-anis, poulet effiloché, chou fondant et piment à volonté",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 20 min"
-    ],
-    [
-      "CUISSON",
-      "≈ 55 min"
-    ],
-    [
-      "TOTAL",
-      "≈ 1 h 15"
-    ],
-    [
-      "PORTIONS",
-      "4 pers."
-    ]
+    ["PRÉPARATION", "≈ 20 min"],
+    ["CUISSON", "≈ 55 min"],
+    ["TOTAL", "≈ 1 h 15"],
+    ["PORTIONS", "4 pers."]
   ],
   "ingredients": [
     [
       "BOUILLON",
       [
-        [
-          "2 L",
-          "bouillon de volaille (ou eau + 2 cubes)"
-        ],
-        [
-          "300 g",
-          "poulet (cuisses ou blancs)"
-        ],
-        [
-          "2",
-          "oignons jaunes, coupés en deux"
-        ],
-        [
-          "60 g",
-          "gingembre frais, en tranches"
-        ],
-        [
-          "3",
-          "anis étoilés"
-        ],
-        [
-          "1",
-          "bâton de cannelle"
-        ],
-        [
-          "3",
-          "clous de girofle"
-        ],
-        [
-          "1 c. à c.",
-          "graines de coriandre"
-        ]
+        ["2 L", "bouillon de volaille (ou eau + 2 cubes)", "bouillon"],
+        ["300 g", "poulet (cuisses ou blancs)", "poulet"],
+        ["2", "oignons jaunes, coupés en deux", "oignons"],
+        ["60 g", "gingembre frais, en tranches", "gingembre"],
+        ["3", "anis étoilés", "anis"],
+        ["1", "bâton de cannelle", "cannelle"],
+        ["3", "clous de girofle", "girofle"],
+        ["1 c. à c.", "graines de coriandre", "coriandre-graines"]
       ]
     ],
     [
       "ASSAISONNEMENT",
       [
-        [
-          "3 c. à s.",
-          "sauce poisson (nuoc-mâm)"
-        ],
-        [
-          "1 c. à s.",
-          "sucre"
-        ],
-        [
-          "1 c. à c.",
-          "sel"
-        ]
+        ["3 c. à s.", "sauce poisson (nuoc-mâm)", "sauce-poisson"],
+        ["1 c. à s.", "sucre", "sucre"],
+        ["1 c. à c.", "sel", "sel"]
       ]
     ],
     [
       "GARNITURE",
-      [
-        [
-          "1 kg",
-          "chou chinois"
-        ],
-        [
-          "400 g",
-          "nouilles de riz plates"
-        ]
-      ]
+      [["1 kg", "chou chinois", "chou"], ["400 g", "nouilles de riz plates", "nouilles"]]
     ],
     [
       "À TABLE",
       [
-        [
-          "3",
-          "cébettes, émincées"
-        ],
-        [
-          "1 botte",
-          "coriandre fraîche"
-        ],
-        [
-          "1 botte",
-          "basilic thaï"
-        ],
-        [
-          "2",
-          "citrons verts, en quartiers"
-        ],
-        [
-          "4",
-          "piments oiseau, émincés"
-        ],
-        [
-          "2 c. à s.",
-          "sriracha"
-        ]
+        ["3", "cébettes, émincées", "cebettes"],
+        ["1 botte", "coriandre fraîche", "coriandre"],
+        ["1 botte", "basilic thaï", "basilic"],
+        ["2", "citrons verts, en quartiers", "citrons"],
+        ["4", "piments oiseau, émincés", "piments"],
+        ["2 c. à s.", "sriracha", "sriracha"]
       ]
     ]
   ],
@@ -128,25 +56,29 @@
           "Griller les aromates",
           "5 min",
           "Noircir à sec dans une poêle très chaude les oignons (face coupée) et le gingembre. Ajouter anis, cannelle, girofle et coriandre la dernière minute.",
-          "Le grillage donne au bouillon sa profondeur et sa couleur ambrée."
+          "Le grillage donne au bouillon sa profondeur et sa couleur ambrée.",
+          ["oignons", "gingembre", "anis", "cannelle", "girofle", "coriandre-graines"]
         ],
         [
           "Lancer le bouillon",
           "10 min",
           "Mettre le bouillon, les aromates grillés et le poulet entier dans la marmite. Porter à frémissement et écumer.",
-          "Jamais de gros bouillons : le bouillon reste limpide."
+          "Jamais de gros bouillons : le bouillon reste limpide.",
+          ["bouillon", "poulet"]
         ],
         [
           "Pocher le poulet",
           "20 min",
           "Laisser frémir, puis sortir le poulet, l'effilocher et le réserver.",
-          null
+          null,
+          []
         ],
         [
           "Infuser et assaisonner",
           "20 min",
           "Laisser encore infuser à feu doux, filtrer, puis assaisonner avec la sauce poisson, le sucre et le sel.",
-          "Goûter : équilibre salé-sucré, la sauce poisson doit se sentir sans dominer."
+          "Goûter : équilibre salé-sucré, la sauce poisson doit se sentir sans dominer.",
+          ["sauce-poisson", "sucre", "sel"]
         ]
       ]
     ],
@@ -157,19 +89,22 @@
           "Préparer le chou",
           "5 min",
           "Couper les blancs du chou en lanières de 1 cm, le vert en morceaux plus larges.",
-          null
+          null,
+          ["chou"]
         ],
         [
           "Cuire le chou",
           "6 min",
           "Plonger les blancs dans le bouillon 4 min, puis ajouter le vert 2 min.",
-          "Il doit rester légèrement croquant."
+          "Il doit rester légèrement croquant.",
+          []
         ],
         [
           "Cuire les nouilles",
           "4 à 6 min",
           "Cuire les nouilles de riz selon le paquet, égoutter et rincer à l'eau froide.",
-          "Le rinçage évite qu'elles collent en bloc."
+          "Le rinçage évite qu'elles collent en bloc.",
+          ["nouilles"]
         ]
       ]
     ],
@@ -180,13 +115,15 @@
           "Dresser",
           "3 min",
           "Répartir nouilles, poulet et chou dans les bols, puis verser le bouillon brûlant par-dessus.",
-          "Le bouillon très chaud réchauffe nouilles et poulet."
+          "Le bouillon très chaud réchauffe nouilles et poulet.",
+          []
         ],
         [
           "Garnir à table",
           "—",
           "Servir cébettes, herbes, citron vert, piments et sriracha à part : chacun ajuste son bol.",
-          null
+          null,
+          ["cebettes", "coriandre", "basilic", "citrons", "piments", "sriracha"]
         ]
       ]
     ]

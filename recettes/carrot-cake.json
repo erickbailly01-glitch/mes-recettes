@@ -5,88 +5,32 @@
   "titre": "Carrot cake, la vraie recette",
   "sous_titre": "Moelleux à l'huile, carottes râpées, noix, cannelle et muscade",
   "infos": [
-    [
-      "PRÉPARATION",
-      "15 min"
-    ],
-    [
-      "CUISSON",
-      "30–40 min · 175 °C"
-    ],
-    [
-      "MOULE",
-      "1 grand ou 2 moyens"
-    ],
-    [
-      "PORTIONS",
-      "≈ 10 parts"
-    ]
+    ["PRÉPARATION", "15 min"],
+    ["CUISSON", "30–40 min · 175 °C"],
+    ["MOULE", "1 grand ou 2 moyens"],
+    ["PORTIONS", "≈ 10 parts"]
   ],
   "ingredients": [
     [
       "APPAREIL",
       [
-        [
-          "4",
-          "œufs"
-        ],
-        [
-          "250 g",
-          "sucre"
-        ],
-        [
-          "180 g",
-          "huile végétale"
-        ],
-        [
-          "2 c. à c.",
-          "extrait de vanille liquide"
-        ],
-        [
-          "2 c. à c.",
-          "cannelle (rases)"
-        ],
-        [
-          "1 c. à c.",
-          "muscade (rase)"
-        ]
+        ["4", "œufs", "oeufs"],
+        ["250 g", "sucre", "sucre"],
+        ["180 g", "huile végétale", "huile"],
+        ["2 c. à c.", "extrait de vanille liquide", "vanille"],
+        ["2 c. à c.", "cannelle (rases)", "cannelle"],
+        ["1 c. à c.", "muscade (rase)", "muscade"]
       ]
     ],
-    [
-      "SECS",
-      [
-        [
-          "250 g",
-          "farine fluide"
-        ],
-        [
-          "1 sachet",
-          "levure chimique"
-        ]
-      ]
-    ],
+    ["SECS", [["250 g", "farine fluide", "farine"], ["1 sachet", "levure chimique", "levure"]]],
     [
       "GARNITURE",
       [
-        [
-          "300 g",
-          "carottes râpées (3 à 4 grosses)"
-        ],
-        [
-          "120 g",
-          "noix concassées"
-        ]
+        ["300 g", "carottes râpées (3 à 4 grosses)", "carottes"],
+        ["120 g", "noix concassées", "noix"]
       ]
     ],
-    [
-      "MOULE",
-      [
-        [
-          "",
-          "un peu d'huile et de farine"
-        ]
-      ]
-    ]
+    ["MOULE", [["", "un peu d'huile et de farine", "moule"]]]
   ],
   "phases": [
     [
@@ -96,31 +40,36 @@
           "Préchauffer et râper",
           "5 min",
           "Préchauffer le four à 175 °C. Râper finement les carottes et concasser les noix.",
-          "Des carottes râpées fin fondent dans la mie."
+          "Des carottes râpées fin fondent dans la mie.",
+          ["carottes", "noix"]
         ],
         [
           "Battre œufs et sucre",
           "3 min",
           "Battre les œufs et le sucre au batteur électrique.",
-          "Le mélange doit blanchir et devenir mousseux."
+          "Le mélange doit blanchir et devenir mousseux.",
+          ["oeufs", "sucre"]
         ],
         [
           "Parfumer",
           "2 min",
           "Incorporer la vanille, la muscade, la cannelle et l'huile, toujours au batteur.",
-          null
+          null,
+          ["vanille", "muscade", "cannelle", "huile"]
         ],
         [
           "Ajouter farine et levure",
           "2 min",
           "Verser la farine et la levure. Commencer à mélanger batteur éteint, puis l'allumer en augmentant progressivement jusqu'à une pâte lisse.",
-          "Commencer à l'arrêt évite les projections de farine."
+          "Commencer à l'arrêt évite les projections de farine.",
+          ["farine", "levure"]
         ],
         [
           "Ajouter carottes et noix",
           "2 min",
           "Ajouter les carottes et les noix, puis mélanger doucement jusqu'à une pâte homogène.",
-          null
+          null,
+          ["carottes", "noix"]
         ]
       ]
     ],
@@ -131,19 +80,22 @@
           "Préparer le moule",
           "2 min",
           "Huiler et fariner légèrement le moule (ou les deux), puis verser la pâte.",
-          null
+          null,
+          ["moule"]
         ],
         [
           "Cuire",
           "30 à 40 min",
           "Enfourner à 175 °C (th. 5/6), selon le four et la taille du moule.",
-          "C'est cuit quand la lame d'un couteau ressort sèche. Avec 2 moules, vérifier dès 25 min."
+          "C'est cuit quand la lame d'un couteau ressort sèche. Avec 2 moules, vérifier dès 25 min.",
+          []
         ],
         [
           "Refroidir",
           "",
           "Démouler et laisser refroidir sur une grille.",
-          "Refroidi sur grille, le dessous reste sec et ne détrempe pas."
+          "Refroidi sur grille, le dessous reste sec et ne détrempe pas.",
+          []
         ]
       ]
     ]

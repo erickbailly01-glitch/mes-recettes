@@ -5,82 +5,34 @@
   "titre": "Velouté de courge à la cocotte",
   "sous_titre": "Doux et onctueux, lié à la pomme de terre, relevé d'une pointe de muscade",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 15 min"
-    ],
-    [
-      "CUISSON",
-      "≈ 30 min · feu moyen"
-    ],
-    [
-      "CONTENANT",
-      "casserole 2 L min."
-    ],
-    [
-      "PORTIONS",
-      "4 pers. (≈ 1,3 L)"
-    ]
+    ["PRÉPARATION", "≈ 15 min"],
+    ["CUISSON", "≈ 30 min · feu moyen"],
+    ["CONTENANT", "casserole 2 L min."],
+    ["PORTIONS", "4 pers. (≈ 1,3 L)"]
   ],
   "ingredients": [
     [
       "BASE AROMATIQUE",
       [
-        [
-          "1",
-          "oignon moyen, émincé"
-        ],
-        [
-          "1",
-          "gousse d'ail, hachée"
-        ],
-        [
-          "1 c. à s.",
-          "huile d'olive"
-        ]
+        ["1", "oignon moyen, émincé", "oignon"],
+        ["1", "gousse d'ail, hachée", "ail"],
+        ["1 c. à s.", "huile d'olive", "huile"]
       ]
     ],
     [
       "LÉGUMES & BOUILLON",
       [
-        [
-          "500 g",
-          "courge épluchée, en cubes de 2-3 cm"
-        ],
-        [
-          "125 g",
-          "pomme de terre épluchée, en cubes"
-        ],
-        [
-          "65 cl",
-          "eau"
-        ],
-        [
-          "1",
-          "cube de bouillon de légumes"
-        ],
-        [
-          "0,5 c. à c.",
-          "sel"
-        ],
-        [
-          "0,25 c. à c.",
-          "poivre"
-        ]
+        ["500 g", "courge épluchée, en cubes de 2-3 cm", "courge"],
+        ["125 g", "pomme de terre épluchée, en cubes", "pdt"],
+        ["65 cl", "eau", "eau"],
+        ["1", "cube de bouillon de légumes", "cube"],
+        ["0,5 c. à c.", "sel", "sel"],
+        ["0,25 c. à c.", "poivre", "poivre"]
       ]
     ],
     [
       "FINITION",
-      [
-        [
-          "6 cl",
-          "crème fraîche liquide"
-        ],
-        [
-          "1 pincée",
-          "muscade râpée"
-        ]
-      ]
+      [["6 cl", "crème fraîche liquide", "creme"], ["1 pincée", "muscade râpée", "muscade"]]
     ]
   ],
   "phases": [
@@ -91,13 +43,15 @@
           "Faire revenir",
           "3 à 4 min",
           "Chauffer l'huile d'olive à feu moyen. Ajouter l'oignon et l'ail et faire revenir en remuant.",
-          "Sans coloration : l'oignon doit juste devenir translucide pour rester doux."
+          "Sans coloration : l'oignon doit juste devenir translucide pour rester doux.",
+          ["huile", "oignon", "ail"]
         ],
         [
           "Ajouter les légumes",
           "2 min",
           "Ajouter les cubes de courge et de pomme de terre et remuer pour bien les enrober d'huile.",
-          null
+          null,
+          ["courge", "pdt"]
         ]
       ]
     ],
@@ -108,13 +62,15 @@
           "Mouiller et assaisonner",
           "2 min",
           "Verser l'eau, émietter le cube de bouillon, ajouter le sel et le poivre. Porter à ébullition.",
-          null
+          null,
+          ["eau", "cube", "sel", "poivre"]
         ],
         [
           "Laisser frémir",
           "25 min",
           "Couvrir et laisser frémir à feu doux à moyen.",
-          "C'est cuit quand la courge s'écrase facilement à la fourchette. En cocotte-minute : 10 min après le sifflement."
+          "C'est cuit quand la courge s'écrase facilement à la fourchette. En cocotte-minute : 10 min après le sifflement.",
+          []
         ]
       ]
     ],
@@ -125,13 +81,15 @@
           "Mixer",
           "1 à 2 min",
           "Hors du feu, mixer au mixeur plongeant jusqu'à obtenir un velouté parfaitement lisse.",
-          "Garder la tête du mixeur bien immergée pour éviter les éclaboussures."
+          "Garder la tête du mixeur bien immergée pour éviter les éclaboussures.",
+          []
         ],
         [
           "Finir et servir",
           "1 min",
           "Incorporer la crème et la muscade, rectifier l'assaisonnement et servir bien chaud.",
-          "Le bouillon est déjà salé : goûter avant de resaler."
+          "Le bouillon est déjà salé : goûter avant de resaler.",
+          ["creme", "muscade"]
         ]
       ]
     ]

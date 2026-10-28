@@ -4,82 +4,35 @@
   "titre": "Glace protéinée au skyr · fruits rouges",
   "sous_titre": "Base skyr et whey ultra protéinée, purée de fruits rouges ajoutée à froid",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 20 min"
-    ],
-    [
-      "MATURATION",
-      "8 – 12 h"
-    ],
-    [
-      "TURBINAGE",
-      "20–30 min"
-    ],
-    [
-      "QUANTITÉ",
-      "≈ 1,2 kg"
-    ]
+    ["PRÉPARATION", "≈ 20 min"],
+    ["MATURATION", "8 – 12 h"],
+    ["TURBINAGE", "20–30 min"],
+    ["QUANTITÉ", "≈ 1,2 kg"]
   ],
   "ingredients": [
     [
       "BASE CHAUDE",
       [
-        [
-          "220 g",
-          "lait entier"
-        ],
-        [
-          "130 g",
-          "sucre"
-        ],
-        [
-          "55 g",
-          "glucose liquide ou miel"
-        ],
-        [
-          "3 g",
-          "stabilisateur glace/sorbet"
-        ],
-        [
-          "1 pincée",
-          "sel"
-        ]
+        ["220 g", "lait entier", "lait"],
+        ["130 g", "sucre", "sucre"],
+        ["55 g", "glucose liquide ou miel", "glucose"],
+        ["3 g", "stabilisateur glace/sorbet", "stabilisateur"],
+        ["1 pincée", "sel", "sel"]
       ]
     ],
     [
       "PHASE FROIDE",
       [
-        [
-          "500 g",
-          "skyr nature, bien froid"
-        ],
-        [
-          "100 g",
-          "whey isolate native nature"
-        ]
+        ["500 g", "skyr nature, bien froid", "skyr"],
+        ["100 g", "whey isolate native nature", "whey"]
       ]
     ],
-    [
-      "FRUITS · PHASE FROIDE",
-      [
-        [
-          "150 g",
-          "purée de fruits rouges"
-        ]
-      ]
-    ],
+    ["FRUITS · PHASE FROIDE", [["150 g", "purée de fruits rouges", "puree"]]],
     [
       "OPTION",
       [
-        [
-          "20 g",
-          "crème liquide"
-        ],
-        [
-          "10 g",
-          "lait en poudre écrémé (à la place de la crème)"
-        ]
+        ["20 g", "crème liquide", "creme"],
+        ["10 g", "lait en poudre écrémé (à la place de la crème)", "lait-poudre"]
       ]
     ]
   ],
@@ -91,13 +44,15 @@
           "Chauffer la base",
           "6 min",
           "Mettre dans le bol le lait, le sucre, le stabilisateur, le sel et le glucose. Programmer 6 min, 85 °C, vitesse 3.",
-          "À 85 °C, le stabilisateur s'hydrate et le sucre se dissout complètement."
+          "À 85 °C, le stabilisateur s'hydrate et le sucre se dissout complètement.",
+          ["lait", "sucre", "stabilisateur", "sel", "glucose"]
         ],
         [
           "Refroidir",
           "1 à 2 h",
           "Transvaser dans un récipient, filmer au contact et refroidir sous 10 °C, puis remettre dans le bol.",
-          "Le skyr et la whey ne doivent jamais chauffer : la whey coagulerait."
+          "Le skyr et la whey ne doivent jamais chauffer : la whey coagulerait.",
+          []
         ]
       ]
     ],
@@ -108,19 +63,22 @@
           "Ajouter le skyr",
           "1 min",
           "Ajouter le skyr froid et la purée de fruits rouges. Mixer 20 s, vitesse 4.",
-          null
+          null,
+          ["skyr", "puree"]
         ],
         [
           "Ajouter la whey",
           "1 min",
           "Verser la whey progressivement. Mixer 30 s vitesse 6, puis 10 s vitesse 8.",
-          "Ajoutée petit à petit, elle se disperse sans grumeaux."
+          "Ajoutée petit à petit, elle se disperse sans grumeaux.",
+          ["whey"]
         ],
         [
           "Finir le mélange",
           "1 min",
           "Ajouter éventuellement la crème ou le lait en poudre, puis mixer 10 s vitesse 5.",
-          "Améliore l'onctuosité et limite les cristaux de glace."
+          "Améliore l'onctuosité et limite les cristaux de glace.",
+          ["creme", "lait-poudre"]
         ]
       ]
     ],
@@ -131,19 +89,22 @@
           "Maturer au frais",
           "8 à 12 h",
           "Transvaser, filmer au contact et laisser une nuit au réfrigérateur.",
-          "La maturation donne une glace plus lisse et plus crémeuse."
+          "La maturation donne une glace plus lisse et plus crémeuse.",
+          []
         ],
         [
           "Turbiner",
           "20 à 30 min",
           "Turbiner le mélange bien froid, selon la turbine.",
-          "C'est prêt quand la glace a la texture d'une glace italienne."
+          "C'est prêt quand la glace a la texture d'une glace italienne.",
+          []
         ],
         [
           "Congeler",
           "2 à 3 h",
           "Transférer dans un bac, filmer au contact et congeler avant de déguster.",
-          "Sortir 5 à 10 min avant de servir pour qu'elle se travaille mieux."
+          "Sortir 5 à 10 min avant de servir pour qu'elle se travaille mieux.",
+          []
         ]
       ]
     ]

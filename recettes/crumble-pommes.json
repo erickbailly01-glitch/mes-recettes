@@ -5,71 +5,30 @@
   "titre": "Crumble aux pommes du chat qui tousse",
   "sous_titre": "Pommes Canada cannelle-vanille sous un crumble cassonade bien croustillant",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 25 min"
-    ],
-    [
-      "CUISSON",
-      "30 min · 210 °C"
-    ],
-    [
-      "PLAT",
-      "Plat à gratin ≈ 25 × 20 cm"
-    ],
-    [
-      "PORTIONS",
-      "6 pers."
-    ]
+    ["PRÉPARATION", "≈ 25 min"],
+    ["CUISSON", "30 min · 210 °C"],
+    ["PLAT", "Plat à gratin ≈ 25 × 20 cm"],
+    ["PORTIONS", "6 pers."]
   ],
   "ingredients": [
     [
       "LES POMMES",
       [
-        [
-          "6",
-          "pommes (Canada par exemple)"
-        ],
-        [
-          "1",
-          "citron (jus)"
-        ],
-        [
-          "1 c. à c.",
-          "cannelle en poudre"
-        ],
-        [
-          "1 sachet",
-          "sucre vanillé"
-        ]
+        ["6", "pommes (Canada par exemple)", "pommes"],
+        ["1", "citron (jus)", "citron"],
+        ["1 c. à c.", "cannelle en poudre", "cannelle"],
+        ["1 sachet", "sucre vanillé", "sucre-vanille"]
       ]
     ],
     [
       "LA PÂTE À CRUMBLE",
       [
-        [
-          "150 g",
-          "farine de blé"
-        ],
-        [
-          "150 g",
-          "cassonade"
-        ],
-        [
-          "125 g",
-          "beurre doux, ramolli"
-        ]
+        ["150 g", "farine de blé", "farine"],
+        ["150 g", "cassonade", "cassonade"],
+        ["125 g", "beurre doux, ramolli", "beurre"]
       ]
     ],
-    [
-      "POUR SERVIR",
-      [
-        [
-          "",
-          "crème fouettée ou glace vanille"
-        ]
-      ]
-    ]
+    ["POUR SERVIR", [["", "crème fouettée ou glace vanille", "accompagnement"]]]
   ],
   "phases": [
     [
@@ -79,25 +38,23 @@
           "Sortir le beurre",
           "30 min avant",
           "Sortir le beurre du réfrigérateur pour qu'il ramollisse.",
-          "Un beurre souple s'amalgame à la main sans chauffer la pâte."
+          "Un beurre souple s'amalgame à la main sans chauffer la pâte.",
+          ["beurre"]
         ],
-        [
-          "Préchauffer le four",
-          "—",
-          "Préchauffer le four à 210 °C (thermostat 7).",
-          null
-        ],
+        ["Préchauffer le four", "—", "Préchauffer le four à 210 °C (thermostat 7).", null, []],
         [
           "Préparer les pommes",
           "10 min",
           "Éplucher les pommes, retirer le cœur et les couper en gros cubes. Les étaler dans le plat.",
-          "Des morceaux assez gros gardent un peu de tenue après cuisson."
+          "Des morceaux assez gros gardent un peu de tenue après cuisson.",
+          ["pommes"]
         ],
         [
           "Parfumer",
           "2 min",
           "Arroser les cubes de jus de citron, puis saupoudrer de cannelle et de sucre vanillé.",
-          "Le citron empêche aussi les pommes de noircir."
+          "Le citron empêche aussi les pommes de noircir.",
+          ["citron", "cannelle", "sucre-vanille"]
         ]
       ]
     ],
@@ -108,19 +65,22 @@
           "Mélanger les secs",
           "2 min",
           "Dans un saladier, mélanger la farine et la cassonade.",
-          null
+          null,
+          ["farine", "cassonade"]
         ],
         [
           "Sabler la pâte",
           "5 min",
           "Ajouter le beurre coupé en petits dés et travailler du bout des doigts jusqu'à obtenir une pâte grumeleuse.",
-          "On cherche des miettes de tailles variées, pas une pâte homogène."
+          "On cherche des miettes de tailles variées, pas une pâte homogène.",
+          ["beurre"]
         ],
         [
           "Recouvrir les pommes",
           "2 min",
           "Émietter la pâte uniformément sur les pommes pour les couvrir entièrement.",
-          null
+          null,
+          []
         ]
       ]
     ],
@@ -131,13 +91,15 @@
           "Cuire",
           "30 min",
           "Enfourner à 210 °C pour 30 minutes.",
-          "C'est prêt quand le dessus est bien doré et que le jus des pommes bouillonne sur les bords."
+          "C'est prêt quand le dessus est bien doré et que le jus des pommes bouillonne sur les bords.",
+          []
         ],
         [
           "Servir",
           "—",
           "Laisser tiédir quelques minutes, puis servir avec de la crème fouettée ou une boule de glace vanille.",
-          null
+          null,
+          ["accompagnement"]
         ]
       ]
     ]

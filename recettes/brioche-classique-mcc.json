@@ -5,80 +5,26 @@
   "titre": "Brioche classique",
   "sous_titre": "Pâte pétrie au Monsieur Cuisine Compact, beurre incorporé en trois fois, façonnée en 6 boules",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 25 min"
-    ],
-    [
-      "POUSSES",
-      "2 h 30 – 3 h 30"
-    ],
-    [
-      "CUISSON",
-      "25–30 min · 170 °C"
-    ],
-    [
-      "PORTIONS",
-      "8 parts"
-    ]
+    ["PRÉPARATION", "≈ 25 min"],
+    ["POUSSES", "2 h 30 – 3 h 30"],
+    ["CUISSON", "25–30 min · 170 °C"],
+    ["PORTIONS", "8 parts"]
   ],
   "ingredients": [
     [
       "DÉMARRAGE",
       [
-        [
-          "6 cl",
-          "lait"
-        ],
-        [
-          "40 g",
-          "sucre"
-        ],
-        [
-          "10 g",
-          "levure boulangère fraîche (ou 4 g sèche)"
-        ]
+        ["6 cl", "lait", "lait"],
+        ["40 g", "sucre", "sucre"],
+        ["10 g", "levure boulangère fraîche (ou 4 g sèche)", "levure"]
       ]
     ],
     [
       "PÂTE",
-      [
-        [
-          "350 g",
-          "farine T45"
-        ],
-        [
-          "6 g",
-          "sel"
-        ],
-        [
-          "3",
-          "œufs (≈ 150 g)"
-        ]
-      ]
+      [["350 g", "farine T45", "farine"], ["6 g", "sel", "sel"], ["3", "œufs (≈ 150 g)", "oeufs"]]
     ],
-    [
-      "BEURRE",
-      [
-        [
-          "150 g",
-          "beurre doux mou, en dés"
-        ]
-      ]
-    ],
-    [
-      "DORURE",
-      [
-        [
-          "1",
-          "jaune d'œuf"
-        ],
-        [
-          "1 c. à s.",
-          "lait"
-        ]
-      ]
-    ]
+    ["BEURRE", [["150 g", "beurre doux mou, en dés", "beurre"]]],
+    ["DORURE", [["1", "jaune d'œuf", "jaune"], ["1 c. à s.", "lait", "lait-dorure"]]]
   ],
   "phases": [
     [
@@ -88,19 +34,22 @@
           "Activer la levure",
           "2 min",
           "Mettre le lait, le sucre et la levure émiettée dans le bol. Programmer 2 min, 37 °C, vitesse 1.",
-          "Pas plus de 37 °C : au-delà, la levure meurt."
+          "Pas plus de 37 °C : au-delà, la levure meurt.",
+          ["lait", "sucre", "levure"]
         ],
         [
           "Pétrir la pâte",
           "5 min",
           "Ajouter la farine, le sel et les œufs. Lancer la fonction pétrin 5 min.",
-          "Le sel ne doit pas toucher directement la levure : le poser sur la farine."
+          "Le sel ne doit pas toucher directement la levure : le poser sur la farine.",
+          ["farine", "sel", "oeufs"]
         ],
         [
           "Incorporer le beurre",
           "6 min",
           "Ajouter le beurre mou en 3 fois par l'ouverture, pétrin en marche, puis pétrir encore 3 min.",
-          "La pâte est prête quand elle est lisse, brillante et se décolle des parois."
+          "La pâte est prête quand elle est lisse, brillante et se décolle des parois.",
+          ["beurre"]
         ]
       ]
     ],
@@ -111,19 +60,22 @@
           "Première pousse",
           "1 h 30 – 2 h",
           "Transvaser dans un saladier, filmer et laisser lever à température ambiante, à l'abri des courants d'air.",
-          "Elle doit doubler de volume. Variante : une nuit au réfrigérateur, la pâte se façonne plus facilement."
+          "Elle doit doubler de volume. Variante : une nuit au réfrigérateur, la pâte se façonne plus facilement.",
+          []
         ],
         [
           "Façonner",
           "10 min",
           "Dégazer la pâte, la diviser en 6 boules égales et les placer côte à côte dans le moule chemisé de papier sulfurisé.",
-          "Des boules bien serrées donnent une mie filante."
+          "Des boules bien serrées donnent une mie filante.",
+          []
         ],
         [
           "Deuxième pousse",
           "1 – 1 h 30",
           "Couvrir et laisser lever jusqu'à ce que la pâte dépasse les bords du moule.",
-          null
+          null,
+          []
         ]
       ]
     ],
@@ -134,19 +86,22 @@
           "Dorer",
           "2 min",
           "Préchauffer le four à 170 °C chaleur tournante. Badigeonner délicatement de jaune d'œuf mélangé au lait.",
-          "Une 2e couche juste avant d'enfourner donne une croûte plus brillante."
+          "Une 2e couche juste avant d'enfourner donne une croûte plus brillante.",
+          ["jaune", "lait-dorure"]
         ],
         [
           "Cuire",
           "25 à 30 min",
           "Enfourner à mi-hauteur. Couvrir d'aluminium si elle dore trop vite.",
-          "C'est cuit quand le dessus est bien doré et que le dessous sonne creux."
+          "C'est cuit quand le dessus est bien doré et que le dessous sonne creux.",
+          []
         ],
         [
           "Refroidir",
           "20 min",
           "Démouler et laisser tiédir sur une grille avant de trancher.",
-          null
+          null,
+          []
         ]
       ]
     ]

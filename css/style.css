@@ -529,3 +529,30 @@ body.cuisine-ouverte { overflow: hidden; }
   .cuisine-nav { padding-top: 0.5rem; padding-bottom: calc(0.5rem + env(safe-area-inset-bottom)); }
   .cuisine-nav .bouton { min-height: 54px; font-size: 1.1rem; }
 }
+
+/* Mode cuisine : ingrédients de l'étape (lisibles à distance) */
+.cuisine-pour-etape {
+  margin-bottom: 1rem;
+  padding: 0.6rem 1rem 0.7rem;
+  background: var(--blanc);
+  border: 2px solid var(--trait);
+  border-left: 8px solid var(--type);
+  border-radius: var(--rayon);
+}
+.cuisine-pour-etape-titre {
+  margin: 0 0 0.2rem;
+  color: var(--vert);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.cuisine-pour-etape ul { list-style: none; margin: 0; padding: 0; }
+.cuisine-pour-etape li { display: flex; align-items: baseline; gap: 0.8rem; padding: 0.3rem 0; font-size: 1.45rem; line-height: 1.3; }
+.cuisine-pour-etape li + li { border-top: 1px solid var(--trait); }
+.cuisine-etape-quantite { flex: none; min-width: 5.2rem; font-weight: 800; color: var(--sapin); }
+.cuisine-etape-quantite .modifiee { padding: 0.05rem 0.35rem; margin-left: -0.35rem; border-radius: 6px; background: var(--type); color: var(--type-texte); }
+.cuisine-etape-nom { min-width: 0; }
+@media (max-height: 700px) {
+  .cuisine-pour-etape li { font-size: 1.25rem; padding: 0.2rem 0; }
+}

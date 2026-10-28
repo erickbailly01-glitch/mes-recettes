@@ -5,77 +5,30 @@
   "titre": "Baba ganoush au air fryer",
   "sous_titre": "Caviar d'aubergine au tahini, peau grillée à l'air pulsé pour le côté fumé",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 15 min"
-    ],
-    [
-      "CUISSON",
-      "≈ 30 min · 200 °C"
-    ],
-    [
-      "REPOS",
-      "1 h au frais"
-    ],
-    [
-      "PORTIONS",
-      "4 pers."
-    ]
+    ["PRÉPARATION", "≈ 15 min"],
+    ["CUISSON", "≈ 30 min · 200 °C"],
+    ["REPOS", "1 h au frais"],
+    ["PORTIONS", "4 pers."]
   ],
   "ingredients": [
-    [
-      "AUBERGINES",
-      [
-        [
-          "2",
-          "aubergines moyennes (≈ 650 g)"
-        ]
-      ]
-    ],
+    ["AUBERGINES", [["2", "aubergines moyennes (≈ 650 g)", "aubergines"]]],
     [
       "AROMATES",
       [
-        [
-          "1",
-          "oignon nouveau"
-        ],
-        [
-          "2",
-          "petites gousses d'ail"
-        ],
-        [
-          "1 botte",
-          "persil plat, haché"
-        ]
+        ["1", "oignon nouveau", "oignon"],
+        ["2", "petites gousses d'ail", "ail"],
+        ["1 botte", "persil plat, haché", "persil"]
       ]
     ],
     [
       "ASSAISONNEMENT",
       [
-        [
-          "3 c. à s.",
-          "tahini"
-        ],
-        [
-          "4 c. à s.",
-          "huile d'olive"
-        ],
-        [
-          "2 c. à s.",
-          "jus de citron"
-        ],
-        [
-          "1 c. à c.",
-          "cumin"
-        ],
-        [
-          "0,5 c. à c.",
-          "paprika fumé"
-        ],
-        [
-          "0,5 c. à c.",
-          "sel"
-        ]
+        ["3 c. à s.", "tahini", "tahini"],
+        ["4 c. à s.", "huile d'olive", "huile"],
+        ["2 c. à s.", "jus de citron", "citron"],
+        ["1 c. à c.", "cumin", "cumin"],
+        ["0,5 c. à c.", "paprika fumé", "paprika"],
+        ["0,5 c. à c.", "sel", "sel"]
       ]
     ]
   ],
@@ -83,29 +36,27 @@
     [
       "La cuisson",
       [
-        [
-          "Préchauffer",
-          "3 min",
-          "Préchauffer le air fryer à 200 °C.",
-          null
-        ],
+        ["Préchauffer", "3 min", "Préchauffer le air fryer à 200 °C.", null, []],
         [
           "Préparer les aubergines",
           "2 min",
           "Laver et sécher les aubergines, puis piquer la peau un peu partout avec une fourchette.",
-          "Ça évite qu'elles éclatent à la cuisson."
+          "Ça évite qu'elles éclatent à la cuisson.",
+          ["aubergines"]
         ],
         [
           "Première cuisson",
           "15 min",
           "Poser les aubergines entières dans le panier, sans les superposer, et cuire à 200 °C.",
-          "Petit panier : les cuire une par une."
+          "Petit panier : les cuire une par une.",
+          ["aubergines"]
         ],
         [
           "Retourner et finir",
           "15 min",
           "Retourner les aubergines et poursuivre la cuisson. Ajouter 5 min si elles sont grosses.",
-          "Prêtes quand la peau est fripée et noircie par endroits, la chair très molle sous la pointe d'un couteau."
+          "Prêtes quand la peau est fripée et noircie par endroits, la chair très molle sous la pointe d'un couteau.",
+          []
         ]
       ]
     ],
@@ -116,19 +67,22 @@
           "Tiédir et vider",
           "10 min",
           "Laisser tiédir, ouvrir les aubergines et récupérer la chair à la cuillère. L'égoutter quelques minutes dans une passoire.",
-          "Une chair égouttée donne un caviar moins liquide."
+          "Une chair égouttée donne un caviar moins liquide.",
+          []
         ],
         [
           "Mixer",
           "3 min",
           "Mixer la chair avec l'oignon, l'ail, le tahini, l'huile, le citron, les épices, le sel et le persil jusqu'à une texture lisse et légèrement mousseuse. Ajuster l'assaisonnement.",
-          "Ajouter le persil progressivement : une grosse botte peut vite dominer."
+          "Ajouter le persil progressivement : une grosse botte peut vite dominer.",
+          ["oignon", "ail", "tahini", "huile", "citron", "cumin", "paprika", "sel", "persil"]
         ],
         [
           "Reposer au frais",
           "1 h",
           "Laisser reposer au réfrigérateur avant de servir avec du pain libanais, des pitas ou des crudités.",
-          "Se garde 3 à 4 jours au frais, avec un filet d'huile en surface."
+          "Se garde 3 à 4 jours au frais, avec un filet d'huile en surface.",
+          []
         ]
       ]
     ]

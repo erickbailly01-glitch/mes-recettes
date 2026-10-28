@@ -5,83 +5,28 @@
   "titre": "Cookies fourrés à la pâte à tartiner",
   "sous_titre": "Bords dorés, cœur moelleux et un cœur coulant de pâte à tartiner congelée",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 20 min"
-    ],
-    [
-      "REPOS",
-      "30 min au frais"
-    ],
-    [
-      "CUISSON",
-      "10–12 min · 180 °C"
-    ],
-    [
-      "QUANTITÉ",
-      "10 cookies"
-    ]
+    ["PRÉPARATION", "≈ 20 min"],
+    ["REPOS", "30 min au frais"],
+    ["CUISSON", "10–12 min · 180 °C"],
+    ["QUANTITÉ", "10 cookies"]
   ],
   "ingredients": [
-    [
-      "FOURRAGE",
-      [
-        [
-          "150 g",
-          "pâte à tartiner (≈ 10 c. à c. bombées)"
-        ]
-      ]
-    ],
+    ["FOURRAGE", [["150 g", "pâte à tartiner (≈ 10 c. à c. bombées)", "pate-a-tartiner"]]],
     [
       "PÂTE",
       [
-        [
-          "115 g",
-          "beurre doux, fondu et tiédi"
-        ],
-        [
-          "100 g",
-          "cassonade"
-        ],
-        [
-          "50 g",
-          "sucre blanc"
-        ],
-        [
-          "1",
-          "œuf"
-        ],
-        [
-          "1 c. à c.",
-          "extrait de vanille"
-        ],
-        [
-          "220 g",
-          "farine T55"
-        ],
-        [
-          "0,5 c. à c.",
-          "bicarbonate (ou levure chimique)"
-        ],
-        [
-          "1 pincée",
-          "sel"
-        ],
-        [
-          "150 g",
-          "pépites de chocolat"
-        ]
+        ["115 g", "beurre doux, fondu et tiédi", "beurre"],
+        ["100 g", "cassonade", "cassonade"],
+        ["50 g", "sucre blanc", "sucre"],
+        ["1", "œuf", "oeuf"],
+        ["1 c. à c.", "extrait de vanille", "vanille"],
+        ["220 g", "farine T55", "farine"],
+        ["0,5 c. à c.", "bicarbonate (ou levure chimique)", "bicarbonate"],
+        ["1 pincée", "sel", "sel"],
+        ["150 g", "pépites de chocolat", "pepites"]
       ]
     ],
-    [
-      "FINITION (FACULTATIF)",
-      [
-        [
-          "1 pincée",
-          "fleur de sel"
-        ]
-      ]
-    ]
+    ["FINITION (FACULTATIF)", [["1 pincée", "fleur de sel", "fleur-de-sel"]]]
   ],
   "phases": [
     [
@@ -91,7 +36,8 @@
           "Congeler les dômes",
           "30 min",
           "Déposer 10 petits tas de pâte à tartiner (≈ 15 g chacun) sur du papier sulfurisé et placer au congélateur.",
-          "Bien durs, ils se laissent envelopper sans s'étaler."
+          "Bien durs, ils se laissent envelopper sans s'étaler.",
+          ["pate-a-tartiner"]
         ]
       ]
     ],
@@ -102,19 +48,22 @@
           "Mélanger beurre et sucres",
           "3 min",
           "Fouetter le beurre fondu tiédi avec la cassonade et le sucre, puis ajouter l'œuf et la vanille.",
-          "Un beurre tiède, pas chaud, évite de cuire l'œuf."
+          "Un beurre tiède, pas chaud, évite de cuire l'œuf.",
+          ["beurre", "cassonade", "sucre", "oeuf", "vanille"]
         ],
         [
           "Ajouter les secs",
           "3 min",
           "Incorporer la farine, le bicarbonate et le sel à la maryse, sans trop travailler. Ajouter les pépites de chocolat.",
-          null
+          null,
+          ["farine", "bicarbonate", "sel", "pepites"]
         ],
         [
           "Reposer au frais",
           "30 min",
           "Filmer et réserver au réfrigérateur, en même temps que les dômes congèlent.",
-          "Une pâte froide s'étale moins et donne des cookies épais."
+          "Une pâte froide s'étale moins et donne des cookies épais.",
+          []
         ]
       ]
     ],
@@ -125,19 +74,22 @@
           "Fourrer",
           "10 min",
           "Préchauffer le four à 180 °C chaleur tournante. Prendre ≈ 60 g de pâte, l'aplatir, poser un dôme au centre et refermer en boule bien soudée.",
-          "Aucune trace de pâte à tartiner ne doit dépasser, sinon elle s'échappe."
+          "Aucune trace de pâte à tartiner ne doit dépasser, sinon elle s'échappe.",
+          []
         ],
         [
           "Cuire",
           "10 à 12 min",
           "Disposer 5 boules par plaque en les espaçant, puis enfourner.",
-          "C'est cuit quand les bords sont dorés et le centre encore pâle et mou : il finit de cuire hors du four."
+          "C'est cuit quand les bords sont dorés et le centre encore pâle et mou : il finit de cuire hors du four.",
+          []
         ],
         [
           "Refroidir",
           "10 min",
           "Parsemer de fleur de sel et laisser tiédir sur la plaque avant de déplacer.",
-          "Tièdes, le cœur est coulant ; froids, il devient fondant."
+          "Tièdes, le cœur est coulant ; froids, il devient fondant.",
+          ["fleur-de-sel"]
         ]
       ]
     ]

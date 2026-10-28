@@ -5,87 +5,27 @@
   "titre": "Fluffy pancakes japonais",
   "sous_titre": "Soufflés à la meringue, cuits à la vapeur à feu très doux, chantilly maison",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 15 min"
-    ],
-    [
-      "CUISSON",
-      "≈ 12 min · feu doux"
-    ],
-    [
-      "POÊLE",
-      "Ø 30 cm + couvercle"
-    ],
-    [
-      "QUANTITÉ",
-      "3 pancakes"
-    ]
+    ["PRÉPARATION", "≈ 15 min"],
+    ["CUISSON", "≈ 12 min · feu doux"],
+    ["POÊLE", "Ø 30 cm + couvercle"],
+    ["QUANTITÉ", "3 pancakes"]
   ],
   "ingredients": [
     [
       "APPAREIL AUX JAUNES",
       [
-        [
-          "2",
-          "jaunes d'œufs"
-        ],
-        [
-          "23 ml",
-          "lait entier"
-        ],
-        [
-          "0,25 c. à c.",
-          "extrait de vanille"
-        ],
-        [
-          "30 g",
-          "farine de blé"
-        ],
-        [
-          "2 g",
-          "levure chimique"
-        ]
+        ["2", "jaunes d'œufs", "jaunes"],
+        ["23 ml", "lait entier", "lait"],
+        ["0,25 c. à c.", "extrait de vanille", "vanille"],
+        ["30 g", "farine de blé", "farine"],
+        ["2 g", "levure chimique", "levure"]
       ]
     ],
-    [
-      "MERINGUE",
-      [
-        [
-          "2",
-          "blancs d'œufs"
-        ],
-        [
-          "26 g",
-          "sucre"
-        ]
-      ]
-    ],
-    [
-      "CUISSON",
-      [
-        [
-          "1 c. à s.",
-          "huile neutre"
-        ],
-        [
-          "30 ml",
-          "eau pour la vapeur"
-        ]
-      ]
-    ],
+    ["MERINGUE", [["2", "blancs d'œufs", "blancs"], ["26 g", "sucre", "sucre"]]],
+    ["CUISSON", [["1 c. à s.", "huile neutre", "huile"], ["30 ml", "eau pour la vapeur", "eau"]]],
     [
       "CHANTILLY (FACULTATIF)",
-      [
-        [
-          "120 ml",
-          "crème entière 36 % MG min."
-        ],
-        [
-          "20 g",
-          "sucre"
-        ]
-      ]
+      [["120 ml", "crème entière 36 % MG min.", "creme"], ["20 g", "sucre", "sucre-chantilly"]]
     ]
   ],
   "phases": [
@@ -96,19 +36,22 @@
           "Chantilly (facultatif)",
           "5 min",
           "Dans un bol posé sur de l'eau glacée, fouetter la crème et le sucre à vitesse élevée jusqu'à une crème ferme mais souple. Réserver au frais.",
-          null
+          null,
+          ["creme", "sucre-chantilly"]
         ],
         [
           "Séparer et refroidir",
           "15 min",
           "Séparer les œufs et placer les blancs environ 15 min au congélateur.",
-          "Des blancs à moitié congelés donnent une meringue plus fine et plus stable."
+          "Des blancs à moitié congelés donnent une meringue plus fine et plus stable.",
+          ["jaunes", "blancs"]
         ],
         [
           "Appareil aux jaunes",
           "3 min",
           "Fouetter les jaunes, le lait et la vanille jusqu'à une texture épaisse et mousseuse. Tamiser farine et levure par-dessus et fouetter juste pour mélanger.",
-          null
+          null,
+          ["jaunes", "lait", "vanille", "farine", "levure"]
         ]
       ]
     ],
@@ -119,13 +62,15 @@
           "Monter la meringue",
           "3 min",
           "Battre les blancs jusqu'à ce qu'ils soient mousseux, ajouter le sucre en 3 fois puis battre ≈ 2 min à grande vitesse.",
-          "Pics fermes et brillants dont la pointe se replie : trop battue, elle devient granuleuse et s'incorpore mal."
+          "Pics fermes et brillants dont la pointe se replie : trop battue, elle devient granuleuse et s'incorpore mal.",
+          ["blancs", "sucre"]
         ],
         [
           "Incorporer",
           "3 min",
           "Fouetter ⅓ de la meringue dans les jaunes, ajouter la moitié du reste et mélanger doucement, puis verser le tout sur la meringue restante et plier délicatement.",
-          "Garder un maximum d'air : c'est lui qui fait gonfler les pancakes."
+          "Garder un maximum d'air : c'est lui qui fait gonfler les pancakes.",
+          []
         ]
       ]
     ],
@@ -136,25 +81,29 @@
           "Préparer la poêle",
           "2 min",
           "Chauffer la poêle à feu très doux (≈ 150 °C), huiler puis essuyer l'excédent au papier absorbant.",
-          null
+          null,
+          ["huile"]
         ],
         [
           "Empiler et cuire",
           "6 à 7 min",
           "Déposer une louchée en monticule, puis une 2e par-dessus et une 3e quand la surface sèche. Verser 1 c. à s. d'eau dans les vides, couvrir. À 2 min, rajouter un peu de pâte et d'eau si besoin.",
-          "Toujours empiler en hauteur, jamais en largeur."
+          "Toujours empiler en hauteur, jamais en largeur.",
+          [["eau", "15 ml"]]
         ],
         [
           "Retourner",
           "4 à 5 min",
           "Soulever délicatement à la spatule coudée, retourner, ajouter un peu d'eau, couvrir et cuire jusqu'à ce que ce soit bien doré.",
-          "S'il colle, attendre qu'il se raffermisse : forcer le fissure."
+          "S'il colle, attendre qu'il se raffermisse : forcer le fissure.",
+          [["eau", "15 ml"]]
         ],
         [
           "Servir",
           "",
           "Servir aussitôt, avec la chantilly.",
-          "Sortis trop tôt, ils retombent ; bien cuits, ils tiennent 10 à 15 min."
+          "Sortis trop tôt, ils retombent ; bien cuits, ils tiennent 10 à 15 min.",
+          []
         ]
       ]
     ]

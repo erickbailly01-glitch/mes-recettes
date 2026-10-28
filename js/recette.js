@@ -297,12 +297,12 @@ function afficherIngredients(groupes) {
   const coches = new Set(memoire.lire(cle, []));
   const zone = document.getElementById("ingredients");
   const cases = [];
-  const ingredients = [];   // { groupe, q (quantité affichée, recalculée par le réglage), caseACocher, nom }
+  const ingredients = [];   // { id, groupe, q (quantité affichée, recalculée par le réglage), caseACocher, nom }
 
   groupes.forEach(([groupe, lignes], g) => {
     if (groupe) zone.append(el("h3", null, groupe));
     const liste = el("ul", "ingredients");
-    lignes.forEach(([quantite, ingredient], i) => {
+    lignes.forEach(([quantite, ingredient, ident], i) => {
       const id = `${g}-${i}`;
       const li = el("li");
       const label = el("label", "ingredient");
@@ -317,7 +317,7 @@ function afficherIngredients(groupes) {
       // La quantité est dans un élément interne : la pastille colorée n'entoure que le texte.
       const q = el("span", null, quantite);
       q.dataset.origine = quantite;
-      ingredients.push({ groupe, q, caseACocher, nom: ingredient });
+      ingredients.push({ id: ident, groupe, q, caseACocher, nom: ingredient });
       const colonne = el("span", "quantite");
       colonne.append(q);
       label.append(caseACocher, colonne, el("span", null, ingredient));
@@ -339,6 +339,7 @@ function afficherIngredients(groupes) {
 // Le choix est mémorisé sur le téléphone ; les fichiers de recette ne changent pas.
 const MULTIPLICATEURS = [0.5, 1, 1.5, 2, 3];
 let resumeQuantites = "";   // « Pour 5 parts », « Quantités ×2 »… (repris par le mode cuisine)
+let facteurQuantites = 1;   // multiplicateur choisi (repris par le mode cuisine pour les étapes)
 
 function afficherReglage(portions, quantites) {
   const zone = document.getElementById("reglage");
@@ -414,6 +415,7 @@ function afficherReglage(portions, quantites) {
         + "Les quantités citées dans les étapes restent celles d'origine.";
     remarque.classList.toggle("cache", !change);
     resumeQuantites = origine ? `Pour ${n} ${unite(n)}` : (change ? `Quantités ×${nombreFr(facteur)}` : "");
+    facteurQuantites = facteur;
   }
 
   zone.append(ligne, revenir, remarque);

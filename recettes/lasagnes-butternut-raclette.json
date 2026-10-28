@@ -5,106 +5,39 @@
   "titre": "Lasagnes au butternut & raclette",
   "sous_titre": "Butternut rôti, béchamel maison à la muscade, gratiné au fromage à raclette",
   "infos": [
-    [
-      "PRÉPARATION",
-      "12 min"
-    ],
-    [
-      "CUISSON",
-      "55 min · 200 °C"
-    ],
-    [
-      "PLAT",
-      "24 × 17 cm"
-    ],
-    [
-      "PORTIONS",
-      "4 pers."
-    ]
+    ["PRÉPARATION", "12 min"],
+    ["CUISSON", "55 min · 200 °C"],
+    ["PLAT", "24 × 17 cm"],
+    ["PORTIONS", "4 pers."]
   ],
   "ingredients": [
-    [
-      "LÉGUMES",
-      [
-        [
-          "1 kg",
-          "courge butternut"
-        ],
-        [
-          "1 filet",
-          "huile d'olive"
-        ]
-      ]
-    ],
+    ["LÉGUMES", [["1 kg", "courge butternut", "courge"], ["1 filet", "huile d'olive", "huile"]]],
     [
       "BÉCHAMEL",
       [
-        [
-          "60 g",
-          "beurre"
-        ],
-        [
-          "60 g",
-          "farine de blé"
-        ],
-        [
-          "45 cl",
-          "lait"
-        ],
-        [
-          "1 pincée",
-          "muscade (facultatif)"
-        ]
+        ["60 g", "beurre", "beurre"],
+        ["60 g", "farine de blé", "farine"],
+        ["45 cl", "lait", "lait"],
+        ["1 pincée", "muscade (facultatif)", "muscade"]
       ]
     ],
     [
       "MONTAGE",
       [
-        [
-          "180 g",
-          "lasagnes sèches (ou ≈ 1,4 × en fraîches)"
-        ],
-        [
-          "160 g",
-          "fromage à raclette"
-        ]
+        ["180 g", "lasagnes sèches (ou ≈ 1,4 × en fraîches)", "lasagnes"],
+        ["160 g", "fromage à raclette", "raclette"]
       ]
     ],
     [
       "VARIANTE PÂTES FRAÎCHES",
       [
-        [
-          "160 g",
-          "farine T45 ou T00 (ou + semoule fine)"
-        ],
-        [
-          "2",
-          "petits œufs (ou 1 gros + 1 jaune)"
-        ],
-        [
-          "1 pincée",
-          "sel"
-        ]
+        ["160 g", "farine T45 ou T00 (ou + semoule fine)", "farine-pates"],
+        ["2", "petits œufs (ou 1 gros + 1 jaune)", "oeufs"],
+        ["1 pincée", "sel", "sel-pates"]
       ]
     ],
-    [
-      "ASSAISONNEMENT",
-      [
-        [
-          "",
-          "sel et poivre"
-        ]
-      ]
-    ],
-    [
-      "POUR SERVIR",
-      [
-        [
-          "200 g",
-          "salade verte (mélange)"
-        ]
-      ]
-    ]
+    ["ASSAISONNEMENT", [["", "sel et poivre", "sel-poivre"]]],
+    ["POUR SERVIR", [["200 g", "salade verte (mélange)", "salade"]]]
   ],
   "phases": [
     [
@@ -114,13 +47,15 @@
           "Préparer la courge",
           "5 min",
           "Préchauffer le four à 200 °C. Éplucher le butternut, le couper en deux, retirer les graines puis le trancher finement.",
-          "Des tranches fines et régulières cuisent uniformément."
+          "Des tranches fines et régulières cuisent uniformément.",
+          ["courge"]
         ],
         [
           "Rôtir",
           "15 min",
           "Étaler les tranches sur une plaque recouverte de papier sulfurisé, arroser d'un filet d'huile d'olive, saler, poivrer et enfourner à 200 °C.",
-          "C'est prêt quand elles sont tendres et légèrement dorées."
+          "C'est prêt quand elles sont tendres et légèrement dorées.",
+          ["huile", "sel-poivre"]
         ]
       ]
     ],
@@ -131,13 +66,15 @@
           "Faire le roux",
           "2 min",
           "Pendant ce temps, faire fondre le beurre à feu doux, ajouter la farine et mélanger rapidement.",
-          null
+          null,
+          ["beurre", "farine"]
         ],
         [
           "Ajouter le lait",
           "5 min",
           "Verser le lait progressivement en fouettant, jusqu'à une texture de pâte à crêpes un peu épaisse. Saler, poivrer, ajouter la muscade et réserver hors du feu.",
-          "Verser le lait petit à petit évite les grumeaux."
+          "Verser le lait petit à petit évite les grumeaux.",
+          ["lait", "muscade", "sel-poivre"]
         ]
       ]
     ],
@@ -148,7 +85,8 @@
           "Pétrir et abaisser",
           "10 min + 30 min",
           "Mélanger farine, œufs et sel, pétrir jusqu'à une pâte lisse, filmer et laisser reposer 30 min. Abaisser à ≈ 1 mm et couper aux dimensions du plat.",
-          "Pas de précuisson : les feuilles fraîches cuisent directement dans la béchamel."
+          "Pas de précuisson : les feuilles fraîches cuisent directement dans la béchamel.",
+          ["farine-pates", "oeufs", "sel-pates"]
         ]
       ]
     ],
@@ -159,19 +97,22 @@
           "Monter les lasagnes",
           "5 min",
           "Étaler un peu de béchamel au fond du plat. Alterner lasagnes, béchamel, butternut et raclette jusqu'à épuisement, en terminant par la raclette.",
-          "Les feuilles crues doivent être bien couvertes de béchamel pour cuire."
+          "Les feuilles crues doivent être bien couvertes de béchamel pour cuire.",
+          ["lasagnes", "raclette"]
         ],
         [
           "Cuire",
           "35 à 40 min",
           "Enfourner à 200 °C.",
-          "C'est cuit quand le dessus est doré et gratiné et que les pâtes sont tendres. Avec des pâtes fraîches, vérifier dès 25-30 min."
+          "C'est cuit quand le dessus est doré et gratiné et que les pâtes sont tendres. Avec des pâtes fraîches, vérifier dès 25-30 min.",
+          []
         ],
         [
           "Servir",
           "",
           "Servir chaud, avec la salade assaisonnée selon vos goûts.",
-          null
+          null,
+          ["salade"]
         ]
       ]
     ]

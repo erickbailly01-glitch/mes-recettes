@@ -5,71 +5,30 @@
   "titre": "Kimchi rapide",
   "sous_titre": "Chou nappa et daikon au gochugaru, salés à 2 % et lacto-fermentés en bocal",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 20 min"
-    ],
-    [
-      "REPOS",
-      "30 min"
-    ],
-    [
-      "FERMENTATION",
-      "5 jours minimum"
-    ],
-    [
-      "QUANTITÉ",
-      "2 L · 2 bocaux"
-    ]
+    ["PRÉPARATION", "≈ 20 min"],
+    ["REPOS", "30 min"],
+    ["FERMENTATION", "5 jours minimum"],
+    ["QUANTITÉ", "2 L · 2 bocaux"]
   ],
   "ingredients": [
     [
       "LÉGUMES",
       [
-        [
-          "1,2 kg",
-          "chou nappa (≈ 1 gros)"
-        ],
-        [
-          "500 g",
-          "radis daikon (≈ 1 gros)"
-        ],
-        [
-          "6",
-          "oignons verts"
-        ]
+        ["1,2 kg", "chou nappa (≈ 1 gros)", "chou"],
+        ["500 g", "radis daikon (≈ 1 gros)", "daikon"],
+        ["6", "oignons verts", "oignons-verts"]
       ]
     ],
     [
       "AROMATES",
       [
-        [
-          "1 c. à s.",
-          "gingembre frais"
-        ],
-        [
-          "4",
-          "gousses d'ail (ou 1 c. à c. en poudre)"
-        ],
-        [
-          "4 c. à s.",
-          "piment gochugaru"
-        ],
-        [
-          "2 c. à s.",
-          "sauce de poisson"
-        ]
+        ["1 c. à s.", "gingembre frais", "gingembre"],
+        ["4", "gousses d'ail (ou 1 c. à c. en poudre)", "ail"],
+        ["4 c. à s.", "piment gochugaru", "gochugaru"],
+        ["2 c. à s.", "sauce de poisson", "sauce-poisson"]
       ]
     ],
-    [
-      "SALAGE",
-      [
-        [
-          "2 c. à s.",
-          "sel sans additif (≈ 2 % du poids des légumes)"
-        ]
-      ]
-    ]
+    ["SALAGE", [["2 c. à s.", "sel sans additif (≈ 2 % du poids des légumes)", "sel"]]]
   ],
   "phases": [
     [
@@ -79,19 +38,31 @@
           "Couper les légumes",
           "10 min",
           "Couper le chou en morceaux de 2 cm. Éplucher et râper le daikon. Hacher finement les oignons verts, l'ail et le gingembre.",
-          null
+          null,
+          ["chou", "daikon", "oignons-verts", "ail", "gingembre"]
         ],
         [
           "Assaisonner et masser",
           "2 min",
           "Dans un grand saladier, réunir tous les ingrédients et masser 1 à 2 minutes à la main.",
-          "Prévoir des gants : le gochugaru pique la peau et les yeux."
+          "Prévoir des gants : le gochugaru pique la peau et les yeux.",
+          [
+            "chou",
+            "daikon",
+            "oignons-verts",
+            "gingembre",
+            "ail",
+            "gochugaru",
+            "sauce-poisson",
+            "sel"
+          ]
         ],
         [
           "Laisser dégorger",
           "30 min",
           "Laisser reposer à température ambiante.",
-          "Le sel fait sortir l'eau des légumes : c'est cette saumure qui va les couvrir."
+          "Le sel fait sortir l'eau des légumes : c'est cette saumure qui va les couvrir.",
+          []
         ]
       ]
     ],
@@ -102,13 +73,15 @@
           "Tasser en bocal",
           "5 min",
           "Tasser fermement les légumes dans les bocaux au fur et à mesure, puis répartir le jus resté au fond du saladier.",
-          "Bien tasser fait remonter le jus au-dessus des légumes."
+          "Bien tasser fait remonter le jus au-dessus des légumes.",
+          []
         ],
         [
           "Immerger et fermer",
           "2 min",
           "Remplir jusqu'à 3 cm du bord, poser un poids pour garder les légumes sous le liquide, puis fermer.",
-          "Légumes immergés = pas de moisissure. L'excédent peut finir en salade."
+          "Légumes immergés = pas de moisissure. L'excédent peut finir en salade.",
+          []
         ]
       ]
     ],
@@ -119,13 +92,15 @@
           "Laisser fermenter",
           "5 jours minimum",
           "Poser les bocaux sur une grande assiette et laisser à température ambiante.",
-          "L'assiette récupère le jus qui peut déborder. Des bulles sont bon signe, mais leur absence est normale aussi."
+          "L'assiette récupère le jus qui peut déborder. Des bulles sont bon signe, mais leur absence est normale aussi.",
+          []
         ],
         [
           "Goûter et conserver",
           "",
           "Dès 5 jours, le kimchi a une odeur légèrement acide : il est prêt. Une fois ouvert, le garder au réfrigérateur.",
-          "Il se garde plusieurs mois au frais et se bonifie avec le temps."
+          "Il se garde plusieurs mois au frais et se bonifie avec le temps.",
+          []
         ]
       ]
     ]

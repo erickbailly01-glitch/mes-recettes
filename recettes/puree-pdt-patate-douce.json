@@ -5,69 +5,28 @@
   "titre": "Purée pomme de terre & patate douce",
   "sous_titre": "Cuite à la vapeur dans le panier, mixée à vitesse douce pour rester onctueuse",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 10 min"
-    ],
-    [
-      "CUISSON",
-      "25 min · 100 °C · vit. 1"
-    ],
-    [
-      "MIXAGE",
-      "30 s · vit. 3"
-    ],
-    [
-      "PORTIONS",
-      "4 pers."
-    ]
+    ["PRÉPARATION", "≈ 10 min"],
+    ["CUISSON", "25 min · 100 °C · vit. 1"],
+    ["MIXAGE", "30 s · vit. 3"],
+    ["PORTIONS", "4 pers."]
   ],
   "ingredients": [
     [
       "LÉGUMES",
       [
-        [
-          "350 g",
-          "pommes de terre farineuses (Bintje, Agata), épluchées"
-        ],
-        [
-          "350 g",
-          "patate douce, épluchée"
-        ]
+        ["350 g", "pommes de terre farineuses (Bintje, Agata), épluchées", "pdt"],
+        ["350 g", "patate douce, épluchée", "patate-douce"]
       ]
     ],
-    [
-      "CUISSON VAPEUR",
-      [
-        [
-          "50 cl",
-          "eau"
-        ]
-      ]
-    ],
+    ["CUISSON VAPEUR", [["50 cl", "eau", "eau"]]],
     [
       "FINITION",
       [
-        [
-          "10 cl",
-          "lait chaud"
-        ],
-        [
-          "30 g",
-          "beurre"
-        ],
-        [
-          "1 c. à c.",
-          "sel"
-        ],
-        [
-          "1 pincée",
-          "muscade râpée"
-        ],
-        [
-          "1 pincée",
-          "poivre"
-        ]
+        ["10 cl", "lait chaud", "lait"],
+        ["30 g", "beurre", "beurre"],
+        ["1 c. à c.", "sel", "sel"],
+        ["1 pincée", "muscade râpée", "muscade"],
+        ["1 pincée", "poivre", "poivre"]
       ]
     ]
   ],
@@ -79,7 +38,8 @@
           "Couper les légumes",
           "5 min",
           "Éplucher les pommes de terre et la patate douce, puis les couper en cubes réguliers de 2 à 3 cm.",
-          "Des morceaux de même taille cuisent de façon homogène."
+          "Des morceaux de même taille cuisent de façon homogène.",
+          ["pdt", "patate-douce"]
         ]
       ]
     ],
@@ -90,19 +50,22 @@
           "Mettre en place",
           "2 min",
           "Verser l'eau dans le bol. Placer les cubes dans le panier de cuisson, l'insérer dans le bol et fermer le couvercle.",
-          null
+          null,
+          ["eau"]
         ],
         [
           "Cuire",
           "25 min",
           "Programmer 25 min / 100 °C / vitesse 1.",
-          "C'est cuit quand la pointe d'un couteau s'enfonce sans résistance ; sinon, relancer 5 min."
+          "C'est cuit quand la pointe d'un couteau s'enfonce sans résistance ; sinon, relancer 5 min.",
+          []
         ],
         [
           "Vider l'eau",
           "2 min",
           "Retirer le panier à l'aide de la spatule, vider l'eau du bol, puis remettre les légumes cuits dans le bol.",
-          null
+          null,
+          []
         ]
       ]
     ],
@@ -113,19 +76,22 @@
           "Assaisonner",
           "1 min",
           "Ajouter le beurre, le lait chaud, le sel, la muscade et le poivre.",
-          "Un lait chaud garde la purée bien chaude et s'incorpore mieux."
+          "Un lait chaud garde la purée bien chaude et s'incorpore mieux.",
+          ["beurre", "lait", "sel", "muscade", "poivre"]
         ],
         [
           "Mixer",
           "30 s",
           "Mixer 20 s / vitesse 3, racler les parois avec la spatule, puis 10 s / vitesse 3 si nécessaire.",
-          "Ne pas monter en vitesse, sinon la texture devient élastique."
+          "Ne pas monter en vitesse, sinon la texture devient élastique.",
+          []
         ],
         [
           "Ajuster et servir",
           "1 min",
           "Goûter, rectifier l'assaisonnement et ajouter un filet de lait pour une purée plus souple. Servir chaud.",
-          "Pour réchauffer : 3 min / 90 °C / vitesse 1 en sens inverse."
+          "Pour réchauffer : 3 min / 90 °C / vitesse 1 en sens inverse.",
+          []
         ]
       ]
     ]

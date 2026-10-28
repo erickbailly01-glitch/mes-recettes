@@ -10,12 +10,20 @@ Le JSON décrit la recette :
   "type": "Gâteau",                      # obligatoire : un des types de types.json (donne la couleur)
   "portions": {"n": 10, "u": "parts"},   # quand ça a un sens (sert au réglage des quantités du site, pas à la fiche)
   "infos": [["PRÉPARATION", "≈ 45 min"], ...],          # 3 à 5 cases
-  "ingredients": [["PÂTE SUCRÉE", [["120 g", "beurre pommade"], ...]], ...],
+  "ingredients": [["PÂTE SUCRÉE", [["120 g", "beurre pommade", "beurre"], ...]], ...],
+                                         # [quantité, ingrédient, identifiant] : identifiant obligatoire,
+                                         # en minuscules sans accent (« beurre », « sucre-glace »), unique
+                                         # dans la recette ; il sert aux liens des étapes (pas à la fiche)
   "materiel": "Moule · fouet · ...",
   "planning": [["J-1", "..."], ["J+1", "..."]],          # facultatif
   "note": "Phrase sur un choix clé.",                    # facultatif
-  "phases": [["La pâte", [["Préparer la pâte", "10 min", "Texte.", "Astuce ou null"], ...]], ...]
+  "phases": [["La pâte", [["Préparer la pâte", "10 min", "Texte.", "Astuce ou null",
+                            ["beurre", "sucre-glace", ["sucre", "100 g"]]], ...]], ...]
 }
+5e élément de chaque étape (obligatoire, éventuellement []) : les ingrédients qu'elle utilise.
+« "beurre" » = toute la quantité de l'ingrédient ; « ["sucre", "100 g"] » = seulement la part de
+cette étape (ingrédient utilisé en plusieurs fois). Le mode cuisine du site les affiche sur l'étape ;
+la fiche PDF les ignore.
 La numérotation des étapes est continue d'une phase à l'autre.
 Charte : vert sapin, sauge, et la couleur du type (bandeau d'infos, pastilles des étapes, filets des phases).
 """
@@ -111,7 +119,7 @@ def justify(flows, width, height):
 
 
 def ing_table(rows, width):
-    data = [[Paragraph(f"<b>{e(q)}</b>", ing), Paragraph(e(n), ing)] for q, n in rows]
+    data = [[Paragraph(f"<b>{e(q)}</b>", ing), Paragraph(e(n), ing)] for q, n, *_ in rows]
     t = Table(data, colWidths=[17 * mm, width - 17 * mm])
     t.setStyle(TableStyle([
         ("VALIGN", (0, 0), (-1, -1), "TOP"),

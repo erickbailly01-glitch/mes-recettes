@@ -5,66 +5,24 @@
   "titre": "Pancakes healthy au skyr",
   "sous_titre": "Moelleux et protéinés, allégés en matières grasses grâce au skyr",
   "infos": [
-    [
-      "PRÉPARATION",
-      "10 min"
-    ],
-    [
-      "REPOS",
-      "10 min"
-    ],
-    [
-      "CUISSON",
-      "10 min · feu moyen"
-    ],
-    [
-      "PORTIONS",
-      "4 pers."
-    ]
+    ["PRÉPARATION", "10 min"],
+    ["REPOS", "10 min"],
+    ["CUISSON", "10 min · feu moyen"],
+    ["PORTIONS", "4 pers."]
   ],
   "ingredients": [
     [
       "PÂTE",
       [
-        [
-          "150 g",
-          "skyr"
-        ],
-        [
-          "2",
-          "œufs"
-        ],
-        [
-          "10 cl",
-          "lait"
-        ],
-        [
-          "120 g",
-          "farine"
-        ],
-        [
-          "1 sachet",
-          "levure chimique"
-        ],
-        [
-          "1 c. à s.",
-          "sucre"
-        ]
+        ["150 g", "skyr", "skyr"],
+        ["2", "œufs", "oeufs"],
+        ["10 cl", "lait", "lait"],
+        ["120 g", "farine", "farine"],
+        ["1 sachet", "levure chimique", "levure"],
+        ["1 c. à s.", "sucre", "sucre"]
       ]
     ],
-    [
-      "POUR SERVIR (FACULTATIF)",
-      [
-        [
-          "",
-          "un filet de miel"
-        ],
-        [
-          "",
-          "fruits frais"
-        ]
-      ]
-    ]
+    ["POUR SERVIR (FACULTATIF)", [["", "un filet de miel", "miel"], ["", "fruits frais", "fruits"]]]
   ],
   "phases": [
     [
@@ -74,19 +32,22 @@
           "Mélanger œufs et skyr",
           "2 min",
           "Dans un saladier, fouetter les œufs avec le skyr jusqu'à une texture homogène.",
-          null
+          null,
+          ["oeufs", "skyr"]
         ],
         [
           "Compléter la pâte",
           "3 min",
           "Ajouter le lait, puis la farine tamisée, la levure et le sucre. Bien mélanger.",
-          "Tamiser la farine et l'ajouter progressivement évite les grumeaux."
+          "Tamiser la farine et l'ajouter progressivement évite les grumeaux.",
+          ["lait", "farine", "levure", "sucre"]
         ],
         [
           "Laisser reposer",
           "10 min",
           "Couvrir d'un torchon propre et laisser reposer à température ambiante.",
-          "Le skyr et la levure agissent : les pancakes gonfleront davantage."
+          "Le skyr et la levure agissent : les pancakes gonfleront davantage.",
+          []
         ]
       ]
     ],
@@ -97,19 +58,22 @@
           "Chauffer la poêle",
           "1 min",
           "Faire chauffer une poêle antiadhésive à feu moyen.",
-          null
+          null,
+          []
         ],
         [
           "Cuire les pancakes",
           "2 min par face",
           "Déposer une petite louche de pâte par pancake. Cuire 2 min, retourner et cuire encore 2 min. Répéter jusqu'à épuisement de la pâte.",
-          "C'est le moment de retourner quand des bulles apparaissent en surface et que les bords sont pris."
+          "C'est le moment de retourner quand des bulles apparaissent en surface et que les bords sont pris.",
+          []
         ],
         [
           "Servir",
           "",
           "Servir chaud avec un filet de miel ou quelques fruits frais.",
-          null
+          null,
+          ["miel", "fruits"]
         ]
       ]
     ]

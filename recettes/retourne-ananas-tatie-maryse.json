@@ -5,116 +5,45 @@
   "titre": "Retourné à l'ananas de Tatie Maryse",
   "sous_titre": "Caramel au sucre de canne, pâte épicée au rhum vieux, imbibé chaud au sirop d'ananas",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 25 min"
-    ],
-    [
-      "CUISSON",
-      "45 min · 180 °C"
-    ],
-    [
-      "MOULE",
-      "Ø 26 cm"
-    ],
-    [
-      "PORTIONS",
-      "12 parts"
-    ]
+    ["PRÉPARATION", "≈ 25 min"],
+    ["CUISSON", "45 min · 180 °C"],
+    ["MOULE", "Ø 26 cm"],
+    ["PORTIONS", "12 parts"]
   ],
   "ingredients": [
     [
       "CARAMEL",
       [
-        [
-          "90 g",
-          "sucre de canne"
-        ],
-        [
-          "4 cl",
-          "eau"
-        ],
-        [
-          "0,25",
-          "citron vert (jus)"
-        ]
+        ["90 g", "sucre de canne", "sucre-caramel"],
+        ["4 cl", "eau", "eau"],
+        ["0,25", "citron vert (jus)", "citron-jus"]
       ]
     ],
     [
       "PÂTE",
       [
-        [
-          "200 g",
-          "beurre ramolli"
-        ],
-        [
-          "250 g",
-          "sucre de canne (220 g possible)"
-        ],
-        [
-          "200 g",
-          "farine"
-        ],
-        [
-          "0,5 sachet",
-          "levure chimique"
-        ],
-        [
-          "1 pincée",
-          "sel"
-        ],
-        [
-          "6",
-          "œufs, blancs et jaunes séparés"
-        ]
+        ["200 g", "beurre ramolli", "beurre"],
+        ["250 g", "sucre de canne (220 g possible)", "sucre"],
+        ["200 g", "farine", "farine"],
+        ["0,5 sachet", "levure chimique", "levure"],
+        ["1 pincée", "sel", "sel"],
+        ["6", "œufs, blancs et jaunes séparés", "oeufs"]
       ]
     ],
     [
       "ARÔMES",
       [
-        [
-          "1 c. à c.",
-          "cannelle fraîchement râpée"
-        ],
-        [
-          "1 pincée",
-          "muscade râpée"
-        ],
-        [
-          "1",
-          "gousse de vanille (grains)"
-        ],
-        [
-          "0,5",
-          "citron vert (zeste)"
-        ],
-        [
-          "2 c. à s.",
-          "rhum vieux"
-        ]
+        ["1 c. à c.", "cannelle fraîchement râpée", "cannelle"],
+        ["1 pincée", "muscade râpée", "muscade"],
+        ["1", "gousse de vanille (grains)", "vanille"],
+        ["0,5", "citron vert (zeste)", "citron-zeste"],
+        ["2 c. à s.", "rhum vieux", "rhum"]
       ]
     ],
-    [
-      "GARNITURE",
-      [
-        [
-          "1 boîte",
-          "ananas en tranches (10)"
-        ]
-      ]
-    ],
+    ["GARNITURE", [["1 boîte", "ananas en tranches (10)", "ananas"]]],
     [
       "IMBIBAGE",
-      [
-        [
-          "20 cl",
-          "sirop de la boîte d'ananas"
-        ],
-        [
-          "2 cl",
-          "rhum vieux"
-        ]
-      ]
+      [["20 cl", "sirop de la boîte d'ananas", "sirop"], ["2 cl", "rhum vieux", "rhum-imbibage"]]
     ]
   ],
   "phases": [
@@ -125,13 +54,15 @@
           "Préchauffer et caraméliser",
           "3 min",
           "Préchauffer le four à 180 °C chaleur tournante. Dans le moule, chauffer le sucre, l'eau et le jus de citron jusqu'à une belle couleur caramel.",
-          "Ça va très vite (2-3 min) : surveiller et couper le feu dès que la teinte est là. Le citron garde le caramel fluide une fois refroidi."
+          "Ça va très vite (2-3 min) : surveiller et couper le feu dès que la teinte est là. Le citron garde le caramel fluide une fois refroidi.",
+          ["sucre-caramel", "eau", "citron-jus"]
         ],
         [
           "Napper le moule",
           "1 min",
           "Faire tourner le caramel pour couvrir le fond et les bords du moule.",
-          "Attention aux brûlures : manipuler avec des maniques."
+          "Attention aux brûlures : manipuler avec des maniques.",
+          []
         ]
       ]
     ],
@@ -142,31 +73,36 @@
           "Égoutter l'ananas",
           "2 min",
           "Égoutter les tranches en gardant tout le sirop de la boîte.",
-          null
+          null,
+          ["ananas", "sirop"]
         ],
         [
           "Crémer beurre et sucre",
           "4 min",
           "Fouetter le beurre ramolli et le sucre jusqu'à un mélange pâle et mousseux.",
-          null
+          null,
+          ["beurre", "sucre"]
         ],
         [
           "Farine et jaunes",
           "3 min",
           "Incorporer la farine, la levure et le sel, puis les jaunes d'œufs. Mélanger.",
-          null
+          null,
+          ["farine", "levure", "sel", "oeufs"]
         ],
         [
           "Parfumer",
           "3 min",
           "Ajouter la cannelle, la muscade, les grains de vanille, le zeste de citron vert et le rhum. Mélanger jusqu'à homogénéité.",
-          "La vanille peut être remplacée par de l'extrait naturel liquide."
+          "La vanille peut être remplacée par de l'extrait naturel liquide.",
+          ["cannelle", "muscade", "vanille", "citron-zeste", "rhum"]
         ],
         [
           "Blancs en neige",
           "5 min",
           "Monter les blancs en neige dans un récipient propre, puis les incorporer très délicatement à la pâte.",
-          "Au mixeur à couvercle, laisser une ouverture pour que l'air entre dans les blancs."
+          "Au mixeur à couvercle, laisser une ouverture pour que l'air entre dans les blancs.",
+          ["oeufs"]
         ]
       ]
     ],
@@ -177,26 +113,24 @@
           "Monter le gâteau",
           "3 min",
           "Disposer les tranches d'ananas sur le caramel, puis verser la pâte par-dessus.",
-          null
+          null,
+          ["ananas"]
         ],
         [
           "Cuire",
           "45 min",
           "Enfourner à 180 °C chaleur tournante.",
-          "Ne pas ouvrir le four pendant la cuisson, sinon le gâteau retombe."
+          "Ne pas ouvrir le four pendant la cuisson, sinon le gâteau retombe.",
+          []
         ],
         [
           "Démouler et imbiber",
           "5 min",
           "Mélanger 20 cl de sirop d'ananas et 2 cl de rhum. Démouler le gâteau chaud dès la sortie du four et l'arroser aussitôt.",
-          "Versé à chaud, tout le liquide est absorbé et l'alcool s'évapore en laissant son parfum."
+          "Versé à chaud, tout le liquide est absorbé et l'alcool s'évapore en laissant son parfum.",
+          ["sirop", "rhum-imbibage"]
         ],
-        [
-          "Servir",
-          "",
-          "Laisser refroidir et déguster à température ambiante.",
-          null
-        ]
+        ["Servir", "", "Laisser refroidir et déguster à température ambiante.", null, []]
       ]
     ]
   ]

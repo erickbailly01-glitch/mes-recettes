@@ -4,71 +4,21 @@
   "titre": "Crème de cassis maison",
   "sous_titre": "Cassis pré-macérés au sucre, infusés dans la vodka puis adoucis d'un sirop",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 30 min"
-    ],
-    [
-      "MACÉRATION",
-      "plusieurs semaines"
-    ],
-    [
-      "AFFINAGE",
-      "quelques semaines"
-    ],
-    [
-      "QUANTITÉ",
-      "≈ 50 cl"
-    ]
+    ["PRÉPARATION", "≈ 30 min"],
+    ["MACÉRATION", "plusieurs semaines"],
+    ["AFFINAGE", "quelques semaines"],
+    ["QUANTITÉ", "≈ 50 cl"]
   ],
   "ingredients": [
     [
       "PRÉ-MACÉRATION",
-      [
-        [
-          "150 g",
-          "cassis"
-        ],
-        [
-          "2 c. à s.",
-          "sucre (jusqu'à 3)"
-        ]
-      ]
+      [["150 g", "cassis", "cassis"], ["2 c. à s.", "sucre (jusqu'à 3)", "sucre-maceration"]]
     ],
-    [
-      "MACÉRATION",
-      [
-        [
-          "25 cl",
-          "vodka 37,5 – 40°"
-        ]
-      ]
-    ],
-    [
-      "SIROP",
-      [
-        [
-          "10 cl",
-          "eau"
-        ],
-        [
-          "130 g",
-          "sucre (120 à 150 g selon goût)"
-        ]
-      ]
-    ],
+    ["MACÉRATION", [["25 cl", "vodka 37,5 – 40°", "vodka"]]],
+    ["SIROP", [["10 cl", "eau", "eau"], ["130 g", "sucre (120 à 150 g selon goût)", "sucre-sirop"]]],
     [
       "EN OPTION",
-      [
-        [
-          "1",
-          "petit zeste de citron"
-        ],
-        [
-          "1",
-          "framboises écrasées"
-        ]
-      ]
+      [["1", "petit zeste de citron", "zeste"], ["1", "framboises écrasées", "framboises"]]
     ]
   ],
   "phases": [
@@ -79,13 +29,15 @@
           "Écraser et sucrer",
           "5 min",
           "Écraser légèrement les cassis et ajouter 2 à 3 c. à s. de sucre.",
-          "Les fruits éclatés libèrent leur jus et leur couleur plus vite."
+          "Les fruits éclatés libèrent leur jus et leur couleur plus vite.",
+          ["cassis", "sucre-maceration"]
         ],
         [
           "Laisser reposer",
           "12 à 24 h",
           "Couvrir et laisser reposer au réfrigérateur.",
-          "Facultatif : chauffer légèrement les fruits sucrés avant d'ajouter l'alcool intensifie le goût."
+          "Facultatif : chauffer légèrement les fruits sucrés avant d'ajouter l'alcool intensifie le goût.",
+          []
         ]
       ]
     ],
@@ -96,13 +48,15 @@
           "Mettre en bocal",
           "5 min",
           "Verser les cassis et leur jus dans le bocal, ajouter la vodka (et le zeste ou les framboises en option), puis fermer.",
-          null
+          null,
+          ["vodka", "zeste", "framboises"]
         ],
         [
           "Laisser macérer",
           "plusieurs semaines",
           "Garder le bocal à l'abri de la lumière, à température ambiante, et le secouer de temps en temps.",
-          "La lumière ternit la couleur : un placard fermé est idéal."
+          "La lumière ternit la couleur : un placard fermé est idéal.",
+          []
         ]
       ]
     ],
@@ -113,25 +67,23 @@
           "Préparer le sirop",
           "5 min",
           "Chauffer l'eau et y dissoudre le sucre, puis laisser refroidir complètement.",
-          "Un sirop encore chaud ferait s'évaporer une partie de l'alcool et des arômes."
+          "Un sirop encore chaud ferait s'évaporer une partie de l'alcool et des arômes.",
+          ["eau", "sucre-sirop"]
         ],
         [
           "Filtrer",
           "10 min",
           "Filtrer les cassis en les pressant pour récupérer le maximum de jus.",
-          null
+          null,
+          []
         ],
-        [
-          "Assembler",
-          "2 min",
-          "Mélanger l'alcool aromatisé et le sirop refroidi.",
-          null
-        ],
+        ["Assembler", "2 min", "Mélanger l'alcool aromatisé et le sirop refroidi.", null, []],
         [
           "Mettre en bouteille et affiner",
           "quelques semaines",
           "Verser en bouteille, fermer et laisser reposer avant de déguster.",
-          "Le repos arrondit l'alcool et fond les arômes du cassis."
+          "Le repos arrondit l'alcool et fond les arômes du cassis.",
+          []
         ]
       ]
     ]

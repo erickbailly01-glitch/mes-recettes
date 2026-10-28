@@ -5,93 +5,39 @@
   "titre": "Galette frangipane moelleuse",
   "sous_titre": "Fond sablé, frangipane à la crème pâtissière vanille-rhum, couvercle feuilleté",
   "infos": [
-    [
-      "PRÉPARATION",
-      "20 min"
-    ],
-    [
-      "REFROIDISSEMENT",
-      "≈ 15 min"
-    ],
-    [
-      "CUISSON",
-      "5 + 30 min · 210 °C"
-    ],
-    [
-      "PORTIONS",
-      "≈ 8 parts"
-    ]
+    ["PRÉPARATION", "20 min"],
+    ["REFROIDISSEMENT", "≈ 15 min"],
+    ["CUISSON", "5 + 30 min · 210 °C"],
+    ["PORTIONS", "≈ 8 parts"]
   ],
   "ingredients": [
     [
       "CRÈME PÂTISSIÈRE",
       [
-        [
-          "40 cl",
-          "lait"
-        ],
-        [
-          "3",
-          "jaunes d'œufs"
-        ],
-        [
-          "80 g",
-          "sucre"
-        ],
-        [
-          "40 g",
-          "farine"
-        ],
-        [
-          "2 c. à c.",
-          "rhum"
-        ],
-        [
-          "1 c. à c.",
-          "vanille liquide"
-        ],
-        [
-          "4",
-          "gouttes d'arôme amande amère"
-        ]
+        ["40 cl", "lait", "lait"],
+        ["3", "jaunes d'œufs", "jaunes"],
+        ["80 g", "sucre", "sucre-creme"],
+        ["40 g", "farine", "farine"],
+        ["2 c. à c.", "rhum", "rhum"],
+        ["1 c. à c.", "vanille liquide", "vanille"],
+        ["4", "gouttes d'arôme amande amère", "arome"]
       ]
     ],
     [
       "CRÈME D'AMANDE",
       [
-        [
-          "80 g",
-          "beurre tendre"
-        ],
-        [
-          "60 g",
-          "poudre d'amandes"
-        ],
-        [
-          "60 g",
-          "sucre"
-        ]
+        ["80 g", "beurre tendre", "beurre"],
+        ["60 g", "poudre d'amandes", "amandes"],
+        ["60 g", "sucre", "sucre-amande"]
       ]
     ],
     [
       "PÂTES & FINITION",
       [
-        [
-          "1",
-          "pâte sablée"
-        ],
-        [
-          "1",
-          "pâte feuilletée (Picard, bonne qualité)"
-        ],
-        [
-          "1",
-          "jaune d'œuf + un peu d'eau"
-        ],
-        [
-          "1",
-          "fève"
-        ]
+        ["1", "pâte sablée", "pate-sablee"],
+        ["1", "pâte feuilletée (Picard, bonne qualité)", "pate-feuilletee"],
+        ["1", "jaune d'œuf + un peu d'eau", "dorure"],
+        ["1", "fève", "feve"]
       ]
     ]
   ],
@@ -103,19 +49,22 @@
           "Chauffer le lait",
           "3 min",
           "Porter le lait à ébullition. Pendant ce temps, fouetter les jaunes et le sucre jusqu'à blanchiment, puis ajouter la farine.",
-          null
+          null,
+          ["lait", "jaunes", "sucre-creme", "farine"]
         ],
         [
           "Cuire la crème",
           "3 min",
           "Verser le lait bouillant en mince filet sans cesser de fouetter. Remettre sur feu doux et remuer jusqu'à ébullition.",
-          "Le lait versé en filet tempère les jaunes sans les cuire."
+          "Le lait versé en filet tempère les jaunes sans les cuire.",
+          []
         ],
         [
           "Parfumer et refroidir",
           "15 min",
           "Hors du feu, ajouter le rhum, la vanille et l'arôme amande amère. Couvrir au contact et laisser refroidir.",
-          "Elle doit être froide avant d'être mélangée au beurre."
+          "Elle doit être froide avant d'être mélangée au beurre.",
+          ["rhum", "vanille", "arome"]
         ]
       ]
     ],
@@ -126,13 +75,15 @@
           "Crème d'amande",
           "3 min",
           "Écraser à la fourchette (ou à la main) le beurre mou, la poudre d'amandes et le sucre jusqu'à un mélange homogène.",
-          null
+          null,
+          ["beurre", "amandes", "sucre-amande"]
         ],
         [
           "Mélanger les crèmes",
           "1 min",
           "Mélanger la crème pâtissière refroidie et la crème d'amande.",
-          null
+          null,
+          []
         ]
       ]
     ],
@@ -143,32 +94,31 @@
           "Précuire le fond",
           "5 min",
           "Préchauffer le four à 210 °C (th. 7). Poser la pâte sablée sur la plaque recouverte de papier sulfurisé, la piquer à la fourchette et cuire 5 min.",
-          "La précuisson évite un fond détrempé par la crème."
+          "La précuisson évite un fond détrempé par la crème.",
+          ["pate-sablee"]
         ],
         [
           "Garnir",
           "2 min",
           "Étaler la frangipane sur le fond précuit en laissant 2 cm de bord libre. Placer la fève.",
-          "La fève près du bord, jamais au centre : elle est moins facile à trouver en coupant."
+          "La fève près du bord, jamais au centre : elle est moins facile à trouver en coupant.",
+          ["feve"]
         ],
         [
           "Fermer et décorer",
           "5 min",
           "Couvrir avec la pâte feuilletée, humidifier les bords et bien les souder. Décorer au couteau, dorer au jaune dilué et percer un petit trou au centre.",
-          "Le trou laisse s'échapper la vapeur : la galette ne gonfle pas de travers."
+          "Le trou laisse s'échapper la vapeur : la galette ne gonfle pas de travers.",
+          ["pate-feuilletee", "dorure"]
         ],
         [
           "Cuire",
           "≈ 30 min",
           "Enfourner à 210 °C.",
-          "C'est cuit quand le feuilletage est bien doré et gonflé."
+          "C'est cuit quand le feuilletage est bien doré et gonflé.",
+          []
         ],
-        [
-          "Refroidir",
-          "",
-          "Laisser refroidir avant de déguster.",
-          null
-        ]
+        ["Refroidir", "", "Laisser refroidir avant de déguster.", null, []]
       ]
     ]
   ]

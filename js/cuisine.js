@@ -13,10 +13,10 @@ function initialiserCuisine(r, ingredients) {
 
   // Étapes à plat, numérotées en continu d'une phase à l'autre.
   const etapes = [];
-  (r.phases || []).forEach(([phase, liste]) => liste.forEach(([titre, duree, texte, astuce]) => {
+  (r.phases || []).forEach(([phase, liste]) => liste.forEach(([titre, duree, texte, astuce, liens]) => {
     const secondes = dureeEnSecondes(duree);
     etapes.push({
-      numero: etapes.length + 1, phase, titre, duree, texte, astuce,
+      numero: etapes.length + 1, phase, titre, duree, texte, astuce, liens: liens || [],
       minuteur: secondes && secondes <= DUREE_MAX_MINUTEUR ? secondes : null,
     });
   }));
@@ -109,11 +109,40 @@ function initialiserCuisine(r, ingredients) {
     return blocs;
   }
 
+  // Encart « Pour cette étape » : les ingrédients liés à l'étape, avec la quantité de l'étape
+  // (toute la quantité, ou seulement sa part si l'ingrédient sert en plusieurs fois),
+  // recalculée selon le réglage des portions.
+  const parId = new Map(ingredients.filter((ing) => ing.id).map((ing) => [ing.id, ing]));
+  function encartIngredients(liens) {
+    const lignes = [];
+    for (const lien of liens) {
+      const ing = parId.get(typeof lien === "string" ? lien : lien[0]);
+      if (!ing) continue;
+      const origine = typeof lien === "string" ? ing.q.dataset.origine : lien[1];
+      const texte = ajusterQuantite(origine, facteurQuantites);
+      const li = el("li");
+      const quantite = el("span", "cuisine-etape-quantite");
+      if (texte) quantite.append(el("span", texte !== origine ? "modifiee" : null, texte));
+      li.append(quantite, el("span", "cuisine-etape-nom", ing.nom));
+      lignes.push(li);
+    }
+    if (!lignes.length) return null;
+    const encart = el("section", "cuisine-pour-etape");
+    encart.setAttribute("aria-label", "Ingrédients de cette étape");
+    const liste = el("ul");
+    liste.append(...lignes);
+    encart.append(el("p", "cuisine-pour-etape-titre", "Pour cette étape"), liste);
+    return encart;
+  }
+
   function ecranEtape(i) {
     const e = etapes[i];
     const blocs = [];
     if (e.duree && e.duree !== "—") blocs.push(el("p", "cuisine-duree", "⏱ " + e.duree));
-    blocs.push(el("h2", "cuisine-titre", e.titre), el("p", "cuisine-texte", e.texte));
+    blocs.push(el("h2", "cuisine-titre", e.titre));
+    const encart = encartIngredients(e.liens);
+    if (encart) blocs.push(encart);
+    blocs.push(el("p", "cuisine-texte", e.texte));
     if (e.astuce) blocs.push(el("p", "cuisine-astuce", e.astuce));
     if (e.minuteur) blocs.push(zoneMinuteur(i));
     return blocs;

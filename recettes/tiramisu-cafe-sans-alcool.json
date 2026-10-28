@@ -4,67 +4,29 @@
   "titre": "Tiramisu au café sans alcool",
   "sous_titre": "Café décaféiné, crème mascarpone aérée aux blancs en neige, une nuit au frais",
   "infos": [
-    [
-      "PRÉPARATION",
-      "≈ 25 min"
-    ],
-    [
-      "REPOS",
-      "4 h – 1 nuit"
-    ],
-    [
-      "PLAT",
-      "≈ 20 × 25 cm"
-    ],
-    [
-      "PORTIONS",
-      "6 à 8 pers."
-    ]
+    ["PRÉPARATION", "≈ 25 min"],
+    ["REPOS", "4 h – 1 nuit"],
+    ["PLAT", "≈ 20 × 25 cm"],
+    ["PORTIONS", "6 à 8 pers."]
   ],
   "ingredients": [
     [
       "CRÈME",
       [
-        [
-          "3",
-          "œufs extra-frais"
-        ],
-        [
-          "80 g",
-          "sucre"
-        ],
-        [
-          "1 sachet",
-          "sucre vanillé (facultatif)"
-        ],
-        [
-          "250 g",
-          "mascarpone"
-        ]
+        ["3", "œufs extra-frais", "oeufs"],
+        ["80 g", "sucre", "sucre"],
+        ["1 sachet", "sucre vanillé (facultatif)", "sucre-vanille"],
+        ["250 g", "mascarpone", "mascarpone"]
       ]
     ],
     [
       "MONTAGE",
       [
-        [
-          "200 g",
-          "biscuits à la cuillère"
-        ],
-        [
-          "20 cl",
-          "café décaféiné refroidi"
-        ]
+        ["200 g", "biscuits à la cuillère", "biscuits"],
+        ["20 cl", "café décaféiné refroidi", "cafe"]
       ]
     ],
-    [
-      "FINITION",
-      [
-        [
-          "",
-          "cacao en poudre non sucré"
-        ]
-      ]
-    ]
+    ["FINITION", [["", "cacao en poudre non sucré", "cacao"]]]
   ],
   "phases": [
     [
@@ -74,19 +36,22 @@
           "Séparer les œufs",
           "2 min",
           "Séparer les blancs des jaunes dans deux saladiers bien propres.",
-          "Pas une trace de jaune dans les blancs, sinon ils ne monteront pas."
+          "Pas une trace de jaune dans les blancs, sinon ils ne monteront pas.",
+          ["oeufs"]
         ],
         [
           "Blanchir les jaunes",
           "3 à 4 min",
           "Fouetter les jaunes avec le sucre et le sucre vanillé.",
-          "C'est prêt quand le mélange est pâle, mousseux et a doublé de volume."
+          "C'est prêt quand le mélange est pâle, mousseux et a doublé de volume.",
+          ["sucre", "sucre-vanille"]
         ],
         [
           "Ajouter le mascarpone",
           "2 min",
           "Incorporer le mascarpone et mélanger jusqu'à obtenir une crème lisse.",
-          null
+          null,
+          ["mascarpone"]
         ]
       ]
     ],
@@ -97,13 +62,15 @@
           "Monter les blancs",
           "4 à 5 min",
           "Battre les blancs en neige ferme.",
-          "Ils doivent tenir en bec au bout du fouet."
+          "Ils doivent tenir en bec au bout du fouet.",
+          []
         ],
         [
           "Incorporer",
           "2 min",
           "Ajouter les blancs à la crème mascarpone en deux fois, délicatement à la maryse, en soulevant la masse.",
-          "Ne pas fouetter : la crème doit rester légère et aérée."
+          "Ne pas fouetter : la crème doit rester légère et aérée.",
+          []
         ]
       ]
     ],
@@ -114,25 +81,29 @@
           "Première couche",
           "4 min",
           "Tremper rapidement chaque biscuit dans le café refroidi et tapisser le fond du plat. Couvrir avec la moitié de la crème.",
-          "Un aller-retour rapide suffit : trop imbibés, les biscuits se délitent."
+          "Un aller-retour rapide suffit : trop imbibés, les biscuits se délitent.",
+          [["biscuits", "100 g"], ["cafe", "10 cl"]]
         ],
         [
           "Seconde couche",
           "4 min",
           "Recommencer avec le reste des biscuits trempés, puis le reste de la crème. Lisser la surface.",
-          null
+          null,
+          [["biscuits", "100 g"], ["cafe", "10 cl"]]
         ],
         [
           "Réfrigérer",
           "4 h minimum",
           "Filmer et placer au réfrigérateur, idéalement toute une nuit.",
-          "Une nuit de repos rend le tiramisu plus fondant et facile à couper."
+          "Une nuit de repos rend le tiramisu plus fondant et facile à couper.",
+          []
         ],
         [
           "Finir au cacao",
           "1 min",
           "Juste avant de servir, saupoudrer généreusement de cacao à travers un tamis.",
-          "Fait trop tôt, le cacao s'humidifie et perd son aspect velouté."
+          "Fait trop tôt, le cacao s'humidifie et perd son aspect velouté.",
+          ["cacao"]
         ]
       ]
     ]
