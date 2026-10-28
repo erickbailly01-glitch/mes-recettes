@@ -4,32 +4,128 @@
   "portions": {"n": 8, "u": "parts"},
   "titre": "Pumpkin pie",
   "sous_titre": "Courge à la vapeur, sirop d'érable et pâte sucrée aux amandes",
-  "infos": [["PRÉPARATION", "≈ 30 min"], ["REPOS PÂTE", "1 h"], ["CUISSON COURGE", "25–30 min · vapeur"],
-            ["CUISSON TARTE", "25 + 35 min · 180 °C"]],
+  "infos": [
+    ["PRÉPARATION", "≈ 30 min"],
+    ["REPOS PÂTE", "1 h"],
+    ["CUISSON COURGE", "25–30 min · vapeur"],
+    ["CUISSON TARTE", "25 + 35 min · 180 °C"]
+  ],
   "ingredients": [
-    ["PÂTE SUCRÉE", [["170 g", "farine"], ["80 g", "poudre d'amandes"], ["90 g", "sucre en poudre"], ["1", "gousse de vanille (graines)"], ["125 g", "beurre mou"], ["1", "œuf"]]],
-    ["CUISSON VAPEUR", [["500 g", "eau"], ["700 g", "courge d'hiver en cubes de 2 cm"]]],
-    ["APPAREIL", [["3", "œufs"], ["1", "jaune d'œuf"], ["50 g", "sucre complet brun"], ["300 g", "crème liquide 30–40 %"], ["110 g", "sirop d'érable"], ["1 c. à c.", "cannelle en poudre"]]],
-    ["PLAN DE TRAVAIL", [["20 g", "farine"]]]
+    [
+      "PÂTE SUCRÉE",
+      [
+        ["170 g", "farine", "farine"],
+        ["80 g", "poudre d'amandes", "amandes"],
+        ["90 g", "sucre en poudre", "sucre"],
+        ["1", "gousse de vanille (graines)", "vanille"],
+        ["125 g", "beurre mou", "beurre"],
+        ["1", "œuf", "oeuf"]
+      ]
+    ],
+    [
+      "CUISSON VAPEUR",
+      [["500 g", "eau", "eau"], ["700 g", "courge d'hiver en cubes de 2 cm", "courge"]]
+    ],
+    [
+      "APPAREIL",
+      [
+        ["3", "œufs", "oeufs"],
+        ["1", "jaune d'œuf", "jaune"],
+        ["50 g", "sucre complet brun", "sucre-complet"],
+        ["300 g", "crème liquide 30–40 %", "creme"],
+        ["110 g", "sirop d'érable", "sirop-erable"],
+        ["1 c. à c.", "cannelle en poudre", "cannelle"]
+      ]
+    ],
+    ["PLAN DE TRAVAIL", [["20 g", "farine", "farine-plan"]]]
   ],
   "materiel": "Monsieur Cuisine Compact + accessoire vapeur · moule à tarte · rouleau à pâtisserie · papier cuisson · haricots secs ou riz · saladier · four",
   "note": "Sur le Compact, la cuisson vapeur se règle à 120 °C (sa température max). Si les 700 g de courge ne tiennent pas dans l'accessoire vapeur, cuire en deux fois.",
   "phases": [
-    ["La pâte", [
-      ["Mixer la pâte", "20 s", "Mettre farine, poudre d'amandes, sucre, graines de vanille, beurre mou et œuf dans le bol. Mixer 20 s / vitesse 5.", "Si la pâte reste sableuse, ajouter 5 s / vitesse 5."],
-      ["Repos au froid", "1 h", "Former une boule, la placer dans un saladier couvert au réfrigérateur. Laver le bol.", "La pâte reposée s'étale sans se rétracter."]
-    ]],
-    ["La garniture", [
-      ["Cuire la courge à la vapeur", "25 à 30 min", "Verser 500 g d'eau dans le bol, mettre la courge dans l'accessoire vapeur, le poser et fermer. Cuire 25 min / 120 °C / vitesse 1.", "La courge est prête quand la pointe d'un couteau s'enfonce sans résistance ; sinon prolonger de 5 min."],
-      ["Égoutter", "5 min", "Retirer l'accessoire vapeur, laisser bien égoutter la courge, puis vider l'eau du bol.", "Une courge bien égouttée donne une crème qui prend mieux."],
-      ["Mixer l'appareil", "30 s", "Dans le bol non rincé : courge, œufs, jaune, sucre, crème, sirop d'érable et cannelle. Mixer 30 s / vitesse 6.", "Monter progressivement en vitesse pour éviter les projections."]
-    ]],
-    ["Cuisson", [
-      ["Foncer le moule", "10 min", "Préchauffer le four à 180 °C (th. 6). Étaler la pâte sur le plan fariné, garnir le moule et piquer le fond à la fourchette.", null],
-      ["Cuire à blanc", "15 min", "Couvrir de papier cuisson, garnir de haricots secs ou de riz et enfourner.", null],
-      ["Finir le fond", "10 min", "Retirer le papier et les haricots, poursuivre la cuisson jusqu'à ce que le fond soit doré.", "Un fond précuit reste croustillant sous la crème."],
-      ["Cuire la tarte", "≈ 35 min", "Verser l'appareil dans le fond de tarte et cuire.", "C'est cuit quand la crème est prise mais tremblote encore légèrement au centre."],
-      ["Refroidir", "1 h minimum", "Laisser refroidir complètement avant de servir.", "La crème finit de prendre en refroidissant."]
-    ]]
+    [
+      "La pâte",
+      [
+        [
+          "Mixer la pâte",
+          "20 s",
+          "Mettre farine, poudre d'amandes, sucre, graines de vanille, beurre mou et œuf dans le bol. Mixer 20 s / vitesse 5.",
+          "Si la pâte reste sableuse, ajouter 5 s / vitesse 5.",
+          ["farine", "amandes", "sucre", "vanille", "beurre", "oeuf"]
+        ],
+        [
+          "Repos au froid",
+          "1 h",
+          "Former une boule, la placer dans un saladier couvert au réfrigérateur. Laver le bol.",
+          "La pâte reposée s'étale sans se rétracter.",
+          []
+        ]
+      ]
+    ],
+    [
+      "La garniture",
+      [
+        [
+          "Cuire la courge à la vapeur",
+          "25 à 30 min",
+          "Verser 500 g d'eau dans le bol, mettre la courge dans l'accessoire vapeur, le poser et fermer. Cuire 25 min / 120 °C / vitesse 1.",
+          "La courge est prête quand la pointe d'un couteau s'enfonce sans résistance ; sinon prolonger de 5 min.",
+          ["eau", "courge"]
+        ],
+        [
+          "Égoutter",
+          "5 min",
+          "Retirer l'accessoire vapeur, laisser bien égoutter la courge, puis vider l'eau du bol.",
+          "Une courge bien égouttée donne une crème qui prend mieux.",
+          []
+        ],
+        [
+          "Mixer l'appareil",
+          "30 s",
+          "Dans le bol non rincé : courge, œufs, jaune, sucre, crème, sirop d'érable et cannelle. Mixer 30 s / vitesse 6.",
+          "Monter progressivement en vitesse pour éviter les projections.",
+          ["courge", "oeufs", "jaune", "sucre-complet", "creme", "sirop-erable", "cannelle"]
+        ]
+      ]
+    ],
+    [
+      "Cuisson",
+      [
+        [
+          "Foncer le moule",
+          "10 min",
+          "Préchauffer le four à 180 °C (th. 6). Étaler la pâte sur le plan fariné, garnir le moule et piquer le fond à la fourchette.",
+          null,
+          ["farine-plan"]
+        ],
+        [
+          "Cuire à blanc",
+          "15 min",
+          "Couvrir de papier cuisson, garnir de haricots secs ou de riz et enfourner.",
+          null,
+          []
+        ],
+        [
+          "Finir le fond",
+          "10 min",
+          "Retirer le papier et les haricots, poursuivre la cuisson jusqu'à ce que le fond soit doré.",
+          "Un fond précuit reste croustillant sous la crème.",
+          []
+        ],
+        [
+          "Cuire la tarte",
+          "≈ 35 min",
+          "Verser l'appareil dans le fond de tarte et cuire.",
+          "C'est cuit quand la crème est prise mais tremblote encore légèrement au centre.",
+          []
+        ],
+        [
+          "Refroidir",
+          "1 h minimum",
+          "Laisser refroidir complètement avant de servir.",
+          "La crème finit de prendre en refroidissant.",
+          []
+        ]
+      ]
+    ]
   ]
 }
