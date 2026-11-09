@@ -136,6 +136,15 @@
       "pdf": "298ef9a0"
     },
     {
+      "fichier": "kuy-teav-boeuf.json",
+      "titre": "Kuy Teav au bœuf",
+      "categorie": "Plat",
+      "type": "Plat",
+      "sous_titre": "Soupe de nouilles cambodgienne, bouillon d'os à moelle mijoté la veille en cocotte",
+      "preparation": "≈ 1 h 15",
+      "pdf": "b5b4ec2b"
+    },
+    {
       "fichier": "lasagnes-butternut-raclette.json",
       "titre": "Lasagnes au butternut & raclette",
       "categorie": "Plat",

@@ -1,0 +1,269 @@
+{
+  "categorie": "PLAT  ·  CAMBODGE  ·  RECETTE MAISON",
+  "type": "Plat",
+  "portions": {
+    "n": 6,
+    "u": "pers."
+  },
+  "titre": "Kuy Teav au bœuf",
+  "sous_titre": "Soupe de nouilles cambodgienne, bouillon d'os à moelle mijoté la veille en cocotte",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 1 h 15"
+    ],
+    [
+      "CUISSON BOUILLON",
+      "3 h 30 – 4 h"
+    ],
+    [
+      "REPOS",
+      "1 nuit au frais"
+    ],
+    [
+      "COCOTTE",
+      "Fonte 7 L"
+    ],
+    [
+      "PORTIONS",
+      "6 pers."
+    ]
+  ],
+  "ingredients": [
+    [
+      "BOUILLON · J-1",
+      [
+        [
+          "2 kg",
+          "os à moelle et os de bœuf",
+          "os"
+        ],
+        [
+          "4,5 L",
+          "eau froide",
+          "eau"
+        ],
+        [
+          "2",
+          "oignons jaunes",
+          "oignons"
+        ],
+        [
+          "1",
+          "tête d'ail",
+          "tete-ail"
+        ],
+        [
+          "30 g",
+          "gingembre",
+          "gingembre"
+        ],
+        [
+          "400 g",
+          "chou chinois",
+          "chou"
+        ],
+        [
+          "40 g",
+          "sucre candi ou roux",
+          "sucre"
+        ],
+        [
+          "1 c. à s.",
+          "sel",
+          "sel"
+        ]
+      ]
+    ],
+    [
+      "ASSAISONNEMENT",
+      [
+        [
+          "30–40 g",
+          "bouillon de bœuf Jarmino (3–4 portions)",
+          "jarmino"
+        ],
+        [
+          "6 c. à s.",
+          "nuoc-mâm, à ajuster",
+          "nuoc-mam"
+        ]
+      ]
+    ],
+    [
+      "GARNITURE",
+      [
+        [
+          "600 g",
+          "nouilles de riz fines",
+          "nouilles"
+        ],
+        [
+          "400 g",
+          "rumsteck ou faux-filet",
+          "boeuf"
+        ],
+        [
+          "300 g",
+          "pousses de soja",
+          "soja"
+        ],
+        [
+          "4",
+          "oignons nouveaux",
+          "oignons-nouveaux"
+        ],
+        [
+          "1 botte",
+          "coriandre",
+          "coriandre"
+        ],
+        [
+          "3",
+          "citrons verts",
+          "citrons"
+        ],
+        [
+          "4–6",
+          "piments oiseau",
+          "piments"
+        ],
+        [
+          "",
+          "poivre noir moulu",
+          "poivre"
+        ]
+      ]
+    ],
+    [
+      "HUILE D'AIL",
+      [
+        [
+          "8",
+          "gousses d'ail",
+          "ail"
+        ],
+        [
+          "8 cl",
+          "huile neutre",
+          "huile"
+        ]
+      ]
+    ]
+  ],
+  "materiel": "Cocotte fonte 7 L · grande casserole · passoire fine + étamine ou filtre · écumoire · poêle · couteau bien aiguisé · 6 grands bols",
+  "planning": [
+    [
+      "J-1",
+      "Blanchir · aromates · mijoter 3 h 30 – 4 h · filtrer · frigo"
+    ],
+    [
+      "J",
+      "Dégraisser · assaisonner · garnitures ≈ 45 min · montage"
+    ]
+  ],
+  "note": "Sans os à moelle : queue de bœuf ou plat de côtes donnent aussi un bouillon riche et gélatineux. Le chou chinois apporte la douceur du bouillon.",
+  "phases": [
+    [
+      "Le bouillon · ce soir",
+      [
+        [
+          "Blanchir les os",
+          "15 min",
+          "Mettre les os dans la cocotte, couvrir d'eau froide, porter à ébullition 10 min. Égoutter, rincer les os et laver la cocotte.",
+          "Élimine sang et impuretés : c'est le secret d'un bouillon limpide.",
+          [
+            "os"
+          ]
+        ],
+        [
+          "Brûler les aromates",
+          "10 min",
+          "Couper oignons, tête d'ail et gingembre en deux ; les noircir face coupée dans une poêle sèche à feu vif.",
+          "Le grillé apporte couleur ambrée et goût fumé.",
+          [
+            "oignons",
+            "tete-ail",
+            "gingembre"
+          ]
+        ],
+        [
+          "Mijoter",
+          "3 h 30 – 4 h",
+          "Remettre les os dans la cocotte avec l'eau froide, les aromates, le chou chinois en gros morceaux, le sucre et le sel. Frémissement à peine, couvercle entrouvert ; écumer la première demi-heure.",
+          "Ne jamais laisser bouillir franchement, sinon le bouillon devient trouble.",
+          [
+            "eau",
+            "chou",
+            "sucre",
+            "sel"
+          ]
+        ],
+        [
+          "Filtrer et refroidir",
+          "20 min",
+          "Filtrer à travers l'étamine, refroidir rapidement (évier d'eau froide) puis réfrigérer une nuit.",
+          "Compter ≈ 3 L ; s'il en manque, compléter à l'eau.",
+          []
+        ]
+      ]
+    ],
+    [
+      "Demain · finition",
+      [
+        [
+          "Dégraisser et assaisonner",
+          "15 min",
+          "Retirer la couche de gras figé. Porter à frémissement, y délayer le bouillon Jarmino, puis saler au nuoc-mâm en goûtant ; ajuster sel et sucre.",
+          "Le Jarmino est déjà salé : nuoc-mâm petit à petit. Le bouillon doit paraître un peu trop salé, les nouilles l'adoucissent.",
+          [
+            "jarmino",
+            "nuoc-mam"
+          ]
+        ],
+        [
+          "Huile d'ail",
+          "10 min",
+          "Hacher l'ail et le cuire dans l'huile à feu doux en remuant jusqu'à blond doré. Égoutter aussitôt, garder l'huile.",
+          "Retirer blond : il fonce encore hors du feu et deviendrait amer.",
+          [
+            "ail",
+            "huile"
+          ]
+        ],
+        [
+          "Préparer bœuf et garnitures",
+          "20 min",
+          "Passer le rumsteck 20 min au congélateur puis le trancher très fin. Ciseler oignons nouveaux et coriandre, couper citrons et piments.",
+          null,
+          [
+            "boeuf",
+            "oignons-nouveaux",
+            "coriandre",
+            "citrons",
+            "piments"
+          ]
+        ],
+        [
+          "Cuire les nouilles",
+          "5–10 min",
+          "Tremper ou cuire selon le paquet, rincer à l'eau froide, égoutter.",
+          null,
+          [
+            "nouilles"
+          ]
+        ],
+        [
+          "Monter les bols",
+          "2 min / bol",
+          "Réchauffer nouilles et soja 10 s dans l'eau bouillante, mettre en bol. Ajouter le bœuf cru, couvrir de bouillon bouillant, puis huile d'ail, herbes et poivre.",
+          "Le bouillon bouillant doit cuire le bœuf cru : il devient rosé en quelques secondes.",
+          [
+            "soja",
+            "poivre"
+          ]
+        ]
+      ]
+    ]
+  ]
+}
