@@ -1,0 +1,217 @@
+{
+  "categorie": "BOULANGERIE  ·  RECETTE MAISON",
+  "type": "Boulangerie",
+  "titre": "Pain au levain",
+  "sous_titre": "Levain rafraîchi, rabats pendant le pointage, une nuit au froid, cuit en cocotte",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 30 min"
+    ],
+    [
+      "LEVAIN + POINTAGE",
+      "4 h + 2 h"
+    ],
+    [
+      "REPOS FROID",
+      "12 h minimum"
+    ],
+    [
+      "CUISSON",
+      "≈ 50 min · 240 → 220 °C"
+    ],
+    [
+      "PORTIONS",
+      "1 pain ≈ 850 g"
+    ]
+  ],
+  "ingredients": [
+    [
+      "LEVAIN · 4 H AVANT",
+      [
+        [
+          "62,5 g",
+          "eau",
+          "eau-levain"
+        ],
+        [
+          "62,5 g",
+          "farine",
+          "farine-levain"
+        ],
+        [
+          "",
+          "levain gardé au frigo",
+          "levain-chef"
+        ]
+      ]
+    ],
+    [
+      "PÂTE",
+      [
+        [
+          "500 g",
+          "farine (T65, T80 ou T110)",
+          "farine"
+        ],
+        [
+          "350 g",
+          "eau tiède",
+          "eau"
+        ],
+        [
+          "125 g",
+          "levain rafraîchi actif",
+          "levain"
+        ],
+        [
+          "10 g",
+          "sel",
+          "sel"
+        ]
+      ]
+    ],
+    [
+      "FAÇONNAGE & CUISSON",
+      [
+        [
+          "",
+          "farine pour le plan de travail et le torchon",
+          "farine-plan"
+        ],
+        [
+          "1 verre",
+          "eau (pour la vapeur)",
+          "eau-vapeur"
+        ]
+      ]
+    ]
+  ],
+  "materiel": "Grand saladier · maryse ou corne · torchon propre · cocotte en fonte avec couvercle (Ø 20–24 cm) · lame ou couteau bien aiguisé · balance · four",
+  "planning": [
+    [
+      "J-1",
+      "Levain 4 h · pétrissage 10 min · pointage 2 h avec rabats · façonnage 10 min · nuit au frigo"
+    ],
+    [
+      "J",
+      "Préchauffage 30 min · cuisson ≈ 50 min · refroidissement"
+    ]
+  ],
+  "note": "Recette réduite de moitié (1 kg → 500 g de farine) : hydratation à 70 % et sel à 2 %, les proportions restent identiques.",
+  "phases": [
+    [
+      "Le levain",
+      [
+        [
+          "Rafraîchir le levain",
+          "4 h",
+          "Sortir le levain du frigo, y ajouter l'eau et la farine, mélanger et laisser reposer à température ambiante.",
+          "Il est prêt quand il a bien gonflé et que des bulles apparaissent.",
+          [
+            "eau-levain",
+            "farine-levain",
+            "levain-chef"
+          ]
+        ]
+      ]
+    ],
+    [
+      "Pétrissage et pointage",
+      [
+        [
+          "Mélanger",
+          "5 min",
+          "Mettre le levain dans un récipient, ajouter l'eau tiède puis la farine, et pétrir légèrement jusqu'à ce qu'il ne reste plus de farine sèche.",
+          null,
+          [
+            "levain",
+            "eau",
+            "farine"
+          ]
+        ],
+        [
+          "Ajouter le sel",
+          "5 min",
+          "Incorporer le sel et pétrir à nouveau. Rabattre la pâte du fond vers le dessus.",
+          "Le sel ajouté après le premier mélange ne freine pas le levain.",
+          [
+            "sel"
+          ]
+        ],
+        [
+          "Pointage avec rabats",
+          "2 h",
+          "Laisser reposer 2 h. Toutes les 30 min, donner de la force à la pâte en rabattant le fond sur le dessus avec une maryse.",
+          "La pâte devient plus lisse, souple et élastique à chaque série de rabats.",
+          []
+        ]
+      ]
+    ],
+    [
+      "Façonnage et repos",
+      [
+        [
+          "Dégazer et étirer",
+          "5 à 10 min",
+          "Fleurir le plan de travail, y déposer la pâte, la dégazer avec le poing puis l'étirer et la replier.",
+          "C'est fini quand la pâte commence à coller.",
+          [
+            "farine-plan"
+          ]
+        ],
+        [
+          "Repos au frigo",
+          "12 h minimum",
+          "Déposer la pâte dans un torchon bien fariné et placer au réfrigérateur.",
+          "La fermentation lente au froid développe le goût et facilite l'incision.",
+          [
+            "farine-plan"
+          ]
+        ]
+      ]
+    ],
+    [
+      "Cuisson",
+      [
+        [
+          "Préchauffer",
+          "≈ 30 min",
+          "Préchauffer le four à 240 °C avec la cocotte et son couvercle à l'intérieur.",
+          "La cocotte doit être brûlante pour bien saisir la pâte.",
+          []
+        ],
+        [
+          "Enfourner",
+          "2 min",
+          "Sortir la pâte du frigo et la déposer dans la cocotte en la retournant du torchon. Faire une incision centrale.",
+          null,
+          []
+        ],
+        [
+          "Cuire à couvert",
+          "30 à 40 min",
+          "Cuire avec le couvercle à 240 °C.",
+          "Pour 500 g de farine, surveiller dès 30 min : le pain est plus petit qu'avec 1 kg.",
+          []
+        ],
+        [
+          "Finir à découvert",
+          "10 min",
+          "Retirer le couvercle, baisser à 220 °C, mettre un verre d'eau dans le four et prolonger la cuisson.",
+          "Croûte bien dorée ; le dessous sonne creux quand on le tapote.",
+          [
+            "eau-vapeur"
+          ]
+        ],
+        [
+          "Refroidir",
+          "1 h",
+          "Laisser refroidir sur une grille avant de trancher.",
+          "La mie finit de cuire en refroidissant.",
+          []
+        ]
+      ]
+    ]
+  ]
+}
