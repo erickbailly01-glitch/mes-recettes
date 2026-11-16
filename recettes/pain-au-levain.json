@@ -2,27 +2,27 @@
   "categorie": "BOULANGERIE  ·  RECETTE MAISON",
   "type": "Boulangerie",
   "titre": "Pain au levain",
-  "sous_titre": "Levain rafraîchi, rabats pendant le pointage, une nuit au froid, cuit en cocotte",
+  "sous_titre": "Levain au pic, autolyse, pointage complet, bâtard serré, une nuit au froid, cuit en cocotte ovale",
   "infos": [
     [
       "PRÉPARATION",
-      "≈ 30 min"
+      "≈ 45 min"
     ],
     [
       "LEVAIN + POINTAGE",
-      "4 h + 2 h"
+      "4 h + 4 à 5 h"
     ],
     [
       "REPOS FROID",
-      "12 h minimum"
+      "12 à 24 h"
     ],
     [
       "CUISSON",
-      "≈ 50 min · 240 → 220 °C"
+      "≈ 55 min · 250 → 230 °C"
     ],
     [
       "PORTIONS",
-      "1 pain ≈ 850 g"
+      "1 bâtard ≈ 1,45 kg"
     ]
   ],
   "ingredients": [
@@ -30,19 +30,19 @@
       "LEVAIN · 4 H AVANT",
       [
         [
-          "62,5 g",
+          "45 g",
+          "levain gardé au frigo",
+          "levain-chef"
+        ],
+        [
+          "110 g",
           "eau",
           "eau-levain"
         ],
         [
-          "62,5 g",
+          "110 g",
           "farine",
           "farine-levain"
-        ],
-        [
-          "",
-          "levain gardé au frigo",
-          "levain-chef"
         ]
       ]
     ],
@@ -50,24 +50,29 @@
       "PÂTE",
       [
         [
-          "500 g",
-          "farine (T65, T80 ou T110)",
+          "850 g",
+          "farine T65 (ou 80 % T65 + 20 % T80)",
           "farine"
         ],
         [
-          "350 g",
-          "eau tiède",
-          "eau"
+          "560 g",
+          "eau à ≈ 30 °C",
+          "eau-autolyse"
         ],
         [
-          "125 g",
-          "levain rafraîchi actif",
+          "215 g",
+          "levain rafraîchi, au pic",
           "levain"
         ],
         [
-          "10 g",
+          "17 g",
           "sel",
           "sel"
+        ],
+        [
+          "35 g",
+          "eau (avec le sel)",
+          "eau-bassinage"
         ]
       ]
     ],
@@ -76,29 +81,38 @@
       [
         [
           "",
-          "farine pour le plan de travail et le torchon",
+          "huile neutre pour le récipient",
+          "huile"
+        ],
+        [
+          "",
+          "farine (de riz) pour le plan et le torchon",
           "farine-plan"
         ],
         [
-          "1 verre",
-          "eau (pour la vapeur)",
-          "eau-vapeur"
+          "1 feuille",
+          "papier cuisson (≈ 30 × 22 cm)",
+          "papier"
         ]
       ]
     ]
   ],
-  "materiel": "Grand saladier · maryse ou corne · torchon propre · cocotte en fonte avec couvercle (Ø 20–24 cm) · lame ou couteau bien aiguisé · balance · four",
+  "materiel": "Récipient en verre ≥ 4 L avec couvercle · maryse ou corne · plat ovale ≈ 28 × 18 cm + torchon · cocotte ovale en fonte 7 L · lame · balance · grille",
   "planning": [
     [
       "J-1",
-      "Levain 4 h · pétrissage 10 min · pointage 2 h avec rabats · façonnage 10 min · nuit au frigo"
+      "9 h levain · 12 h 15 autolyse · 13 h mélange · 3 rabats jusqu'à 14 h 40 · pointage jusqu'à ≈ 17 h 30 · façonnage · 18 h frigo"
     ],
     [
       "J",
-      "Préchauffage 30 min · cuisson ≈ 50 min · refroidissement"
+      "Préchauffage 45 min · cuisson ≈ 55 min · refroidissement 2 h"
+    ],
+    [
+      "OU",
+      "En semaine : levain 17 h 45 · mélange 22 h avec 85 g de levain · 2 rabats · pointage la nuit · façonnage 7 h · frigo · cuisson le soir"
     ]
   ],
-  "note": "Recette réduite de moitié (1 kg → 500 g de farine) : hydratation à 70 % et sel à 2 %, les proportions restent identiques.",
+  "note": "Dosée pour une cocotte ovale de 7,1 L : 850 g de farine, 70 % d'eau, 25 % de levain, 2 % de sel. Le pointage se juge à l'œil, pas à l'horloge.",
   "phases": [
     [
       "Le levain",
@@ -106,12 +120,12 @@
         [
           "Rafraîchir le levain",
           "4 h",
-          "Sortir le levain du frigo, y ajouter l'eau et la farine, mélanger et laisser reposer à température ambiante.",
-          "Il est prêt quand il a bien gonflé et que des bulles apparaissent.",
+          "Mélanger levain, eau et farine ; couvrir, laisser à température ambiante.",
+          "Prêt au pic : doublé, bombé, une cuillerée flotte.",
           [
+            "levain-chef",
             "eau-levain",
-            "farine-levain",
-            "levain-chef"
+            "farine-levain"
           ]
         ]
       ]
@@ -120,30 +134,47 @@
       "Pétrissage et pointage",
       [
         [
-          "Mélanger",
-          "5 min",
-          "Mettre le levain dans un récipient, ajouter l'eau tiède puis la farine, et pétrir légèrement jusqu'à ce qu'il ne reste plus de farine sèche.",
+          "Autolyse",
+          "45 min",
+          "Mélanger farine et eau sans laisser de farine sèche. Couvrir.",
           null,
           [
-            "levain",
-            "eau",
-            "farine"
+            "farine",
+            "eau-autolyse"
+          ]
+        ],
+        [
+          "Ajouter le levain",
+          "5 min",
+          "Ajouter le levain et pétrir jusqu'à l'incorporer.",
+          null,
+          [
+            "levain"
           ]
         ],
         [
           "Ajouter le sel",
           "5 min",
-          "Incorporer le sel et pétrir à nouveau. Rabattre la pâte du fond vers le dessus.",
-          "Le sel ajouté après le premier mélange ne freine pas le levain.",
+          "Ajouter sel et eau, pétrir. Passer dans le récipient huilé, marquer le niveau, couvrir.",
+          "Début du pointage. Pâte à 24-26 °C.",
           [
-            "sel"
+            "sel",
+            "eau-bassinage",
+            "huile"
           ]
         ],
         [
-          "Pointage avec rabats",
-          "2 h",
-          "Laisser reposer 2 h. Toutes les 30 min, donner de la force à la pâte en rabattant le fond sur le dessus avec une maryse.",
-          "La pâte devient plus lisse, souple et élastique à chaque série de rabats.",
+          "Rabats",
+          "1 h 30",
+          "Toutes les 30 min, mains mouillées, étirer et replier la pâte (3 séries).",
+          null,
+          []
+        ],
+        [
+          "Fin du pointage",
+          "3 à 4 h",
+          "Laisser reposer couvert, au chaud, sans toucher.",
+          "Prête à +50-75 % : bombée, bulleuse, tremblotante.",
           []
         ]
       ]
@@ -152,22 +183,29 @@
       "Façonnage et repos",
       [
         [
-          "Dégazer et étirer",
-          "5 à 10 min",
-          "Fleurir le plan de travail, y déposer la pâte, la dégazer avec le poing puis l'étirer et la replier.",
-          "C'est fini quand la pâte commence à coller.",
+          "Préfaçonner",
+          "30 min",
+          "Déposer la pâte sans la dégazer, former une boule lâche, laisser reposer.",
+          "Ne pas écraser : les bulles font les alvéoles.",
+          [
+            "farine-plan"
+          ]
+        ],
+        [
+          "Façonner",
+          "5 min",
+          "Bâtard serré ≈ 25 × 15 cm, soudure en haut dans le plat garni du torchon fariné.",
+          "En gonflant, il s'appuiera sur les parois de la cocotte.",
           [
             "farine-plan"
           ]
         ],
         [
           "Repos au frigo",
-          "12 h minimum",
-          "Déposer la pâte dans un torchon bien fariné et placer au réfrigérateur.",
-          "La fermentation lente au froid développe le goût et facilite l'incision.",
-          [
-            "farine-plan"
-          ]
+          "12 à 24 h",
+          "Couvrir et placer au réfrigérateur.",
+          null,
+          []
         ]
       ]
     ],
@@ -176,39 +214,39 @@
       [
         [
           "Préchauffer",
-          "≈ 30 min",
-          "Préchauffer le four à 240 °C avec la cocotte et son couvercle à l'intérieur.",
-          "La cocotte doit être brûlante pour bien saisir la pâte.",
+          "45 min",
+          "Four à 250 °C avec la cocotte et son couvercle.",
+          null,
           []
         ],
         [
           "Enfourner",
           "2 min",
-          "Sortir la pâte du frigo et la déposer dans la cocotte en la retournant du torchon. Faire une incision centrale.",
+          "Retourner le pâton sur le papier, grigner (≈ 1 cm, lame inclinée), mettre en cocotte.",
           null,
-          []
+          [
+            "papier"
+          ]
         ],
         [
           "Cuire à couvert",
-          "30 à 40 min",
-          "Cuire avec le couvercle à 240 °C.",
-          "Pour 500 g de farine, surveiller dès 30 min : le pain est plus petit qu'avec 1 kg.",
+          "25 à 30 min",
+          "Cuire couvert à 250 °C.",
+          "Le couvercle garde la vapeur : pas d'eau.",
           []
         ],
         [
           "Finir à découvert",
-          "10 min",
-          "Retirer le couvercle, baisser à 220 °C, mettre un verre d'eau dans le four et prolonger la cuisson.",
-          "Croûte bien dorée ; le dessous sonne creux quand on le tapote.",
-          [
-            "eau-vapeur"
-          ]
+          "25 à 30 min",
+          "Sans couvercle, à 230 °C, jusqu'à une croûte bien foncée.",
+          "Cœur à 96-98 °C, dessous qui sonne creux.",
+          []
         ],
         [
           "Refroidir",
-          "1 h",
-          "Laisser refroidir sur une grille avant de trancher.",
-          "La mie finit de cuire en refroidissant.",
+          "2 h",
+          "Refroidir sur une grille avant de trancher.",
+          null,
           []
         ]
       ]

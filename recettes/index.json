@@ -185,9 +185,9 @@
       "titre": "Pain au levain",
       "categorie": "Boulangerie",
       "type": "Boulangerie",
-      "sous_titre": "Levain rafraîchi, rabats pendant le pointage, une nuit au froid, cuit en cocotte",
-      "preparation": "≈ 30 min",
-      "pdf": "a4f5806e"
+      "sous_titre": "Levain au pic, autolyse, pointage complet, bâtard serré, une nuit au froid, cuit en cocotte ovale",
+      "preparation": "≈ 45 min",
+      "pdf": "d1f49ecc"
     },
     {
       "fichier": "pain-cocotte.json",
