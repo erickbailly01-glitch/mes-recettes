@@ -1,0 +1,44 @@
+{
+  "categorie": "PLAT  ·  RECETTE LIDL",
+  "type": "Plat",
+  "portions": {"n": 4, "u": "pers."},
+  "titre": "Cannelloni chorizo butternut",
+  "sous_titre": "Farce onctueuse butternut-chorizo mixée, gratinés au parmesan",
+  "infos": [
+    ["PRÉPARATION", "20 min"],
+    ["CUISSON", "30 min · 180 °C"],
+    ["PLAT", "À gratin ≈ 30 × 20 cm"],
+    ["PORTIONS", "4 pers."]
+  ],
+  "ingredients": [
+    ["FARCE", [
+      ["600 g", "courge butternut", "butternut"],
+      ["150 g", "chorizo", "chorizo"],
+      ["15 cl", "crème liquide", "creme"],
+      ["50 g", "parmesan râpé", "parmesan"],
+      ["", "sel fin et poivre", "sel-poivre"]
+    ]],
+    ["MONTAGE", [
+      ["16", "cannelloni secs (≈ 250 g)", "cannelloni"],
+      ["1 filet", "huile d'olive", "huile"],
+      ["15 cl", "crème liquide", "creme-nappage"],
+      ["50 g", "parmesan râpé", "parmesan-gratin"]
+    ]]
+  ],
+  "materiel": "Cuit-vapeur ou casserole · mixeur ou robot · poche à douille (ou cuillère) · plat à gratin · four",
+  "note": "Le chorizo est mixé cru avec la courge : il parfume toute la farce et lui donne sa couleur orangée, sans morceaux.",
+  "phases": [
+    ["La farce", [
+      ["Préchauffer le four", "", "Préchauffer le four à 180 °C (chaleur tournante).", null, []],
+      ["Cuire la courge", "15 à 20 min", "Éplucher la butternut, retirer les graines et la couper en morceaux. La cuire à la vapeur ou à l'eau bouillante salée.", "C'est prêt quand la pointe d'un couteau s'enfonce sans résistance. Bien égoutter pour une farce pas trop liquide.", ["butternut"]],
+      ["Préparer le chorizo", "3 min", "Retirer la peau du chorizo puis le couper en petits dés.", null, ["chorizo"]],
+      ["Mixer la farce", "3 min", "Mixer le chorizo pour le réduire en farce, puis ajouter la courge cuite, la crème, le parmesan, saler et poivrer. Mixer jusqu'à une garniture homogène.", "Saler peu : le chorizo et le parmesan le sont déjà.", ["creme", "parmesan", "sel-poivre"]]
+    ]],
+    ["Montage et cuisson", [
+      ["Farcir les cannelloni", "10 min", "À l'aide d'une poche à douille ou d'une cuillère, farcir les cannelloni crus avec la préparation.", "Une poche à douille sans douille (coin coupé) va beaucoup plus vite.", ["cannelloni"]],
+      ["Disposer dans le plat", "2 min", "Huiler le fond du plat à gratin et y ranger les cannelloni farcis côte à côte.", null, ["huile"]],
+      ["Napper et parsemer", "2 min", "Napper de crème liquide en couvrant bien les pâtes, puis parsemer du reste de parmesan.", "Les pâtes crues doivent être bien couvertes pour cuire sans sécher.", ["creme-nappage", "parmesan-gratin"]],
+      ["Gratiner", "30 min", "Enfourner à 180 °C.", "C'est cuit quand le dessus est doré et que la pointe d'un couteau traverse les cannelloni sans résistance.", []]
+    ]]
+  ]
+}

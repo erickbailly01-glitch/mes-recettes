@@ -19,6 +19,15 @@
       "pdf": "100081f0"
     },
     {
+      "fichier": "cannelloni-chorizo-butternut.json",
+      "titre": "Cannelloni chorizo butternut",
+      "categorie": "Plat",
+      "type": "Plat",
+      "sous_titre": "Farce onctueuse butternut-chorizo mixée, gratinés au parmesan",
+      "preparation": "20 min",
+      "pdf": "c541f38a"
+    },
+    {
       "fichier": "carrot-cake.json",
       "titre": "Carrot cake, la vraie recette",
       "categorie": "Dessert",
