@@ -1,0 +1,251 @@
+{
+  "categorie": "BOULANGERIE  ·  RECETTE MAISON",
+  "type": "Boulangerie",
+  "titre": "Pain au levain, pointage de nuit",
+  "sous_titre": "Version semaine : peu de levain, la pâte lève la nuit, façonnée le matin, cuite le soir en cocotte ovale",
+  "infos": [
+    [
+      "PRÉPARATION",
+      "≈ 45 min"
+    ],
+    [
+      "LEVAIN + POINTAGE",
+      "4 h + 9 à 10 h"
+    ],
+    [
+      "REPOS FROID",
+      "≈ 10 h (la journée)"
+    ],
+    [
+      "CUISSON",
+      "≈ 55 min · 250 → 230 °C"
+    ],
+    [
+      "PORTIONS",
+      "1 bâtard ≈ 1,45 kg"
+    ]
+  ],
+  "ingredients": [
+    [
+      "LEVAIN · LA VEILLE À 17 H 45",
+      [
+        [
+          "20 g",
+          "levain gardé au frigo",
+          "levain-chef"
+        ],
+        [
+          "45 g",
+          "eau",
+          "eau-levain"
+        ],
+        [
+          "45 g",
+          "farine",
+          "farine-levain"
+        ]
+      ]
+    ],
+    [
+      "PÂTE",
+      [
+        [
+          "850 g",
+          "farine T65 (ou 80 % T65 + 20 % T80)",
+          "farine"
+        ],
+        [
+          "560 g",
+          "eau à ≈ 30 °C",
+          "eau-autolyse"
+        ],
+        [
+          "85 g",
+          "levain rafraîchi, au pic",
+          "levain"
+        ],
+        [
+          "17 g",
+          "sel",
+          "sel"
+        ],
+        [
+          "35 g",
+          "eau (avec le sel)",
+          "eau-bassinage"
+        ]
+      ]
+    ],
+    [
+      "FAÇONNAGE & CUISSON",
+      [
+        [
+          "",
+          "huile neutre pour le récipient",
+          "huile"
+        ],
+        [
+          "",
+          "farine (de riz) pour le plan et le torchon",
+          "farine-plan"
+        ],
+        [
+          "1 feuille",
+          "papier cuisson (≈ 30 × 22 cm)",
+          "papier"
+        ]
+      ]
+    ]
+  ],
+  "materiel": "Récipient en verre ≥ 4 L avec couvercle · maryse ou corne · plat ovale ≈ 28 × 18 cm + torchon · cocotte ovale en fonte 7 L · lame · balance · grille",
+  "planning": [
+    [
+      "J-1",
+      "17 h 45 levain · 21 h 15 autolyse · 22 h mélange · rabats à 22 h 30 et 23 h · pointage la nuit"
+    ],
+    [
+      "J",
+      "7 h préfaçonnage · 7 h 25 façonnage, frigo · 17 h 30 préchauffage · 18 h 15 cuisson · on tranche ≈ 20 h 30"
+    ]
+  ],
+  "note": "Moins de levain (10 %) pour lever en 8-9 h la nuit vers 19-20 °C. Logement à plus de 22 °C : 60-70 g de levain ; sous 18 °C : 125 g. 1re fois : commencer un jeudi soir.",
+  "phases": [
+    [
+      "Le levain",
+      [
+        [
+          "Rafraîchir le levain",
+          "4 h",
+          "Mélanger levain, eau et farine ; couvrir, laisser à température ambiante.",
+          "Prêt au pic : doublé, bombé, une cuillerée flotte.",
+          [
+            "levain-chef",
+            "eau-levain",
+            "farine-levain"
+          ]
+        ]
+      ]
+    ],
+    [
+      "Pétrissage et pointage",
+      [
+        [
+          "Autolyse",
+          "45 min",
+          "Mélanger farine et eau sans laisser de farine sèche. Couvrir.",
+          null,
+          [
+            "farine",
+            "eau-autolyse"
+          ]
+        ],
+        [
+          "Ajouter le levain",
+          "5 min",
+          "Ajouter le levain et pétrir jusqu'à l'incorporer.",
+          null,
+          [
+            "levain"
+          ]
+        ],
+        [
+          "Ajouter le sel",
+          "5 min",
+          "Ajouter sel et eau, pétrir. Passer dans le récipient huilé, marquer le niveau, couvrir.",
+          "Début du pointage. Pâte à ≈ 24 °C, puis nuit au calme.",
+          [
+            "sel",
+            "eau-bassinage",
+            "huile"
+          ]
+        ],
+        [
+          "Rabats",
+          "1 h",
+          "Deux séries à 30 min d'intervalle, mains mouillées, puis couvrir et aller se coucher.",
+          null,
+          []
+        ],
+        [
+          "Pointage de nuit",
+          "8 à 9 h",
+          "Laisser reposer couvert toute la nuit, sans toucher.",
+          "Le matin : +50-75 %, bombée, bulleuse. Sinon, attendre encore.",
+          []
+        ]
+      ]
+    ],
+    [
+      "Façonnage et repos",
+      [
+        [
+          "Préfaçonner",
+          "25 min",
+          "Déposer la pâte sans la dégazer, former une boule lâche, laisser reposer.",
+          "Ne pas écraser : les bulles font les alvéoles.",
+          [
+            "farine-plan"
+          ]
+        ],
+        [
+          "Façonner",
+          "5 min",
+          "Bâtard serré ≈ 25 × 15 cm, soudure en haut dans le plat garni du torchon fariné.",
+          "En gonflant, il s'appuiera sur les parois de la cocotte.",
+          [
+            "farine-plan"
+          ]
+        ],
+        [
+          "Repos au frigo",
+          "≈ 10 h",
+          "Couvrir et placer au réfrigérateur pour la journée.",
+          null,
+          []
+        ]
+      ]
+    ],
+    [
+      "Cuisson",
+      [
+        [
+          "Préchauffer",
+          "45 min",
+          "Four à 250 °C avec la cocotte et son couvercle.",
+          null,
+          []
+        ],
+        [
+          "Enfourner",
+          "2 min",
+          "Retourner le pâton sur le papier, grigner (≈ 1 cm, lame inclinée), mettre en cocotte.",
+          null,
+          [
+            "papier"
+          ]
+        ],
+        [
+          "Cuire à couvert",
+          "25 à 30 min",
+          "Cuire couvert à 250 °C.",
+          "Le couvercle garde la vapeur : pas d'eau.",
+          []
+        ],
+        [
+          "Finir à découvert",
+          "25 à 30 min",
+          "Sans couvercle, à 230 °C, jusqu'à une croûte bien foncée.",
+          "Cœur à 96-98 °C, dessous qui sonne creux.",
+          []
+        ],
+        [
+          "Refroidir",
+          "2 h",
+          "Refroidir sur une grille avant de trancher.",
+          null,
+          []
+        ]
+      ]
+    ]
+  ]
+}
